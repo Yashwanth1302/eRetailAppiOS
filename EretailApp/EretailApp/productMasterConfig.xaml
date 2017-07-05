@@ -1,0 +1,1833 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:local="clr-namespace:EretailApp"
+           BackgroundImage="sharukh.png"
+              xmlns:util="clr-namespace:EretailApp.Behaviors"
+             x:Class="EretailApp.productMasterConfig">
+
+    <StackLayout Padding="0" Spacing="0" Orientation="Vertical"  Margin="10">
+
+        <StackLayout   Orientation="Vertical"  Padding="5" Spacing="5">
+            <Frame HasShadow="True"  CornerRadius="5"     BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand">
+                <Grid BackgroundColor="Transparent"    HorizontalOptions="FillAndExpand" >
+                    <Grid.ColumnDefinitions >
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="100" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+
+                    <Image
+                        Aspect="AspectFill"
+                        Margin="10"
+                          Source="leftcir.png"
+                    VerticalOptions="Center"
+                         HorizontalOptions="Start"
+                    Grid.Row="0" Grid.Column="0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                            Tapped="back"
+                            />
+                        </Image.GestureRecognizers>
+
+
+                    </Image>
+
+                    <Label  Text="Product Master" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="Black"></Label>
+                    <Button  Text="Cancel" Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" Clicked="cancel_clicked"></Button>
+                    <Button  Text="Save" TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3" Clicked="btnMainSaveClick" x:Name="btnmain" ></Button>
+
+                </Grid>
+         </Frame>
+        </StackLayout>
+
+      <StackLayout  Orientation="Vertical"  Padding="5" Spacing="5" >
+
+        <AbsoluteLayout>
+          <StackLayout AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                     AbsoluteLayout.LayoutFlags="All">
+      
+        <ScrollView>
+         
+
+
+                        <StackLayout  Orientation="Vertical"  Padding="5" >
+
+                            <Frame HasShadow="True"  CornerRadius="5"    Margin="10,0,10,10"    BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand">
+                                <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                    <Grid.ColumnDefinitions >
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50" />
+                                        <RowDefinition Height="50" />
+                                    </Grid.RowDefinitions>
+
+                                    <local:LabelRender Text="{Binding Resources[ProductDescription]}"   Margin="0,0,-6,0"    Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="4" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center" >
+                                        <local:LabelRender.BackgroundColor>
+                                            <OnPlatform x:TypeArguments="Color">
+                                                <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                            </OnPlatform>
+                                        </local:LabelRender.BackgroundColor>
+                                    </local:LabelRender>
+
+                                    <local:BoxBorderEntry Placeholder="{Binding Resources[ProductDescription]}" x:Name="txtProductDescription"  Grid.Row="0" Grid.Column="4"   Grid.ColumnSpan="6"   FontAttributes="Bold,Italic"  FontSize="20" TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                        <local:BoxBorderEntry.Behaviors>
+                                            <util:MaxLengthValidatorBehavior MaxLength="150"/>
+                                        </local:BoxBorderEntry.Behaviors>
+                                    </local:BoxBorderEntry>
+
+                                    <local:LabelRender Text="SKU Code"   Margin="0,0,-6,0"   Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="2" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                        <local:LabelRender.BackgroundColor>
+                                            <OnPlatform x:TypeArguments="Color">
+                                                <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                            </OnPlatform>
+                                        </local:LabelRender.BackgroundColor>
+                                    </local:LabelRender>
+
+                                    <local:BoxBorderEntry  Placeholder="Enter SKU Code" x:Name="txtSkuCode"  FontSize="16" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                        <local:BoxBorderEntry.Behaviors>
+                                            <util:MaxLengthValidatorBehavior MaxLength="20"/>
+                                        </local:BoxBorderEntry.Behaviors>
+                                    </local:BoxBorderEntry>
+                                    <local:LabelRender Text="{Binding Resources[BillDescription]}"   Margin="0,0,-6,0" Grid.Row="1" Grid.Column="4"   Grid.ColumnSpan="2"  TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  >
+                                        <local:LabelRender.BackgroundColor>
+                                            <OnPlatform x:TypeArguments="Color">
+                                                <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                            </OnPlatform>
+                                        </local:LabelRender.BackgroundColor>
+                                    </local:LabelRender>
+
+                                    <local:BoxBorderEntry  Placeholder="{Binding Resources[BillDescription]}" x:Name="txtBillDescription"  FontSize="16" Grid.Row="1" Grid.Column="6"   Grid.ColumnSpan="4" TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                        <local:BoxBorderEntry.Behaviors>
+                                            <util:MaxLengthValidatorBehavior MaxLength="30"/>
+                                        </local:BoxBorderEntry.Behaviors>
+                                    </local:BoxBorderEntry>
+
+
+                                </Grid>
+                            </Frame>
+                        </StackLayout>
+
+
+
+                        <StackLayout    Padding="5" Spacing="5" >
+                            <Frame HasShadow="True"  CornerRadius="5"  Padding="5"  Margin="10,0,10,10"   BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand">
+                                <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                    <Grid.ColumnDefinitions >
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="240" />
+
+                                    </Grid.RowDefinitions>
+
+                                    <StackLayout Orientation="Horizontal"  Padding="5" Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="4"  HorizontalOptions="FillAndExpand"  >
+
+                                        <Grid BackgroundColor="Transparent"  HorizontalOptions="FillAndExpand" >
+                                            <Grid.ColumnDefinitions >
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+
+                                            <Label  x:Name="lblproductlvl" Text="Product Levels" FontSize="12"  Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="10"  VerticalTextAlignment="Center"   FontFamily="Bold" TextColor="#96001D"></Label>
+
+
+                                            <local:BoxBorderEntry   x:Name="txtHierarchyLevel" Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="9" Margin="0,0,-34,0" HorizontalOptions="FillAndExpand"  FontSize="16" Placeholder="Product Levels"    TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="100"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+                                            <Image   x:Name="imgproductlvl" Aspect="AspectFit"  Source="AdditionIcon.png"  Grid.Row="1" Grid.Column="9"  VerticalOptions="Center"  >
+                                                <Image.GestureRecognizers>
+                                                    <TapGestureRecognizer  Tapped="hgclick" />
+                                                </Image.GestureRecognizers>
+                                            </Image>
+                                            <local:LabelRender Text="Brand"  Grid.Row="3" Grid.Column="0"  Grid.ColumnSpan="4"  Margin="0,0,-6,0" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry  x:Name="txtBrand" Placeholder="Brand" FontSize="16" Margin="0,0,-34,0" Grid.Row="3" Grid.Column="4"  Grid.ColumnSpan="5"    TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+                                            <Image   x:Name="imgBrand" Aspect="AspectFit"  Source="AdditionIcon.png"  Grid.Row="3" Grid.Column="9"  VerticalOptions="Center"  >
+                                                <Image.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="ImgBrandclick"/>
+                                                </Image.GestureRecognizers>
+                                            </Image>
+
+
+
+
+
+
+
+                                            <!--
+
+                                            <Picker x:Name="BrandPicker"  Grid.Row="3" Grid.Column="0"  Grid.ColumnSpan="10"   HorizontalOptions="FillAndExpand"  TextColor="#000000"   Title="Choose Brand"
+                            BackgroundColor="White"   >
+                                                <Picker.ItemDisplayBinding>
+                                                    <Binding Path="BrandDesc" />
+                                                </Picker.ItemDisplayBinding>
+                                            </Picker>
+                                            
+                                             -->
+
+                                            <local:LabelRender Text="UOM"   Margin="0,0,-6,0"  Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"  TextColor="White"    HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"    FontSize="14" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+
+                                            <local:BoxBorderEntry  x:Name="entryUom"  Placeholder="Enter UOM"  Margin="0,0,-34,0"  Grid.Row="5" Grid.Column="2"   Grid.ColumnSpan="2"  FontSize="16" TextColor="#787878" PlaceholderColor="#FFED9EA6">
+
+
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="25"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+                                            <Image   x:Name="imgUom" Aspect="AspectFit"  Source="AdditionIcon.png"  Grid.Row="5" Grid.Column="4"  VerticalOptions="Center"  >
+                                                <Image.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="ImgUomclick"/>
+                                                </Image.GestureRecognizers>
+                                            </Image>
+
+
+                                            <local:LabelRender Text="Tax"   Margin="0,0,-6,0"   TextColor="White"    Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="2" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  FontSize="14" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+
+
+                                            <local:BoxBorderEntry  x:Name="entryTax"   Placeholder="TaxCode"  Margin="0,0,-34,0" FontSize="16"  Grid.Row="5" Grid.Column="7" Grid.ColumnSpan="2"  TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="10"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+                                            <Image   x:Name="imgtax" Aspect="AspectFit"  Source="AdditionIcon.png"  Grid.Row="5" Grid.Column="9"  VerticalOptions="Center"  >
+                                                <Image.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="ImgTaxclick"/>
+                                                </Image.GestureRecognizers>
+                                            </Image>
+
+
+
+
+
+
+                                            <local:LabelRender Text="Vendor"  Grid.Row="4" Grid.Column="0"  Grid.ColumnSpan="4"  Margin="0,0,-6,0" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+
+                                            <local:BoxBorderEntry x:Name="txtVendor" Placeholder="Enter Vendor" Margin="0,0,-34,0" FontSize="16" Grid.Row="4" Grid.Column="4"  Grid.ColumnSpan="5"    TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="60"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+                                            <Image   x:Name="imgVendor" Aspect="AspectFit"  Source="AdditionIcon.png"  Grid.Row="4" Grid.Column="9"  VerticalOptions="Center"  >
+                                                <Image.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="ImgVendorclick"/>
+                                                </Image.GestureRecognizers>
+                                            </Image>
+
+
+
+                                        </Grid>
+
+
+
+                                    </StackLayout>
+
+
+
+
+                                    <StackLayout Orientation="Horizontal"  Padding="5"  Grid.Row="0" Grid.Column="4"  Grid.ColumnSpan="3" HorizontalOptions="FillAndExpand"   >
+
+                                        <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                            <Grid.ColumnDefinitions >
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+
+
+
+
+                                            <Label   Text="Open Rate" FontSize="16" Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="8" VerticalTextAlignment="Center"  FontFamily="Bold" TextColor="#000000"></Label>
+                                            <Switch x:Name="swOpenRate" VerticalOptions="Center"  Grid.Row="0" Grid.Column="8"  Grid.ColumnSpan="2" />
+
+                                            <Label   Text="Allow Only Scan" FontSize="16"  Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="8" VerticalTextAlignment="Center" FontFamily="Bold" TextColor="#000000"></Label>
+                                            <Switch x:Name="swAllowOnlyScan" VerticalOptions="Center" Grid.Row="1" Grid.Column="8"  Grid.ColumnSpan="2" />
+
+                                            <Label   Text="Allow Only Decimal" FontSize="16"   Grid.Row="2" Grid.Column="0"  Grid.ColumnSpan="8" VerticalTextAlignment="Center"  FontFamily="Bold" TextColor="#000000"></Label>
+                                            <Switch x:Name="swAllowOnlyDecimal" VerticalOptions="Center"  Grid.Row="2" Grid.Column="8"  Grid.ColumnSpan="2" />
+
+
+                                            <Label   Text="Maintain Inventory" FontSize="16"  Grid.Row="3" Grid.Column="0"  Grid.ColumnSpan="8"  VerticalTextAlignment="Center" FontFamily="Bold" TextColor="#000000"></Label>
+                                            <Switch x:Name="swMaintainInventory" VerticalOptions="Center" Grid.Row="3" Grid.Column="8"  Grid.ColumnSpan="2" />
+
+                                            <Label   Text="In Active" FontSize="16"  Grid.Row="4" Grid.Column="0"  Grid.ColumnSpan="8"  VerticalTextAlignment="Center"  FontFamily="Bold" TextColor="#000000"></Label>
+                                            <Switch x:Name="swInActive" VerticalOptions="Center"  Grid.Row="4" Grid.Column="8"  Grid.ColumnSpan="2"  />
+
+
+
+
+
+                                        </Grid>
+
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" Padding="5" Grid.Row="0" Grid.Column="7"   Grid.ColumnSpan="3" HorizontalOptions="FillAndExpand" >
+                                        <Grid BackgroundColor="Transparent"  HorizontalOptions="FillAndExpand" >
+                                            <Grid.ColumnDefinitions >
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+
+                                            </Grid.RowDefinitions>
+
+                                            <Image Source="CamaraIcon.png"   Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="10" Aspect="AspectFit" x:Name="camicon" IsVisible="True" >
+                                                <Image.GestureRecognizers>
+                                                    <TapGestureRecognizer  Tapped="Cameraclick" /> 
+                                                </Image.GestureRecognizers>
+                                            </Image>
+                                            <Image  Grid.Row="0" Grid.Column="0" x:Name="cam"  Grid.ColumnSpan="10" Aspect="AspectFit" IsVisible="False"/>
+
+
+
+                                        </Grid>
+                                    </StackLayout>
+
+                                </Grid>
+                            </Frame>
+                      
+
+
+
+
+
+                        <StackLayout    Padding="5" Spacing="5">
+                            <Frame HasShadow="True"  CornerRadius="5"   Margin="10,0,10,10"   BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand">
+                                <Grid BackgroundColor="Transparent"  HorizontalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions >
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50" />
+
+                                    </Grid.RowDefinitions>
+
+
+                                    <StackLayout Orientation="Horizontal"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="6"  HorizontalOptions="FillAndExpand"  >
+
+                                        <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                            <Grid.ColumnDefinitions >
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="50" />
+                                            </Grid.RowDefinitions>
+
+                                            <local:LabelRender  Text="Cost Price"  Margin="0,0,-6,0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  FontSize="14"  FontFamily="Bold" TextColor="White">
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry Keyboard="Numeric" x:Name="txtCostPrice"  HorizontalTextAlignment="End" Grid.Row="0" Grid.Column="2"  Grid.ColumnSpan="4"  FontSize="16"  Placeholder="0.00"    TextColor="#787878" PlaceholderColor="#FFED9EA6" Focused="CostPrice_Focused" Completed="txtCostPrice_Completed" >
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="8"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+                                            <local:LabelRender  x:Name="labelMark"    Text="MarkUp"   Margin="0,0,-8,0"  Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="2"  TextColor="White"    HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"    FontSize="14" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry x:Name="txtMarkUpDown" Keyboard="Numeric" Placeholder="Enter MarkUp"  HorizontalTextAlignment="End"  Grid.Row="0" Grid.Column="8"   Grid.ColumnSpan="3"  FontSize="16" PlaceholderColor="#FFED9EA6" Focused="MarkUpDown_Focused" Completed="txtMarkUpDown_Completed">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="4"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+
+
+                                            <!-- Mrp and sales-->
+                                            <local:LabelRender Text="MRP "    Margin="0,0,-6,0"  TextColor="White"    Grid.Row="0" Grid.Column="11" Grid.ColumnSpan="2" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  FontSize="14" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+
+                                            <local:BoxBorderEntry Keyboard="Numeric" x:Name="txtMRP"  Grid.Row="0" Grid.Column="13" HorizontalTextAlignment="End"  Grid.ColumnSpan="4"  FontSize="16"  Placeholder="0.00"    TextColor="#787878" PlaceholderColor="#FFED9EA6" Completed="txtMrp_Completed">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="8"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+                                            <local:LabelRender Text="Sales Price "    Margin="0,0,-6,0"  TextColor="White"    Grid.Row="0" Grid.Column="17" Grid.ColumnSpan="2" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  FontSize="14" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry Keyboard="Numeric" x:Name="txtsales"  Grid.Row="0" Grid.Column="19"  HorizontalTextAlignment="End" Grid.ColumnSpan="4"  FontSize="16"  Placeholder="0.00"    TextColor="#787878" PlaceholderColor="#FFED9EA6"  Completed="txtSalerice_Completed" >
+
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="8"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+
+
+
+                                        </Grid>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="6"   Grid.ColumnSpan="4" HorizontalOptions="FillAndExpand" >
+                                        <Grid BackgroundColor="Transparent"  HorizontalOptions="FillAndExpand" >
+                                            <Grid.ColumnDefinitions >
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="50" />
+
+                                            </Grid.RowDefinitions>
+
+                                            <local:LabelRender   Margin="0,0,-6,0"  Text="QOH"  Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  FontSize="14"    FontFamily="Bold" TextColor="White">
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry x:Name="txtQOH"  Grid.Row="0" Grid.Column="3"  Grid.ColumnSpan="2"  FontSize="16" HorizontalTextAlignment="End"  Keyboard="Numeric" Placeholder="0" Text="0" TextColor="#787878" PlaceholderColor="#FFED9EA6" Completed="txtQOH_Completed"/>
+
+
+                                            <StackLayout   Orientation="Vertical" Grid.Row="0" Grid.Column="5" >
+
+
+                                                <Image Aspect="AspectFit"  Source="plustw.png"  VerticalOptions="Center"  >
+                                                    <Image.GestureRecognizers>
+                                                        <TapGestureRecognizer  Tapped="QtyPlusclick" />
+                                                    </Image.GestureRecognizers>
+                                                </Image>
+
+                                                <Image Aspect="AspectFit"  Source="minus.png"    VerticalOptions="Center"  >
+                                                    <Image.GestureRecognizers>
+                                                        <TapGestureRecognizer  Tapped="QtyMinusclick" />
+                                                    </Image.GestureRecognizers>
+
+                                                </Image>
+
+
+
+
+                                            </StackLayout>
+
+                                            <!-- 
+                                            <Image Aspect="AspectFit"  Source="plustw.png"  Grid.Row="0" Grid.Column="5"  VerticalOptions="Center"  >
+                                                <Image.GestureRecognizers>
+                                                    <TapGestureRecognizer  Tapped="QtyPlusclick" />
+                                                </Image.GestureRecognizers>
+                                            </Image>
+                                            -->
+
+
+
+                                            <local:LabelRender Text="MBQ"   Margin="0,0,-6,0"  Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="2"  TextColor="White"    HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"    FontSize="14" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+
+
+                                            <local:BoxBorderEntry x:Name="txtMBQ" Keyboard="Numeric"  Placeholder="0"  HorizontalTextAlignment="End"  Grid.Row="0" Grid.Column="8"   Grid.ColumnSpan="3"  FontSize="16" PlaceholderColor="#FFED9EA6"  Focused="MBQ_Focused" Completed="txtMBQ_Completed">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="9"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+
+                                        </Grid>
+                                    </StackLayout>
+
+                                </Grid>
+                            </Frame>
+                        </StackLayout>
+
+
+                          <StackLayout    Padding="5" Spacing="5" >
+                            <Frame HasShadow="True"  CornerRadius="5"   Margin="10,0,10,10"   BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand">
+                              <Grid BackgroundColor="Transparent"  HorizontalOptions="FillAndExpand">
+                                <Grid.ColumnDefinitions >
+                                  <ColumnDefinition Width="*" />
+                                  <ColumnDefinition Width="*" />
+                                  <ColumnDefinition Width="*" />
+                                  <ColumnDefinition Width="*" />
+                                  <ColumnDefinition Width="*" />
+                                  <ColumnDefinition Width="*" />
+                                  <ColumnDefinition Width="*" />
+                                  <ColumnDefinition Width="*" />
+                                  <ColumnDefinition Width="*" />
+                                  <ColumnDefinition Width="*" />
+
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                  <RowDefinition Height="50" />
+                                  <RowDefinition Height="20" />
+                                </Grid.RowDefinitions>
+
+
+                                <StackLayout Orientation="Horizontal"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="6"  HorizontalOptions="FillAndExpand"  >
+
+                                  <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                    <Grid.ColumnDefinitions >
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+
+
+
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                      <RowDefinition Height="50" />
+                                    </Grid.RowDefinitions>
+
+                                    <local:LabelRender  Text="Cost Price"  Margin="0,0,-6,0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  FontSize="14"  FontFamily="Bold" TextColor="White">
+                                      <local:LabelRender.BackgroundColor>
+                                        <OnPlatform x:TypeArguments="Color">
+                                          <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                          <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                        </OnPlatform>
+                                      </local:LabelRender.BackgroundColor>
+                                    </local:LabelRender>
+                                    <local:BoxBorderEntry Keyboard="Numeric"   HorizontalTextAlignment="End" Grid.Row="0" Grid.Column="2"  Grid.ColumnSpan="4"  FontSize="16"  Placeholder="0.00"    TextColor="#787878" PlaceholderColor="#FFED9EA6"  >
+
+                                    </local:BoxBorderEntry>
+                                    <!--
+                                            <local:LabelRender  x:Name="labelMark"    Text="MarkUp"   Margin="0,0,-8,0"  Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="3"  TextColor="White"    HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"    FontSize="14" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry x:Name="txtMarkUpDown" Keyboard="Numeric" Placeholder="0.00"  HorizontalTextAlignment="End"  Grid.Row="0" Grid.Column="9"   Grid.ColumnSpan="3"  FontSize="16" PlaceholderColor="#FFED9EA6" >
+                                                
+                                            </local:BoxBorderEntry>
+
+                                             -->
+
+                                    <!-- Mrp and sales-->
+                                    <local:LabelRender Text="Discpunt On MRP "    Margin="0,0,-6,0"  TextColor="White"    Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="3" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  FontSize="14" >
+                                      <local:LabelRender.BackgroundColor>
+                                        <OnPlatform x:TypeArguments="Color">
+                                          <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                          <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                        </OnPlatform>
+                                      </local:LabelRender.BackgroundColor>
+                                    </local:LabelRender>
+
+                                    <local:BoxBorderEntry Keyboard="Numeric"   Grid.Row="0" Grid.Column="9" HorizontalTextAlignment="End"  Grid.ColumnSpan="3"  FontSize="16"  Placeholder="0.00"    TextColor="#787878" PlaceholderColor="#FFED9EA6">
+
+                                    </local:BoxBorderEntry>
+                                    <local:LabelRender Text="MRP &amp; Sales "     TextColor="White"    Grid.Row="0" Grid.Column="12" Grid.ColumnSpan="4" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  FontSize="14" >
+                                      <local:LabelRender.BackgroundColor>
+                                        <OnPlatform x:TypeArguments="Color">
+                                          <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                          <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                        </OnPlatform>
+                                      </local:LabelRender.BackgroundColor>
+                                    </local:LabelRender>
+
+                                    <Image Aspect="AspectFit"  Source="plustw.png" Grid.Row="0" Grid.Column="16"   VerticalOptions="Center"  >
+                                      <Image.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="DiscOnMRP" />
+                                      </Image.GestureRecognizers>
+                                    </Image>
+                                    <!-- -<local:BoxBorderEntry Keyboard="Numeric" x:Name="txtsales"  Grid.Row="0" Grid.Column="19"  HorizontalTextAlignment="End" Grid.ColumnSpan="3"  FontSize="16"  Placeholder="0.00"    TextColor="#787878" PlaceholderColor="#FFED9EA6"   >
+
+                                                  </local:BoxBorderEntry>-->
+
+
+                                  </Grid>
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="6"   Grid.ColumnSpan="4" HorizontalOptions="FillAndExpand" >
+                                  <Grid BackgroundColor="Transparent"  HorizontalOptions="FillAndExpand" >
+                                    <Grid.ColumnDefinitions >
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                      <RowDefinition Height="50" />
+
+                                    </Grid.RowDefinitions>
+                                    <!-- 
+           <Image Aspect="AspectFit"  Source="minus.png"   Grid.Row="0" Grid.Column="0"  VerticalOptions="Center"  >
+             <Image.GestureRecognizers>
+               <TapGestureRecognizer  Tapped="QtyMinusclick" />
+             </Image.GestureRecognizers>
+           </Image>
+           -->
+                                    <local:LabelRender   Margin="0,0,-6,0"  Text="QOH"  Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  FontSize="14"    FontFamily="Bold" TextColor="White">
+                                      <local:LabelRender.BackgroundColor>
+                                        <OnPlatform x:TypeArguments="Color">
+                                          <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                          <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                        </OnPlatform>
+                                      </local:LabelRender.BackgroundColor>
+                                    </local:LabelRender>
+                                    <local:BoxBorderEntry x:Name="entryQoh"  Grid.Row="0" Grid.Column="3"  Grid.ColumnSpan="3"   HorizontalTextAlignment="End" FontSize="16"  Keyboard="Numeric" Placeholder="0.000"   TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+                                    <Image Aspect="AspectFit"  Source="plusminustw.png"  Grid.Row="0" Grid.Column="6"  VerticalOptions="Center"  >
+                                      <Image.GestureRecognizers>
+                                        <TapGestureRecognizer  Tapped="QtyPlusclick" />
+                                      </Image.GestureRecognizers>
+                                    </Image>
+
+                                    <local:LabelRender Text="MBQ"   Margin="0,0,-6,0"  Grid.Row="0" Grid.Column="7" Grid.ColumnSpan="2"  TextColor="#787878"     HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"    FontSize="14" >
+                                      <local:LabelRender.BackgroundColor>
+                                        <OnPlatform x:TypeArguments="Color">
+                                          <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                          <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                        </OnPlatform>
+                                      </local:LabelRender.BackgroundColor>
+                                    </local:LabelRender>
+
+
+                                    <local:BoxBorderEntry   Placeholder="0.000"   HorizontalTextAlignment="End"   Grid.Row="0" Grid.Column="9"   Grid.ColumnSpan="2"  Keyboard="Numeric"   FontSize="16" TextColor="#787878"  PlaceholderColor="#FFED9EA6"/>
+
+                                  </Grid>
+                                </StackLayout>
+
+
+
+
+
+
+                                <StackLayout Orientation="Horizontal"   Grid.Row="1" Grid.Column="0"   Grid.ColumnSpan="6"  HorizontalOptions="FillAndExpand"  >
+
+                                  <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                    <Grid.ColumnDefinitions >
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+                                      <ColumnDefinition Width="*" />
+
+
+
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                      <RowDefinition Height="20" />
+                                    </Grid.RowDefinitions>
+
+
+                                    <Label  Text="MRP / Sales" FontSize="12"  Grid.Row="0" Grid.Column="11" Grid.ColumnSpan="3"  VerticalTextAlignment="Center"   FontFamily="Bold" TextColor="#96001D"></Label>
+                                    <Label  Text="100/120" FontSize="12"  Grid.Row="0" Grid.Column="14" Grid.ColumnSpan="2"  VerticalTextAlignment="Center"   FontFamily="Bold" TextColor="#96001D"></Label>
+
+
+
+
+
+
+                                  </Grid>
+                                </StackLayout>
+
+
+
+                              </Grid>
+                            </Frame>
+                          </StackLayout>
+                          
+                          
+                          
+                          
+                          
+
+
+
+                        <StackLayout   Orientation="Vertical" >
+                            <Frame HasShadow="True"  CornerRadius="5"  Margin="10,0,10,10"    BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand">
+                                <Grid BackgroundColor="Transparent"  HorizontalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions >
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+
+
+
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50" />
+                                      <RowDefinition Height="20" />
+                                    </Grid.RowDefinitions>
+
+                                    <local:LabelRender Text="EAN "   Margin="0,0,-6,0"    Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="2" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  >
+                                        <local:LabelRender.BackgroundColor>
+                                            <OnPlatform x:TypeArguments="Color">
+                                                <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                            </OnPlatform>
+                                        </local:LabelRender.BackgroundColor>
+                                    </local:LabelRender>
+
+                                    <local:BoxBorderEntry Placeholder="Enter EAN"  x:Name="txtEan" Keyboard="Numeric" Grid.Row="0" Grid.Column="2"   Margin="0,0,-68,0"   Grid.ColumnSpan="4"  FontSize="16" TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                        <local:BoxBorderEntry.Behaviors>
+                                            <util:MaxLengthValidatorBehavior MaxLength="13"/>
+                                        </local:BoxBorderEntry.Behaviors>
+                                    </local:BoxBorderEntry>
+
+                                    <Image Aspect="AspectFill" Margin="10" Source="plustw.png" VerticalOptions="Center" HorizontalOptions="End" Grid.Row="0" Grid.Column="6"> </Image>
+
+                                  <local:LabelRender Text="HSN Code "   Margin="0,0,-6,0"    Grid.Row="0" Grid.Column="7"   Grid.ColumnSpan="2" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center" >
+                                    <local:LabelRender.BackgroundColor>
+                                      <OnPlatform x:TypeArguments="Color">
+                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                      </OnPlatform>
+                                    </local:LabelRender.BackgroundColor>
+                                  </local:LabelRender>
+
+                                  <local:BoxBorderEntry Placeholder="Enter HSN Code" x:Name="txtHSNCode"  Grid.Row="0" Grid.Column="9"   Grid.ColumnSpan="4"  FontSize="16" TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                    <local:BoxBorderEntry.Behaviors>
+                                      <util:MaxLengthValidatorBehavior MaxLength="25"/>
+                                    </local:BoxBorderEntry.Behaviors>
+                                  </local:BoxBorderEntry>
+                                  <Label  Text="EAN1234567891,EAN1234567892,EAN1234567893" FontSize="12"  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6"   VerticalTextAlignment="Center"   FontFamily="Bold" TextColor="#96001D"></Label>
+
+                                </Grid>
+                            </Frame>
+                        </StackLayout>
+
+
+
+
+<!--
+                        <StackLayout   Orientation="Vertical" >
+                            <Frame HasShadow="True"  CornerRadius="5"  Margin="10,0,10,10"    BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand">
+                                <Grid BackgroundColor="Transparent"  HorizontalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions >
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50" />
+                                    </Grid.RowDefinitions>
+
+                                    <local:LabelRender Text="HSN Code "   Margin="0,0,-6,0"    Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="2" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center" >
+                                        <local:LabelRender.BackgroundColor>
+                                            <OnPlatform x:TypeArguments="Color">
+                                                <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                            </OnPlatform>
+                                        </local:LabelRender.BackgroundColor>
+                                    </local:LabelRender>
+
+                                    <local:BoxBorderEntry Placeholder="Enter HSN Code" x:Name="txtHSNCode"  Grid.Row="0" Grid.Column="2"   Grid.ColumnSpan="8"  FontSize="16" TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                        <local:BoxBorderEntry.Behaviors>
+                                            <util:MaxLengthValidatorBehavior MaxLength="25"/>
+                                        </local:BoxBorderEntry.Behaviors>
+                                    </local:BoxBorderEntry>
+
+
+                                </Grid>
+                            </Frame>
+                        </StackLayout>
+ -->
+                        </StackLayout>
+
+
+                      </ScrollView>
+                    </StackLayout>
+        
+                    <!-- Heirachy Group  list Start-->
+
+
+                    <Frame  x:Name="HgCv" Padding="0"   HasShadow="True"  CornerRadius="5"  AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.50,0.8" IsVisible="false"
+             AbsoluteLayout.LayoutFlags="All"  HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"   BackgroundColor="#FEF0E3">
+                        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="10"  >
+                            <SearchBar x:Name="searchhg" Placeholder="Search here"   WidthRequest="100" HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" TextChanged="SearchHG" ></SearchBar>
+                            <StackLayout>
+                                <ListView x:Name="HGList"
+                                    RowHeight="25"
+                                 HasUnevenRows="True"  ItemSelected="OnHGItemSelected" >
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <ViewCell>
+                                                <StackLayout Orientation="Horizontal" >
+                                                    <Label Text="{Binding Description}"   TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                                                </StackLayout>
+                                            </ViewCell>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal" Padding="2"   Margin="5"   HorizontalOptions="FillAndExpand"  >
+                                <Label Text="Add New " HorizontalOptions="FillAndExpand" FontAttributes="Bold" TextColor="#446a81"   FontSize="16" >
+                                    <Label.GestureRecognizers>
+                                    <TapGestureRecognizer  Tapped="hgpopd" />
+                                </Label.GestureRecognizers>
+                                </Label>
+                                <Label Text="Close"  HorizontalOptions="End" FontAttributes="Bold"  TextColor="#41af4b"   FontSize="16" >
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer  Tapped="hgpopdcanel" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+
+                            </StackLayout>
+
+
+
+
+
+
+
+
+
+
+
+                            <!--<StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+                                <Label Text="Add New "  WidthRequest="100" TextColor="Black"   FontSize="16" >
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer  Tapped="hgpopd" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+                                <Label Text="Cancel "  WidthRequest="100" TextColor="Black"   FontSize="16" >
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer  Tapped="hgpopdcanel" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+                            </StackLayout>-->
+
+                        </StackLayout>
+
+
+
+                    </Frame>
+      
+
+
+                    <!-- Heirachy Group list End -->
+
+
+                    <!-- Brand list  -->
+                    <Frame  x:Name="BrandCv" Padding="0"   HasShadow="True"  CornerRadius="5"  AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.50,0.8" IsVisible="false"
+           AbsoluteLayout.LayoutFlags="All"  HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  BackgroundColor="#FEF0E3">
+
+
+
+
+                        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"  Padding="10" >
+                            <SearchBar x:Name="searchbrand" Placeholder="Search here"   WidthRequest="100" HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray"  TextChanged="SearchBrand"></SearchBar>
+                            <StackLayout >
+                                <ListView x:Name="BrandList" SeparatorVisibility="None"
+                         RowHeight="25" ItemSelected="OnBrandItemSelected"
+                      HasUnevenRows="True" >
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <ViewCell>
+
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Label Text="{Binding BrandDesc}"  TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                                                </StackLayout>
+                                            </ViewCell>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+
+
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Padding="2"   Margin="5"   HorizontalOptions="FillAndExpand"  >
+                                <Label Text="Add New " HorizontalOptions="FillAndExpand" FontAttributes="Bold" TextColor="#446a81"   FontSize="16" >
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer  Tapped="AddnewBrand" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+                                <Label Text="Close"  HorizontalOptions="End" FontAttributes="Bold"  TextColor="#41af4b"   FontSize="16" >
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer  Tapped="CloseBrandlist" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+
+                            </StackLayout>
+
+
+                        </StackLayout>
+                    </Frame>
+
+
+
+
+
+                    <!-- vendor list  -->
+
+          <Frame  x:Name="vendorCv" Padding="0"   HasShadow="True"  CornerRadius="5"  AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.50,0.8" IsVisible="false"
+            AbsoluteLayout.LayoutFlags="All"  HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  BackgroundColor="#FEF0E3">
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="10" >
+              <SearchBar x:Name="searchvendor" Placeholder="Search here"   WidthRequest="100" HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" TextChanged="SearchVendor"></SearchBar>
+              <StackLayout >
+                <ListView x:Name="VendorList" SeparatorVisibility="None"
+         RowHeight="25" ItemSelected="OnVendorItemSelected"
+      HasUnevenRows="True" >
+                  <ListView.ItemTemplate>
+                    <DataTemplate>
+                      <ViewCell>
+
+                        <StackLayout Orientation="Horizontal">
+                          <Label Text="{Binding VendorName}"  TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                        </StackLayout>
+                      </ViewCell>
+                    </DataTemplate>
+                  </ListView.ItemTemplate>
+                </ListView>
+              </StackLayout>
+              <StackLayout Orientation="Horizontal" Padding="2"  Margin="5"   HorizontalOptions="FillAndExpand"  >
+                <Label Text="Add New " HorizontalOptions="FillAndExpand" FontAttributes="Bold" TextColor="#446a81"   FontSize="16" >
+                  <Label.GestureRecognizers>
+                    <TapGestureRecognizer  Tapped="AddnewVendor" />
+                  </Label.GestureRecognizers>
+
+                </Label>
+                <Label Text="Close"  HorizontalOptions="End" FontAttributes="Bold"  TextColor="#41af4b"   FontSize="16" >
+                  <Label.GestureRecognizers>
+                    <TapGestureRecognizer  Tapped="CloseVendorlist" />
+                  </Label.GestureRecognizers>
+                </Label>
+
+              </StackLayout>
+            </StackLayout>
+          </Frame>
+
+
+                    <!-- Uomlist  -->
+
+                    <Frame  x:Name="UomCv" Padding="0"   HasShadow="True"  CornerRadius="5"  AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.50,0.8" IsVisible="false"
+           AbsoluteLayout.LayoutFlags="All"  HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" BackgroundColor="#FEF0E3">
+                        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="10"  >
+                            <SearchBar x:Name="searchUom" Placeholder="Search here"   WidthRequest="100" HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" TextChanged="SearchUom"></SearchBar>
+                            <StackLayout >
+                                <ListView x:Name="UomList" SeparatorVisibility="None"
+                         RowHeight="25" ItemSelected="OnUomItemSelected"
+                      HasUnevenRows="True" >
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <ViewCell>
+
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Label Text="{Binding UOM}"  TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                                                </StackLayout>
+                                            </ViewCell>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="5"   Padding="2"    HorizontalOptions="FillAndExpand"  >
+                                <Label Text="Add New " HorizontalOptions="FillAndExpand" FontAttributes="Bold" TextColor="#446a81"   FontSize="16" >
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer  Tapped="AddnewUom" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+                                <Label Text="Close"  HorizontalOptions="End" FontAttributes="Bold"  TextColor="#41af4b"   FontSize="16" >
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer  Tapped="CloseUomlist" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+
+                    <!-- Taxlist  -->
+
+                    <Frame  x:Name="TaxCv" Padding="0"   HasShadow="True"  CornerRadius="5"  AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.50,0.8" IsVisible="false"
+                      AbsoluteLayout.LayoutFlags="All"  HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  BackgroundColor="#FEF0E3">
+                        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="10"  >
+                            <SearchBar x:Name="searchtax" Placeholder="Search here"   WidthRequest="100" HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" TextChanged="SearchTax"></SearchBar>
+                            <StackLayout >
+                                <ListView x:Name="TaxList" SeparatorVisibility="None"
+                         RowHeight="25" ItemSelected="OnTaxItemSelected"
+                      HasUnevenRows="True" >
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <ViewCell>
+
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Label Text="{Binding TaxGrpDesc}"   TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                                                </StackLayout>
+                                            </ViewCell>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                            </StackLayout>
+
+
+                            <StackLayout Orientation="Horizontal"  Padding="2"  Margin="5"    HorizontalOptions="FillAndExpand"  >
+                                <Label Text="Add New " HorizontalOptions="FillAndExpand" FontAttributes="Bold" TextColor="#446a81"   FontSize="16" >
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer  Tapped="AddnewTax" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+                                <Label Text="Close"  HorizontalOptions="End" FontAttributes="Bold"  TextColor="#41af4b"   FontSize="16" >
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer  Tapped="CloseTaxlist" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+
+
+
+
+
+
+
+
+
+
+                    <!-- Heirachy Group  popup Start-->
+
+                    <Frame  x:Name="Hgpop" Padding="0" AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.70,0.8"  IsVisible="false"
+             AbsoluteLayout.LayoutFlags="All"    HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"   BackgroundColor="#FEF0E3"   >
+
+                        <Frame Padding="0" HorizontalOptions="FillAndExpand"  BackgroundColor="#FEF0E3"  VerticalOptions="FillAndExpand">
+
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  VerticalOptions="Center"   Padding="10" >
+
+                                <StackLayout x:Name="HgSlpop" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                  <StackLayout  Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+                                    
+                                    <StackLayout x:Name="DeptSl" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                      <Label   Text="Department" VerticalTextAlignment="Center"   FontAttributes="Bold"  HorizontalOptions="Fill"   HorizontalTextAlignment="Center"    FontSize="16"  FontFamily="Bold" TextColor="#96001D"></Label>
+                                      <StackLayout  Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+                                            
+                                            <!--<local:BoxBorderEntry  x:Name="txtH1" Placeholder="Enter Department"   Margin="5,0,0,0"  WidthRequest="100" Keyboard="Numeric"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>-->
+                                            <SearchBar x:Name="txtH1" Placeholder="Search here"   WidthRequest="150" HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray"  TextChanged="SearchH1"></SearchBar>
+                                            <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+                                              <Image.GestureRecognizers>
+                                                <TapGestureRecognizer
+                                                Tapped="H1addpopupClick" />
+                                              </Image.GestureRecognizers>
+                                            </Image>
+                                        
+                                      
+                                      </StackLayout>
+
+                                      <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"  >
+                                        <StackLayout Orientation="Vertical"  HeightRequest="100">
+                                          <ListView x:Name="H1List"
+                                           RowHeight="40"
+                                        HasUnevenRows="True" ItemSelected="OnHG1ItemSelected">
+                                            <ListView.ItemTemplate>
+                                              <DataTemplate>
+                                                <ViewCell>
+                                                  <StackLayout Orientation="Horizontal">
+                                                    <Label Text="{Binding Description}"   TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                                                  </StackLayout>
+                                                </ViewCell>
+                                              </DataTemplate>
+                                            </ListView.ItemTemplate>
+                                          </ListView>
+                                        </StackLayout>
+                                        <!--<StackLayout Orientation="Horizontal" HorizontalOptions="Start"  >
+                                                <Button Text="Add New "  WidthRequest="100" TextColor="Black"  FontSize="16" ></Button>
+                                            </StackLayout>-->
+                                      </StackLayout>
+
+                                    </StackLayout>
+                                    
+                                      
+                                    
+                                      <StackLayout  x:Name="CatgSl" Orientation="Vertical"  HorizontalOptions="FillAndExpand">
+                                        <Label  Text="Category" VerticalTextAlignment="Center" FontAttributes="Bold"  HorizontalOptions="Fill"      HorizontalTextAlignment="Center"    FontSize="16"  FontFamily="Bold" TextColor="#96001D"></Label>
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+                                        
+                                          <!--<local:BoxBorderEntry x:Name="txtH2" Placeholder="Enter Catgeory"  Margin="5,0,0,0"  WidthRequest="100"  Keyboard="Numeric"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>-->
+                                          <SearchBar x:Name="txtH2" Placeholder="Search here"   WidthRequest="150" HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray"  TextChanged="SearchH2"></SearchBar>
+                                          <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+                                            <Image.GestureRecognizers>
+                                              <TapGestureRecognizer
+                                              Tapped="H2addpopupClick" />
+                                            </Image.GestureRecognizers>
+                                          </Image>
+                                        </StackLayout>
+
+                                        <StackLayout HorizontalOptions="FillAndExpand"  >
+                                          <StackLayout Orientation="Vertical"  HeightRequest="100">
+                                            <ListView x:Name="H2List" RowHeight="40"
+                             HasUnevenRows="True" ItemSelected="OnHG2ItemSelected" >
+                                              <ListView.ItemTemplate>
+                                                <DataTemplate>
+                                                  <ViewCell>
+
+                                                    <StackLayout Orientation="Horizontal" >
+                                                      <Label Text="{Binding Description}"   TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                                                    </StackLayout>
+                                                  </ViewCell>
+                                                </DataTemplate>
+                                              </ListView.ItemTemplate>
+                                            </ListView>
+                                          </StackLayout>
+
+                                      </StackLayout>
+                                      
+                                    </StackLayout>
+
+
+                                    <!--<StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"  >
+                                            <StackLayout Orientation="Vertical"  HeightRequest="100">
+                                                <ListView x:Name="H1List"
+                                     RowHeight="40"
+                                 HasUnevenRows="True" ItemSelected="OnHG1ItemSelected">
+                                                    <ListView.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <ViewCell>
+                                                                <StackLayout Orientation="Horizontal">
+                                                                    <Label Text="{Binding Description}"  WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                                                                </StackLayout>
+                                                            </ViewCell>
+                                                        </DataTemplate>
+                                                    </ListView.ItemTemplate>
+                                                </ListView>
+                                            </StackLayout>
+                                            --><!--<StackLayout Orientation="Horizontal" HorizontalOptions="Start"  >
+                                                <Button Text="Add New "  WidthRequest="100" TextColor="Black"  FontSize="16" ></Button>
+                                            </StackLayout>--><!--
+                                        </StackLayout>-->
+
+                                    </StackLayout>
+                                  
+
+
+
+                                    <!--<StackLayout  x:Name="CatgSl" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+                                            <Label  Text="Category" VerticalTextAlignment="Center"   HorizontalOptions="Fill"      HorizontalTextAlignment="Center"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+                                            --><!--<local:BoxBorderEntry x:Name="txtH2" Placeholder="Enter Catgeory"  Margin="5,0,0,0"  WidthRequest="100"  Keyboard="Numeric"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>--><!--
+                                            <SearchBar x:Name="txtH2" Placeholder="Search here"   WidthRequest="100" HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray"  TextChanged="SearchH2"></SearchBar>
+                                            <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End"></Image>
+                                        </StackLayout>
+                                        <StackLayout HorizontalOptions="FillAndExpand"  >
+                                            <StackLayout Orientation="Vertical"  HeightRequest="100">
+                                                <ListView x:Name="H2List" RowHeight="40"
+                                 HasUnevenRows="True" ItemSelected="OnHG2ItemSelected" >
+                                                    <ListView.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <ViewCell>
+
+                                                                <StackLayout Orientation="Horizontal" >
+                                                                    <Label Text="{Binding Description}"  WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                                                                </StackLayout>
+                                                            </ViewCell>
+                                                        </DataTemplate>
+                                                    </ListView.ItemTemplate>
+                                                </ListView>
+                                            </StackLayout>
+                                            <StackLayout Orientation="Horizontal" HorizontalOptions="Start"  >
+                                                --><!--<Button Text="Add New"  WidthRequest="100" TextColor="Black"   HorizontalOptions="Start"  FontSize="16" ></Button>--><!--
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </StackLayout>-->
+
+
+
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="End"  >
+                                        <Button  Text="Cancel"  WidthRequest="100" HeightRequest="40"  HorizontalOptions="End"    TextColor="White" BackgroundColor="#446a81" Clicked="Button_Clicked"></Button>
+                                        <Button  Text="Save" x:Name="btnSaveProduct" WidthRequest="100"  HeightRequest="40"  HorizontalOptions="End" TextColor="White" BackgroundColor="#41af4b" Clicked="btnSavePopupProduct"></Button>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </Frame>
+
+
+                    <!-- Heirachy Group Popup End -->
+
+
+          <!-- Heirachy1 Popup Start -->
+
+          <Frame  x:Name="H1Addpop" Padding="0" AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.50,0.5"  IsVisible="false"
+            AbsoluteLayout.LayoutFlags="All"    HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"   BackgroundColor="#FEF0E3"   >
+
+
+            <Frame  HasShadow="True"  CornerRadius="5"  Padding="0" HorizontalOptions="FillAndExpand"  BackgroundColor="#FEF0E3"  VerticalOptions="FillAndExpand"  >
+              <StackLayout Orientation="Vertical" VerticalOptions="Center" >
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" Spacing="5" >
+                  <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                    <Grid.ColumnDefinitions >
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                      <RowDefinition Height="50" />
+
+                    </Grid.RowDefinitions>
+                    <local:LabelRender Text="Department"   Margin="0,0,-6,0"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="2"   TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                      <local:LabelRender.BackgroundColor>
+                        <OnPlatform x:TypeArguments="Color">
+                          <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                          <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                        </OnPlatform>
+                      </local:LabelRender.BackgroundColor>
+                    </local:LabelRender>
+
+                    <local:BoxBorderEntry  Placeholder="Enter Dept"   x:Name="AddnewtxtH1popup"      Grid.Row="0" Grid.Column="2"   Grid.ColumnSpan="4"  TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+                  </Grid>
+                </StackLayout>
+                <StackLayout>
+                  <Grid  Padding="5">
+                    <Grid.ColumnDefinitions >
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="100" />
+                      <ColumnDefinition Width="100" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                      <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+
+                    <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" Clicked="H1AddpopCancel"></Button>
+                    <Button  Text="Save" TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3" Clicked="H1AddpopSave" ></Button>
+                  </Grid>
+                </StackLayout>
+              </StackLayout>
+
+            </Frame>
+
+
+
+          </Frame>
+          <!-- Heirachy1 Popup End -->
+
+
+
+
+
+          <!-- Heirachy2 Popup Start -->
+
+          <Frame  x:Name="H2Addpop" Padding="0" AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.50,0.5"  IsVisible="false"
+            AbsoluteLayout.LayoutFlags="All"    HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"   BackgroundColor="#FEF0E3"   >
+
+
+            <Frame  HasShadow="True"  CornerRadius="5"  Padding="0" HorizontalOptions="FillAndExpand"  BackgroundColor="#FEF0E3"  VerticalOptions="FillAndExpand"  >
+              <StackLayout Orientation="Vertical" VerticalOptions="Center" >
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" Spacing="5" >
+                  <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                    <Grid.ColumnDefinitions >
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                      <RowDefinition Height="50" />
+
+                    </Grid.RowDefinitions>
+                    <local:LabelRender Text="Category"   Margin="0,0,-6,0"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="2"   TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                      <local:LabelRender.BackgroundColor>
+                        <OnPlatform x:TypeArguments="Color">
+                          <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                          <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                        </OnPlatform>
+                      </local:LabelRender.BackgroundColor>
+                    </local:LabelRender>
+
+                    <local:BoxBorderEntry  Placeholder="Enter Category"    x:Name="AddnewtxtH2popup"    Grid.Row="0" Grid.Column="2"   Grid.ColumnSpan="4"  TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+                  </Grid>
+                </StackLayout>
+                <StackLayout>
+                  <Grid  Padding="5">
+                    <Grid.ColumnDefinitions >
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="100" />
+                      <ColumnDefinition Width="100" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                      <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+
+                    <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" Clicked="H2AddpopCancel"></Button>
+                    <Button  Text="Save" TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3"  Clicked="H2AddpopSave"></Button>
+                  </Grid>
+                </StackLayout>
+              </StackLayout>
+
+            </Frame>
+
+
+
+          </Frame>
+          <!-- Heirachy2 Popup End -->
+          
+          
+          
+          
+          
+
+
+                    <!-- Brand Group  popup Start-->
+
+                    <Frame  x:Name="Brandpop" Padding="0" AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.50,0.5"  IsVisible="false"
+             AbsoluteLayout.LayoutFlags="All"    HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"   BackgroundColor="#FEF0E3"   >
+
+
+                        <Frame  HasShadow="True"  CornerRadius="5"  Padding="0" HorizontalOptions="FillAndExpand"  BackgroundColor="#FEF0E3"  VerticalOptions="FillAndExpand"  >
+                            <StackLayout Orientation="Vertical" VerticalOptions="Center" >
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" Spacing="5" >
+                                    <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                        <Grid.ColumnDefinitions >
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="50" />
+
+                                        </Grid.RowDefinitions>
+                                        <local:LabelRender Text="Brand"   Margin="0,0,-6,0"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="2"   TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                            <local:LabelRender.BackgroundColor>
+                                                <OnPlatform x:TypeArguments="Color">
+                                                    <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                    <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                </OnPlatform>
+                                            </local:LabelRender.BackgroundColor>
+                                        </local:LabelRender>
+
+                                        <local:BoxBorderEntry  Placeholder="Enter Brand"    x:Name="AddnewtxtBrand"    Grid.Row="0" Grid.Column="2"   Grid.ColumnSpan="4"  TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+                                    </Grid>
+                                </StackLayout>
+                                <StackLayout>
+                                    <Grid  Padding="5">
+                                        <Grid.ColumnDefinitions >
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="100" />
+                                            <ColumnDefinition Width="100" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="50" />
+                                        </Grid.RowDefinitions>
+
+                                        <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" Clicked="btnCancelBrand"></Button>
+                                        <Button  Text="Save" TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3" Clicked="btnSaveBrand"  ></Button>
+                                    </Grid>
+                                </StackLayout>
+                            </StackLayout>
+
+                        </Frame>
+
+
+
+                    </Frame>
+
+
+                    <!-- Vendor  popup Start-->
+                    <Frame  x:Name="Vendorpop" Padding="0" AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.50,0.5" IsVisible="false"
+             AbsoluteLayout.LayoutFlags="All"    HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"   BackgroundColor="#FEF0E3"   >
+
+
+                        <Frame  HasShadow="True"  CornerRadius="5"  Padding="0" HorizontalOptions="FillAndExpand"  BackgroundColor="#FEF0E3"  VerticalOptions="FillAndExpand"  >
+                            <StackLayout Orientation="Vertical" VerticalOptions="Center" >
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" Spacing="5" >
+                                    <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                        <Grid.ColumnDefinitions >
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="50" />
+
+                                        </Grid.RowDefinitions>
+                                        <local:LabelRender Text="Vendor"   Margin="0,0,-6,0"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="2"   TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                            <local:LabelRender.BackgroundColor>
+                                                <OnPlatform x:TypeArguments="Color">
+                                                    <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                    <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                </OnPlatform>
+                                            </local:LabelRender.BackgroundColor>
+                                        </local:LabelRender>
+
+                                        <local:BoxBorderEntry  Placeholder="Enter Vendor"   x:Name="AddnewtxtVendor"   Grid.Row="0" Grid.Column="2"   Grid.ColumnSpan="4"  TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+                                    </Grid>
+                                </StackLayout>
+                                <StackLayout>
+                                    <Grid  Padding="5">
+                                        <Grid.ColumnDefinitions >
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="100" />
+                                            <ColumnDefinition Width="100" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="50" />
+                                        </Grid.RowDefinitions>
+
+                                        <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" Clicked="btnCancelVendor"></Button>
+                                        <Button  Text="Save" TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3" Clicked="btnSaveVendor"  ></Button>
+                                    </Grid>
+                                </StackLayout>
+                            </StackLayout>
+
+                        </Frame>
+
+                    </Frame>
+<!--UoM popup start-->
+                    <Frame  x:Name="Uompop" Padding="0" AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.50,0.5"  IsVisible="false"
+             AbsoluteLayout.LayoutFlags="All"    HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"   BackgroundColor="#FEF0E3"   >
+
+
+                        <Frame  HasShadow="True"  CornerRadius="5"  Padding="0" HorizontalOptions="FillAndExpand"  BackgroundColor="#FEF0E3"  VerticalOptions="FillAndExpand"    >
+                            <StackLayout Orientation="Vertical" VerticalOptions="Center" >
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" Spacing="5" >
+                                    <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                        <Grid.ColumnDefinitions >
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="50" />
+
+                                        </Grid.RowDefinitions>
+                                        <local:LabelRender Text="UOM"   Margin="0,0,-6,0"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="2"   TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                            <local:LabelRender.BackgroundColor>
+                                                <OnPlatform x:TypeArguments="Color">
+                                                    <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                    <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                </OnPlatform>
+                                            </local:LabelRender.BackgroundColor>
+                                        </local:LabelRender>
+
+                                        <local:BoxBorderEntry  Placeholder="Enter UOM"   x:Name="AddnewtxtUom"   Grid.Row="0" Grid.Column="2"   Grid.ColumnSpan="4"  TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+                                    </Grid>
+                                </StackLayout>
+                                <StackLayout>
+                                    <Grid  Padding="5">
+                                        <Grid.ColumnDefinitions >
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="100" />
+                                            <ColumnDefinition Width="100" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="50" />
+                                        </Grid.RowDefinitions>
+
+                                        <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" Clicked="btnCancelUom"></Button>
+                                        <Button  Text="Save" TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3" Clicked="btnSaveUom"  ></Button>
+                                    </Grid>
+                                </StackLayout>
+                            </StackLayout>
+
+                        </Frame>
+
+                    </Frame>
+                    <!--UoM popup End-->
+      
+                    <!--Tax popup Start-->
+                    <Frame  x:Name="Taxpop" Padding="0" AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.50,0.5" IsVisible="false"
+              AbsoluteLayout.LayoutFlags="All"    HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"   BackgroundColor="#FEF0E3"   >
+
+
+                        <Frame  HasShadow="True"  CornerRadius="5"  Padding="0" HorizontalOptions="FillAndExpand"  BackgroundColor="#FEF0E3"  VerticalOptions="FillAndExpand">
+                            <StackLayout Orientation="Vertical" VerticalOptions="Center" >
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" Spacing="5" >
+                                    
+                                    <!--<Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                        <Grid.ColumnDefinitions >
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="50" />
+
+                                        </Grid.RowDefinitions>
+                                        <local:LabelRender Text="TAX"   Margin="0,0,-6,0"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="2"   TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                            <local:LabelRender.BackgroundColor>
+                                                <OnPlatform x:TypeArguments="Color">
+                                                    <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                    <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                </OnPlatform>
+                                            </local:LabelRender.BackgroundColor>
+                                        </local:LabelRender>
+
+                                        <local:BoxBorderEntry  Placeholder="Enter TAX"   x:Name="AddnewtxtTax"   Grid.Row="0" Grid.Column="2"   Grid.ColumnSpan="4"  TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+                                    </Grid>-->
+
+
+
+                                    <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                        <Grid.ColumnDefinitions >
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+
+
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="50" />
+                                            <RowDefinition Height="50" />
+                                        </Grid.RowDefinitions>
+                                        <local:LabelRender Text="Tax Type"   Margin="0,0,-6,0"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="2"   TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                            <local:LabelRender.BackgroundColor>
+                                                <OnPlatform x:TypeArguments="Color">
+                                                    <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                    <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                </OnPlatform>
+                                            </local:LabelRender.BackgroundColor>
+                                        </local:LabelRender>
+
+                                        <local:BoxBorderEntry  Placeholder="Enter Tax Type"  x:Name="AddnewtxtTax"    Grid.Row="0" Grid.Column="2"   Grid.ColumnSpan="4"  TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+                                        <local:LabelRender Text="Tax %"   Margin="0,0,-6,0"   Grid.Row="1" Grid.Column="0"   Grid.ColumnSpan="2" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                            <local:LabelRender.BackgroundColor>
+                                                <OnPlatform x:TypeArguments="Color">
+                                                    <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                    <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                </OnPlatform>
+                                            </local:LabelRender.BackgroundColor>
+                                        </local:LabelRender>
+
+                                        <local:BoxBorderEntry  Placeholder="Enter Tax % "   Grid.Row="1" Grid.Column="2"   Grid.ColumnSpan="4"   x:Name="entry_Tax_entry"  TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+
+
+                                    </Grid>
+
+
+                                </StackLayout>
+                                <StackLayout>
+                                    <Grid  Padding="5">
+                                        <Grid.ColumnDefinitions >
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="100" />
+                                            <ColumnDefinition Width="100" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="50" />
+                                        </Grid.RowDefinitions>
+
+                                        <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" Clicked="btnCancelTax"></Button>
+                                        <Button  Text="Save" TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3" Clicked="btnSaveTax"  ></Button>
+                                    </Grid>
+                                </StackLayout>
+                            </StackLayout>
+
+                        </Frame>
+
+                    </Frame>
+<!--Tax popup End-->
+
+          <!-- Discount On MRP List  -->
+
+
+
+          <Frame  x:Name="DMRPCv" Padding="0"   HasShadow="True"  CornerRadius="5"  AbsoluteLayout.LayoutBounds="0.50, 0.50, 0.2, 0.4" IsVisible="false"
+         AbsoluteLayout.LayoutFlags="All"  HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand" BackgroundColor="#FEF0E3">
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" >
+
+
+              <Frame  HasShadow="True"  BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand">
+                <Grid  BackgroundColor="Transparent" >
+                  <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="40" />
+                    <ColumnDefinition Width="55" />
+                    <ColumnDefinition Width="20" />
+                    <ColumnDefinition Width="20" />
+                  </Grid.ColumnDefinitions>
+                  <Grid.RowDefinitions>
+                    <RowDefinition Height="22" />
+                  </Grid.RowDefinitions>
+                  <Label  Text="MRP"  VerticalTextAlignment="Center"     Grid.Row="0" Grid.Column="0"      FontSize="14"  FontFamily="Bold" TextColor="Black"></Label>
+
+                  <Label  Text="SP"  VerticalTextAlignment="Center"     Grid.Row="0" Grid.Column="1"     FontSize="14"  FontFamily="Bold" TextColor="Black"></Label>
+                  <Image Aspect="AspectFit"  Source="AdditionIcon.png"  Grid.Row="0" Grid.Column="3"  VerticalOptions="Center" HorizontalOptions="End">
+                    <Image.GestureRecognizers>
+                      <TapGestureRecognizer  Tapped="DiscMrpClose" />
+                    </Image.GestureRecognizers>
+                  </Image>
+
+
+
+
+                </Grid>
+              </Frame>
+
+
+
+
+
+              <StackLayout >
+                <ListView x:Name="DMRPList" SeparatorVisibility="None"
+                                RowHeight="25" ItemSelected="OndiscountItemSelected"
+                             HasUnevenRows="True" >
+                  <ListView.ItemTemplate>
+                    <DataTemplate>
+                      <ViewCell>
+
+                        <Frame HasShadow="True"     BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand">
+                          <Grid  BackgroundColor="Transparent" >
+                            <Grid.ColumnDefinitions >
+                              <ColumnDefinition Width="40" />
+                              <ColumnDefinition Width="55" />
+                              <ColumnDefinition Width="20" />
+                              <ColumnDefinition Width="20" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                              <RowDefinition Height="12" />
+                            </Grid.RowDefinitions>
+                            <Label  Text="{Binding name}"  VerticalTextAlignment="Center"     Grid.Row="0" Grid.Column="0"      FontSize="10"  FontFamily="Bold" TextColor="Black"></Label>
+
+                            <Label Text="{Binding Dept}" VerticalTextAlignment="Center"     Grid.Row="0" Grid.Column="1"     FontSize="10"  FontFamily="Bold" TextColor="Black"></Label>
+
+                            <Image Aspect="AspectFit"  Source="DeleteIcon.png"     Grid.Row="0" Grid.Column="2"   VerticalOptions="Center" HorizontalOptions="Start" >
+                              <Image.GestureRecognizers>
+                                <TapGestureRecognizer />
+                              </Image.GestureRecognizers>
+
+
+                            </Image>
+                            <Image Aspect="AspectFit"  Source="AdditionIcon.png"     Grid.Row="0" Grid.Column="3"   VerticalOptions="Center" HorizontalOptions="Start" >
+                              <Image.GestureRecognizers>
+                                <TapGestureRecognizer />
+                              </Image.GestureRecognizers>
+
+
+                            </Image>
+
+                          </Grid>
+                        </Frame>
+
+                      </ViewCell>
+                    </DataTemplate>
+                  </ListView.ItemTemplate>
+                </ListView>
+
+
+
+              </StackLayout>
+
+            </StackLayout>
+          </Frame>
+
+
+
+
+
+
+        </AbsoluteLayout>
+  </StackLayout>
+
+</StackLayout>
+</ContentPage>

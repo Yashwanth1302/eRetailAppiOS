@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EretailApp.Views.PaymentMode">
+  <ContentPage.Resources>
+
+    <ResourceDictionary x:Name="AppDictionary">
+      <Color x:Key="BackgroundColor">#FFFFFF</Color>
+      <Color x:Key="BorderColor">#FF696565</Color>
+      <Style x:Key="InternalViewStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor"
+            Value="{StaticResource BackgroundColor}"/>
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+      <Style x:Key="BorderStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+      <Style x:Key="plainEntry" TargetType="Entry">
+        <Setter Property="BackgroundColor" Value="#eee"/>
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="FontSize" Value="16" />
+      </Style>
+
+      <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+        <Setter Property="BackgroundColor" Value="#41af4b"/>
+        <Setter Property="BorderColor" Value="Blue"/>
+        <Setter Property="HeightRequest" Value="42"/>
+        <Setter Property="BorderRadius" Value="5"/>
+        <Setter Property="BorderWidth" Value="0" />
+        <Setter Property="TextColor" Value="White"/>
+      </Style>
+
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+
+  <StackLayout Orientation="Vertical"  VerticalOptions="FillAndExpand"  BackgroundColor="#FFFFFF" HorizontalOptions="FillAndExpand" Padding="3"  Margin="3" >
+
+
+    <StackLayout   HorizontalOptions="FillAndExpand"  >
+      <Grid BackgroundColor="#FE7C08"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5" >
+        <Grid.ColumnDefinitions >
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+
+        <Label   VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="0" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
+
+        <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" ></Button>
+        <Button  Text="Save"  Grid.Row="0" Grid.Column="3" Style="{StaticResource ButtonStyle}" ></Button>
+      </Grid>
+    </StackLayout>
+
+
+    <ContentView  HorizontalOptions="FillAndExpand" x:Name="CreateCategory" >
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+
+          <StackLayout Orientation="Vertical" >
+            <!-- Swich Buttons-->
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" >
+
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Cash" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Start" VerticalOptions="Center" />
+              </StackLayout>
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Card" FontSize="18"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" VerticalOptions="Center" />
+              </StackLayout>
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Credit" FontSize="18"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" VerticalOptions="Center" />
+              </StackLayout>
+
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Cheque" FontSize="18"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" VerticalOptions="Center" />
+              </StackLayout>
+            </StackLayout>
+
+
+          </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>
+
+  </StackLayout>
+</ContentPage>

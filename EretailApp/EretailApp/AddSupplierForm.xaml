@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:local="clr-namespace:EretailApp"
+             x:Class="EretailApp.AddSupplierForm"
+             xmlns:util="clr-namespace:EretailApp.Behaviors">
+    <ContentPage.Resources>
+
+        <ResourceDictionary x:Name="AppDictionary">
+            <Color x:Key="BackgroundColor">#FFFFFF</Color>
+            <Color x:Key="BorderColor">#FF696565</Color>
+            <Style x:Key="InternalViewStyle" TargetType="ContentView">
+                <Setter Property="BackgroundColor"
+            Value="{StaticResource BackgroundColor}"/>
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="Padding" Value="3,3,3,3"></Setter>
+            </Style>
+            <Style x:Key="BorderStyle" TargetType="ContentView">
+                <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+                <Setter Property="Padding" Value="1,1,1,1"></Setter>
+            </Style>
+            <Style x:Key="plainEntry" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="#eee"/>
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="BackgroundColor" Value="#41af4b"/>
+                <Setter Property="BorderColor" Value="Blue"/>
+                <Setter Property="HeightRequest" Value="42"/>
+                <Setter Property="BorderRadius" Value="5"/>
+                <Setter Property="BorderWidth" Value="0" />
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="0" Spacing="0" Orientation="Vertical"  Margin="10">
+        <Frame HasShadow="True"  CornerRadius="5"     BackgroundColor="#FEF0E3" >
+            <Grid Padding="5">
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Image
+               Aspect="AspectFill"
+               
+              Margin="10"
+                     Source="leftcir.png"
+               VerticalOptions="Center"
+                 
+               HorizontalOptions="Start"   Grid.Row="0" Grid.Column="0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                        Tapped="back"
+                         />
+                    </Image.GestureRecognizers>
+
+
+                </Image>
+                <Label  Text="Vendor" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="Black"></Label>
+
+                <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" Clicked="cancel_clicked"></Button>
+                <Button  Text="Save" Clicked="btn_vendoraddress_clicked" TextColor="White" BackgroundColor="#41af4b"  Grid.Row="0" Grid.Column="3"   ></Button>
+            </Grid>
+        </Frame>
+
+        <ScrollView>
+
+            <StackLayout  Orientation="Vertical"  Padding="5" Spacing="5" >
+                <AbsoluteLayout>
+                    <StackLayout AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                     AbsoluteLayout.LayoutFlags="All">
+
+
+                        <StackLayout  Orientation="Vertical"  Padding="5" >
+
+                            <Frame HasShadow="True"  CornerRadius="5"    Margin="10,0,10,10"    BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand">
+                                <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                    <Grid.ColumnDefinitions >
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50" />
+                                        <RowDefinition Height="50" />
+                                    </Grid.RowDefinitions>
+
+                                    <local:LabelRender Text="Vendor Code"   Margin="0,0,-6,0"    Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="4" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center" >
+                                        <local:LabelRender.BackgroundColor>
+                                            <OnPlatform x:TypeArguments="Color">
+                                                <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                            </OnPlatform>
+                                        </local:LabelRender.BackgroundColor>
+                                    </local:LabelRender>
+
+                                    <local:BoxBorderEntry Placeholder="Enter Vendor Code" Keyboard="Numeric" x:Name="et_vendercode"  Grid.Row="0" Grid.Column="4"   Grid.ColumnSpan="6"   FontAttributes="Bold,Italic"  FontSize="20" TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                        <local:BoxBorderEntry.Behaviors>
+                                            <util:MaxLengthValidatorBehavior MaxLength="19"/>
+                                        </local:BoxBorderEntry.Behaviors>
+                                    </local:BoxBorderEntry>
+
+
+                                    <local:LabelRender Text="Vendor Name"   Margin="0,0,-6,0"   Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="4" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                        <local:LabelRender.BackgroundColor>
+                                            <OnPlatform x:TypeArguments="Color">
+                                                <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                            </OnPlatform>
+                                        </local:LabelRender.BackgroundColor>
+                                    </local:LabelRender>
+
+                                    <local:BoxBorderEntry  Placeholder="Enter Vendor Name" x:Name="et_vendorname"  FontSize="16" Grid.Row="1" Grid.Column="4"   Grid.ColumnSpan="6" TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                        <local:BoxBorderEntry.Behaviors>
+                                            <util:MaxLengthValidatorBehavior MaxLength="75"/>
+                                        </local:BoxBorderEntry.Behaviors>
+                                    </local:BoxBorderEntry>
+
+
+
+
+                                </Grid>
+                            </Frame>
+                        </StackLayout>
+
+
+
+                        <StackLayout    Padding="5" Spacing="5" >
+                            <Frame HasShadow="True"  CornerRadius="5"  Padding="5"  Margin="10,0,10,10"   BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand">
+                                <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                    <Grid.ColumnDefinitions >
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="400" />
+
+                                    </Grid.RowDefinitions>
+
+                                    <StackLayout Orientation="Horizontal"  Padding="5" Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="4"  HorizontalOptions="FillAndExpand"  >
+
+                                        <Grid BackgroundColor="Transparent"  HorizontalOptions="FillAndExpand" >
+                                            <Grid.ColumnDefinitions >
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+
+
+
+                                            <local:LabelRender Text="Contact Person"   Margin="0,0,-6,0"    Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="4" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry Placeholder="Contact Person" x:Name="et_contactperson"  Grid.Row="0" Grid.Column="4"   Grid.ColumnSpan="6"    FontSize="16" TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="70"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+
+                                            <local:LabelRender Text="Contact Number"   Margin="0,0,-6,0"    Grid.Row="1" Grid.Column="0"   Grid.ColumnSpan="4" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry Placeholder="Contact Number" x:Name="et_contactnumer" Keyboard="Numeric" Grid.Row="1" Grid.Column="4"   Grid.ColumnSpan="6"    FontSize="16" TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="10"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+
+                                            <local:LabelRender Text="Address1"   Margin="0,0,-6,0"  Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4"  TextColor="White"    HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"    FontSize="14" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry  Placeholder="Enter Address1" x:Name="et_address1"   Grid.Row="2" Grid.Column="4"   Grid.ColumnSpan="6"  FontSize="16" TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="30"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+
+                                            <local:LabelRender Text="Address2"   Margin="0,0,-6,0"   TextColor="White"    Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  FontSize="14" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry Placeholder="Enter Address2" x:Name="et_address2" FontSize="16"  Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="6"  TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="30"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+
+
+
+
+
+                                            <local:LabelRender Text="Country"  Grid.Row="4" Grid.Column="0"  Grid.ColumnSpan="4"  Margin="0,0,-6,0" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry  Placeholder="Country" x:Name="et_country" FontSize="16" Grid.Row="4" Grid.Column="4"  Grid.ColumnSpan="6"    TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="30"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+
+
+                                            <local:LabelRender Text="State"  Grid.Row="5" Grid.Column="0"  Grid.ColumnSpan="4"  Margin="0,0,-6,0" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry  Placeholder="State" x:Name="et_state" FontSize="16" Grid.Row="5" Grid.Column="4"  Grid.ColumnSpan="6"    TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="30"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+
+
+
+                                            <local:LabelRender Text="City"  Grid.Row="6" Grid.Column="0"  Grid.ColumnSpan="4"  Margin="0,0,-6,0" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry  Placeholder="City" x:Name="et_city" FontSize="16" Grid.Row="6" Grid.Column="4"  Grid.ColumnSpan="6"    TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+
+
+
+
+                                            <local:LabelRender Text="Zip"  Grid.Row="7" Grid.Column="0"  Grid.ColumnSpan="4"  Margin="0,0,-6,0" TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry  Placeholder="Zip" x:Name="et_zip" FontSize="16" Grid.Row="7" Grid.Column="4"  Grid.ColumnSpan="6"    TextColor="#787878" PlaceholderColor="#FFED9EA6">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="10"/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+                                        </Grid>
+                                    </StackLayout>
+
+
+
+
+                                    <StackLayout Orientation="Horizontal"  Padding="5"  Grid.Row="0" Grid.Column="4"  Grid.ColumnSpan="3" HorizontalOptions="FillAndExpand"   >
+
+                                        <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                            <Grid.ColumnDefinitions >
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+
+                                            <Label   Text="Inacitve" FontSize="16" Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="8" VerticalTextAlignment="Center"  FontFamily="Bold" TextColor="#000000"></Label>
+                                            <Switch  VerticalOptions="Center"  Grid.Row="0" Grid.Column="8"  Grid.ColumnSpan="2" />
+
+                                        </Grid>
+
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal" Padding="5" Grid.Row="0" Grid.Column="7"   Grid.ColumnSpan="3" HorizontalOptions="FillAndExpand" >
+                                        <Grid BackgroundColor="Transparent"  HorizontalOptions="FillAndExpand" >
+                                            <Grid.ColumnDefinitions >
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+
+                                            </Grid.RowDefinitions>
+
+                                            <Image Source="CamaraIcon.png"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="10" Aspect="AspectFit"     />
+
+
+
+                                        </Grid>
+                                    </StackLayout>
+
+                                </Grid>
+                            </Frame>
+                        </StackLayout>
+
+
+
+
+
+                        <StackLayout    Padding="5" Spacing="5" HorizontalOptions="FillAndExpand">
+                            <Frame HasShadow="True"  CornerRadius="5"   Margin="10,0,10,10"   BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand">
+                                <Grid BackgroundColor="Transparent"  HorizontalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions >
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50" />
+
+                                    </Grid.RowDefinitions>
+
+
+                                    <StackLayout Orientation="Horizontal"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="10"  HorizontalOptions="FillAndExpand"  >
+
+                                        <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                            <Grid.ColumnDefinitions >
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="*" />
+
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="50" />
+                                            </Grid.RowDefinitions>
+
+                                            <local:LabelRender  Text="GST"  Margin="0,0,-6,0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  FontSize="14"  FontFamily="Bold" TextColor="White">
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry   Grid.Row="0" Grid.Column="2"  Grid.ColumnSpan="2"  FontSize="16"  Keyboard="Text" Placeholder="GST" x:Name="et_gst"   TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+
+                                            <local:LabelRender      Text="Discount"   Margin="0,0,-8,0"  Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2"  TextColor="White"    HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"    FontSize="14" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry Placeholder="Discount"    Grid.Row="0" Grid.Column="6" x:Name="et_discount"  Grid.ColumnSpan="2"  FontSize="16" TextColor="White" PlaceholderColor="#FFED9EA6"/>
+
+
+
+
+                                            <local:LabelRender      Text="Email Id"   Margin="0,0,-8,0"  Grid.Row="0" Grid.Column="8" Grid.ColumnSpan="2"  TextColor="White"    HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"    FontSize="14" >
+                                                <local:LabelRender.BackgroundColor>
+                                                    <OnPlatform x:TypeArguments="Color">
+                                                        <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                        <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                    </OnPlatform>
+                                                </local:LabelRender.BackgroundColor>
+                                            </local:LabelRender>
+                                            <local:BoxBorderEntry Placeholder="Email Id" x:Name="et_vendor_emailid"   Grid.Row="0" Grid.Column="10"   Grid.ColumnSpan="2"  FontSize="16" TextColor="White" PlaceholderColor="#FFED9EA6">
+                                                <local:BoxBorderEntry.Behaviors>
+                                                    <util:MaxLengthValidatorBehavior MaxLength="100"/>
+                                                    <util:EmailValidatorBehavior/>
+                                                </local:BoxBorderEntry.Behaviors>
+                                            </local:BoxBorderEntry>
+
+
+
+                                        </Grid>
+                                    </StackLayout>
+
+
+                                </Grid>
+                            </Frame>
+                        </StackLayout>
+
+
+
+                    </StackLayout>
+
+
+
+                    <!-- Heirachy Group  list Start
+
+          <Frame  x:Name="MHgCv" Padding="0"   HasShadow="True"  CornerRadius="5"  AbsoluteLayout.LayoutBounds="0.02, 0.50, 0.5, 0.3" IsVisible="false"
+             AbsoluteLayout.LayoutFlags="All"  HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"  HeightRequest="150" BackgroundColor="#FEF0E3">
+
+
+
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" >
+              <SearchBar x:Name="searchhg" Placeholder="Search here"   WidthRequest="100" HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" ></SearchBar>
+              <StackLayout HeightRequest="100">
+                <ListView x:Name="DeptList"
+                        RowHeight="25"
+                     HasUnevenRows="True" >
+                  <ListView.ItemTemplate>
+                    <DataTemplate>
+                      <ViewCell>
+
+                        <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                          <Label Text="{Binding Dept}"  WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                        </StackLayout>
+                      </ViewCell>
+                    </DataTemplate>
+                  </ListView.ItemTemplate>
+                </ListView>
+              </StackLayout>
+
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+                <Button Text="Add New "  WidthRequest="100" TextColor="Black"   FontSize="16" Clicked="Mhgpopd" ></Button>
+              </StackLayout>
+
+            </StackLayout>
+
+
+
+          </Frame>
+
+-->
+                    <!-- Heirachy Group list End -->
+
+
+
+                    <!-- Heirachy Group  popup Start
+
+          <Frame  x:Name="MHgpop" Padding="0" AbsoluteLayout.LayoutBounds="0, 0, 1, 1"  IsVisible="false"
+            AbsoluteLayout.LayoutFlags="All"    HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"   BackgroundColor="#C0808080"   >
+
+            <Frame Padding="0" HorizontalOptions="FillAndExpand"  BackgroundColor="#FEF0E3"  VerticalOptions="Center"  Margin="150"    WidthRequest="150"  HeightRequest="360"  >
+
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  VerticalOptions="Center"   Padding="10" >
+
+                <StackLayout x:Name="HgSlpop" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+
+                  <StackLayout x:Name="DeptSl" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <StackLayout  Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+                      <Label   Text="Department" VerticalTextAlignment="Center"     HorizontalOptions="Fill"   HorizontalTextAlignment="Center"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+                      <local:BoxBorderEntry  Placeholder="Enter Department"   Margin="5,0,0,0"  WidthRequest="100" Keyboard="Numeric"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                      <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End"   ></Image>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"  >
+                      <StackLayout Orientation="Vertical"  HeightRequest="100">
+                        <ListView
+                                  RowHeight="40"
+                              HasUnevenRows="True" >
+                          <ListView.ItemTemplate>
+                            <DataTemplate>
+                              <ViewCell>
+
+                                <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                                  <Label Text="{Binding Dept}"  WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                                </StackLayout>
+                              </ViewCell>
+                            </DataTemplate>
+                          </ListView.ItemTemplate>
+                        </ListView>
+                      </StackLayout>
+                      <StackLayout Orientation="Horizontal" HorizontalOptions="Start"  >
+                        <Button Text="Add New "  WidthRequest="100" TextColor="Black"  FontSize="16" ></Button>
+                      </StackLayout>
+                    </StackLayout>
+
+                  </StackLayout>
+
+
+
+                  <StackLayout  x:Name="CatgSl" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+                      <Label  Text="Category" VerticalTextAlignment="Center"   HorizontalOptions="Fill"      HorizontalTextAlignment="Center"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+                      <local:BoxBorderEntry  Placeholder="Enter Catgeory"  Margin="5,0,0,0"  WidthRequest="100"  Keyboard="Numeric"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                      <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End"></Image>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="FillAndExpand"  >
+                      <StackLayout Orientation="Vertical"  HeightRequest="100">
+                        <ListView x:Name="CatgList" RowHeight="40"
+                               HasUnevenRows="True" >
+                          <ListView.ItemTemplate>
+                            <DataTemplate>
+                              <ViewCell>
+
+                                <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                                  <Label Text="{Binding category}"  WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                                </StackLayout>
+                              </ViewCell>
+                            </DataTemplate>
+                          </ListView.ItemTemplate>
+                        </ListView>
+                      </StackLayout>
+                      <StackLayout Orientation="Horizontal" HorizontalOptions="Start"  >
+                        <Button Text="Add New "  WidthRequest="100" TextColor="Black"   HorizontalOptions="Start"  FontSize="16" ></Button>
+                      </StackLayout>
+                    </StackLayout>
+                  </StackLayout>
+
+
+
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="End"  >
+                    <Button  Text="Cancel"  WidthRequest="100" HeightRequest="40"  HorizontalOptions="End"    TextColor="White" BackgroundColor="#446a81" ></Button>
+                    <Button  Text="Save"   WidthRequest="100"  HeightRequest="40"  HorizontalOptions="End" TextColor="White" BackgroundColor="#41af4b" Clicked="btnhgsave" ></Button>
+                  </StackLayout>
+                </StackLayout>
+              </StackLayout>
+            </Frame>
+          </Frame>
+-->
+
+                    <!-- Heirachy Group Popup End -->
+                </AbsoluteLayout>
+            </StackLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- 
+  <StackLayout Orientation="Vertical" Padding="5" Spacing="5">
+
+    <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+
+          <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+            <StackLayout Orientation="Horizontal" Padding="5"> 
+            <local:BoxBorderEntry  Placeholder="Vendor Code"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+            <local:BoxBorderEntry  Placeholder="Vendor Name"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+            <local:BoxBorderEntry  Placeholder="Contact Person"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <local:BoxBorderEntry  Placeholder="Contact Number"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Padding="5" >
+              <local:BoxBorderEntry  Placeholder="Address1"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+              <local:BoxBorderEntry  Placeholder="Address2"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+              <local:BoxBorderEntry  Placeholder="Country"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+            </StackLayout>
+              <StackLayout Orientation="Horizontal" Padding="5" >
+              <local:BoxBorderEntry  Placeholder="State"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+              <local:BoxBorderEntry  Placeholder="City"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+              <local:BoxBorderEntry  Placeholder="Zip"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" Padding="5" >
+              
+              <local:BoxBorderEntry  Placeholder="GST "   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <local:BoxBorderEntry  Placeholder="Discount"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <local:BoxBorderEntry  Placeholder="Email ID"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <Label   Text="Inactive" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+              <Switch HorizontalOptions="Center" VerticalOptions="Center" />
+            
+            </StackLayout>
+          </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>
+  </StackLayout>
+  -->
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

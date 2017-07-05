@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:EretailApp"
+             x:Class="EretailApp.AddCategoryForm"
+            BackgroundColor="White">
+    
+  <ContentPage.Resources>
+
+    <ResourceDictionary x:Name="AppDictionary">
+      <Color x:Key="BackgroundColor">#FFFFFF</Color>
+      <Color x:Key="BorderColor">#F6F6F6</Color>
+      <Style x:Key="InternalViewStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor"
+            Value="{StaticResource BackgroundColor}"/>
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+      <Style x:Key="BorderStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+      <Style x:Key="plainEntry" TargetType="Entry">
+        <Setter Property="BackgroundColor" Value="#eee"/>
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="FontSize" Value="16" />
+      </Style>
+
+      <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+        <Setter Property="BackgroundColor" Value="#41af4b"/>
+        <Setter Property="BorderColor" Value="Blue"/>
+        <Setter Property="HeightRequest" Value="42"/>
+        <Setter Property="BorderRadius" Value="5"/>
+        <Setter Property="BorderWidth" Value="0" />
+        <Setter Property="TextColor" Value="White"/>
+      </Style>
+
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+  <StackLayout Padding="0" Spacing="0" Orientation="Vertical"  Margin="10">
+    <StackLayout Padding="10,0,10,10" Spacing="10,0,10,10">
+      <Grid BackgroundColor="#FE7C08" Padding="5">
+        <Grid.ColumnDefinitions >
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="100" />
+          <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Image
+                HeightRequest="30"
+                      Margin="20,0,20,0"
+                WidthRequest="30"
+                     Source="leftcir.png"
+               VerticalOptions="Center"
+                 
+               HorizontalOptions="Start"   Grid.Row="0" Grid.Column="0">
+          <Image.GestureRecognizers>
+            <TapGestureRecognizer
+                        Tapped="back"
+                         />
+          </Image.GestureRecognizers>
+
+
+        </Image>
+       
+        <Label  Text="Category" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
+
+                <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" Clicked="cancel_clicked"></Button>
+        <Button  Text="Save" TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3"   ></Button>
+      </Grid>
+    </StackLayout>
+
+    <StackLayout  Orientation="Vertical"  Padding="10" Spacing="10" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+    <ContentView  HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+          <StackLayout Orientation="Horizontal" HorizontalOptions="Center"  Padding="50">
+         <local:BoxBorderEntry  Placeholder="Enter Category"   WidthRequest="300" HorizontalOptions="Center"   TextColor="#787878" PlaceholderColor="#969696"/>
+        </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>
+  </StackLayout>
+  </StackLayout>
+  </ContentPage>

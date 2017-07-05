@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EretailApp.EmployeeForm">
+    <ContentPage.Resources>
+        <ResourceDictionary x:Name="AppDictionary">
+            <Color x:Key="BackgroundColor">#FFFFFF</Color>
+            <Color x:Key="BorderColor">#FF696565</Color>
+            <Style x:Key="InternalViewStyle" TargetType="ContentView">
+                <Setter Property="BackgroundColor"
+            Value="{StaticResource BackgroundColor}"/>
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="Padding" Value="3,3,3,3"></Setter>
+            </Style>
+            <Style x:Key="BorderStyle" TargetType="ContentView">
+                <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+                <Setter Property="Padding" Value="1,1,1,1"></Setter>
+            </Style>
+            <Style x:Key="plainEntry" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="#eee"/>
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="BackgroundColor" Value="#41af4b"/>
+                <Setter Property="BorderColor" Value="Blue"/>
+                <Setter Property="HeightRequest" Value="42"/>
+                <Setter Property="BorderRadius" Value="5"/>
+                <Setter Property="BorderWidth" Value="0" />
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+
+    <StackLayout  VerticalOptions="FillAndExpand"  BackgroundColor="#FFFFFF" HorizontalOptions="FillAndExpand" Padding="3"  Margin="3" >
+        <Frame HasShadow="True"  CornerRadius="5"     BackgroundColor="#FEF0E3" >
+            <Grid Padding="5">
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Label  Text="Employee" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="Black"></Label>
+                <Button  Text="Import"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" ></Button>
+                <Button  Text="Create" TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3"  Clicked="AddEmp" ></Button>
+            </Grid>
+        </Frame>
+
+
+
+
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+            <ContentView Style="{StaticResource BorderStyle}" >
+                <ContentView Style="{StaticResource InternalViewStyle}">
+                    <StackLayout Orientation="Vertical" >
+
+                        <StackLayout Orientation="Horizontal"  Padding="5" Spacing="5">
+
+                            <StackLayout HorizontalOptions="FillAndExpand" >
+
+                                <SearchBar x:Name="searchvalue" Placeholder="Search here"    HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" TextChanged="searchvalue_TextChanged"></SearchBar>
+
+                            </StackLayout>
+
+
+                        </StackLayout>
+
+                        <StackLayout HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5" >
+                            <ListView x:Name="EmpList"
+                        RowHeight="35" 
+                        SeparatorVisibility="None">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+
+                                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                                <Label Text="{Binding Emp_Name}"   HeightRequest="35"  TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+                                                <Label Text="{Binding City}"   HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="End" FontSize="16" ></Label>
+                                            </StackLayout>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </StackLayout>
+                    </StackLayout>
+                </ContentView>
+            </ContentView>
+        </ContentView>
+
+    </StackLayout>
+
+</ContentPage>

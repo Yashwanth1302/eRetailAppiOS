@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:EretailApp"
+             x:Class="EretailApp.Views.KitchenMaster">
+
+    <ContentPage.Resources>
+
+        <ResourceDictionary x:Name="AppDictionary">
+            <Color x:Key="BackgroundColor">#FFFFFF</Color>
+            <Color x:Key="BorderColor">#FF696565</Color>
+            <Style x:Key="InternalViewStyle" TargetType="ContentView">
+                <Setter Property="BackgroundColor"
+            Value="{StaticResource BackgroundColor}"/>
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="Padding" Value="1,1,1,1"></Setter>
+            </Style>
+            <Style x:Key="BorderStyle" TargetType="ContentView">
+                <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+                <Setter Property="Padding" Value="1,1,1,1"></Setter>
+            </Style>
+            <Style x:Key="plainEntry" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="#eee"/>
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="BackgroundColor" Value="#41af4b"/>
+                <Setter Property="BorderColor" Value="Blue"/>
+                <Setter Property="HeightRequest" Value="42"/>
+                <Setter Property="BorderRadius" Value="5"/>
+                <Setter Property="BorderWidth" Value="0" />
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <StackLayout Orientation="Vertical"  VerticalOptions="FillAndExpand"  BackgroundColor="#FFFFFF" HorizontalOptions="FillAndExpand" Padding="3"  Margin="3" >
+
+
+        <Frame HasShadow="True"  CornerRadius="5"     BackgroundColor="#FEF0E3"   HorizontalOptions="FillAndExpand"  >
+            <Grid   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5" >
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+
+                <Label  Text="Kitchen"   VerticalTextAlignment="Center"     Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="Black"></Label>
+
+                <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" ></Button>
+                <Button  Text="Create"  Grid.Row="0" Grid.Column="3"  TextColor="White" BackgroundColor="#41af4b" Clicked="AddBrand"></Button>
+            </Grid>
+        </Frame>
+
+
+
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+            <ContentView Style="{StaticResource BorderStyle}" >
+                <ContentView Style="{StaticResource InternalViewStyle}">
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+
+                            <SearchBar x:Name="searchKitchen" Placeholder="Search here"    HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" SearchButtonPressed="SearchBrandclick"></SearchBar>
+
+
+                        </StackLayout>
+
+
+                        <StackLayout HorizontalOptions="FillAndExpand" Padding="5" Spacing="5" >
+                            <ListView x:Name="KitchenList"  SeparatorVisibility="None"
+                     RowHeight="35" >
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell>
+
+                                            <StackLayout Orientation="Horizontal" HorizontalOptions="Start" >
+                                                <Label Text="{Binding name}" HeightRequest="35"  TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+
+                                            </StackLayout>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </StackLayout>
+                    </StackLayout>
+                </ContentView>
+            </ContentView>
+        </ContentView>
+
+
+
+
+
+        <Frame  HasShadow="True"  CornerRadius="5"     BackgroundColor="#FEF0E3"  HorizontalOptions="FillAndExpand" x:Name="CreateKitchen" IsVisible="False">
+
+
+            <StackLayout Orientation="Vertical" >
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" Spacing="5" >
+
+                    <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                        <Grid.ColumnDefinitions >
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50" />
+
+                        </Grid.RowDefinitions>
+                        <local:LabelRender Text="Kitchen Code"   Margin="0,0,-6,0"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="2"   TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                            <local:LabelRender.BackgroundColor>
+                                <OnPlatform x:TypeArguments="Color">
+                                    <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                    <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                </OnPlatform>
+                            </local:LabelRender.BackgroundColor>
+                        </local:LabelRender>
+
+                        <local:BoxBorderEntry  Placeholder="Enter Kitchen Code"      Grid.Row="0" Grid.Column="2"   Grid.ColumnSpan="4"  TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+                    </Grid>
+                </StackLayout>
+                <StackLayout>
+                    <Grid Padding="5">
+                        <Grid.ColumnDefinitions >
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="100" />
+                            <ColumnDefinition Width="100" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50" />
+                        </Grid.RowDefinitions>
+
+                        <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" ></Button>
+                        <Button  Text="Save" TextColor="White" BackgroundColor="#41af4b"   Grid.Row="0" Grid.Column="3"   ></Button>
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+
+
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

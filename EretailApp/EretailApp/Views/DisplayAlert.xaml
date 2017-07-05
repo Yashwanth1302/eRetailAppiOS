@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:EretailApp"
+             x:Class="EretailApp.Views.DisplayAlert"
+      
+             >
+
+  
+ 
+  <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"  Margin="50" WidthRequest="150" HeightRequest="150">
+
+    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+      <local:BoxBorderEntry   x:Name="entryCombiCode"  WidthRequest="35" Placeholder="Item Code "    HorizontalOptions="FillAndExpand"   TextColor="#FF6B6868" PlaceholderColor="#FF6B6868"/>
+      <local:BoxBorderEntry   x:Name="entryCombiName"  WidthRequest="35" Placeholder="Item Name "    HorizontalOptions="FillAndExpand"   TextColor="#FF6B6868" PlaceholderColor="#FF6B6868"/>
+      <local:BoxBorderEntry   x:Name="entryCombiQty"  Keyboard="Numeric"  WidthRequest="25" Placeholder=" Qty "    HorizontalOptions="FillAndExpand"   TextColor="#FF6B6868" PlaceholderColor="#FF6B6868"/>
+
+      <Image x:Name="rateimg" Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+      
+      </Image>
+    </StackLayout>
+
+    <StackLayout  x:Name="CombiListSL"   Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5"  IsVisible="False" >
+
+
+      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+        <ListView x:Name="CombList"
+            RowHeight="35">
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ViewCell>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"   BackgroundColor="White">
+                  <Label Text="{Binding CombiCode}"   WidthRequest="35" HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+                  <Label Text="{Binding CombiName}"   WidthRequest="35" HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+                  <Label Text="{Binding CombiQty}"  WidthRequest="25"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+
+
+                </StackLayout>
+              </ViewCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      </StackLayout>
+    </StackLayout>
+
+  </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:EretailApp"
+             BackgroundColor="White"
+             x:Class="EretailApp.LoginForm">
+  <ContentPage.Resources>
+    <ResourceDictionary x:Name="AppDictionary">
+
+      <Color x:Key="BackgroundColor">#FFFFFF</Color>
+      <Color x:Key="BorderColor">#787878</Color>
+    <Style x:Key="InternalViewStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor"
+            Value="{StaticResource BackgroundColor}"/>
+        <Setter Property="VerticalOptions" Value="Fill"/>
+        <Setter Property="Padding" Value="2,2,2,2"></Setter>
+      </Style>
+
+      <Style x:Key="BorderStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+
+      <Style x:Key="buttonStyle" TargetType="Button">
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+        <Setter Property="BorderColor" Value="Lime" />
+        <Setter Property="BorderRadius" Value="5" />
+        <Setter Property="BorderWidth" Value="5" />
+        <Setter Property="WidthRequest" Value="200" />
+        <Setter Property="TextColor" Value="Teal" />
+      </Style>
+      
+
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+
+  <ScrollView>
+    <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand"  >
+
+      <StackLayout Spacing="5" Margin="10" HorizontalOptions="Center" >
+        <Image Source="logo.png" Margin="0,0,0,30"  HorizontalOptions="Center"   />
+        
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+               
+                  <local:BoxBorderEntry  Placeholder="UserName " Text="admin" WidthRequest="300" HorizontalOptions="FillAndExpand"  TextColor="#787878" PlaceholderColor="#C3C3C3"
+                                x:Name="txtuser" />
+              </StackLayout>
+          
+       
+              <StackLayout Orientation="Horizontal" Padding="0" Spacing="0"   HorizontalOptions="FillAndExpand"  >
+              
+                  <local:BoxBorderEntry  Placeholder="Password" Text="123"  WidthRequest="300"  IsPassword="True" HorizontalOptions="FillAndExpand"
+                                  x:Name="txtpassword" TextColor="#787878" PlaceholderColor="#C3C3C3"/>
+              </StackLayout>
+         
+      
+        <Button Text="Login"  BorderColor="#FE7C08" 
+                BorderWidth="2" BorderRadius="5" 
+                TextColor="White"  WidthRequest="300" 
+                HeightRequest="65" FontSize="16" 
+                FontFamily="Bold" 
+                HorizontalOptions="FillAndExpand" 
+                BackgroundColor="#FE7C08"   
+                Clicked="HomePage" >
+
+        </Button>
+
+      </StackLayout>
+
+    </StackLayout>
+  </ScrollView>
+  </ContentPage>

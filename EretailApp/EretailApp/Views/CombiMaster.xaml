@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:EretailApp"
+             x:Class="EretailApp.Views.CombiMaster"
+                  >
+    <ContentPage.Resources>
+
+        <ResourceDictionary x:Name="AppDictionary">
+            <Color x:Key="BackgroundColor">#FFFFFF</Color>
+            <Color x:Key="BorderColor">#FF696565</Color>
+            <Style x:Key="InternalViewStyle" TargetType="ContentView">
+                <Setter Property="BackgroundColor"
+            Value="{StaticResource BackgroundColor}"/>
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="Padding" Value="1,1,1,1"></Setter>
+            </Style>
+            <Style x:Key="BorderStyle" TargetType="ContentView">
+                <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+                <Setter Property="Padding" Value="1,1,1,1"></Setter>
+            </Style>
+            <Style x:Key="plainEntry" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="#eee"/>
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="BackgroundColor" Value="#41af4b"/>
+                <Setter Property="BorderColor" Value="Blue"/>
+                <Setter Property="HeightRequest" Value="42"/>
+                <Setter Property="BorderRadius" Value="5"/>
+                <Setter Property="BorderWidth" Value="0" />
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <StackLayout Orientation="Vertical"  VerticalOptions="FillAndExpand"  BackgroundColor="#FFFFFF" HorizontalOptions="FillAndExpand" Padding="3"  Margin="3" >
+
+
+        <Frame HasShadow="True"  CornerRadius="5"     BackgroundColor="#FEF0E3" HorizontalOptions="FillAndExpand"  >
+            <Grid  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5" >
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+
+                <Label  Text="Combi Master"  VerticalTextAlignment="Center"     Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="Black"></Label>
+
+                <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" ></Button>
+                <Button  Text="Save"  Grid.Row="0" Grid.Column="3" TextColor="White" BackgroundColor="#41af4b" ></Button>
+            </Grid>
+        </Frame>
+
+        <ScrollView>
+
+            <StackLayout Orientation="Vertical">
+
+                <AbsoluteLayout>
+                    <StackLayout AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                 AbsoluteLayout.LayoutFlags="All">
+
+
+                        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+                            <ContentView Style="{StaticResource BorderStyle}" >
+                                <ContentView Style="{StaticResource InternalViewStyle}">
+                                    <StackLayout Orientation="Vertical">
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+
+                                            <SearchBar x:Name="searchCombi" Placeholder="Search here"    HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" SearchButtonPressed="SearchCombiclick"></SearchBar>
+
+
+                                        </StackLayout>
+
+
+                                        <StackLayout HorizontalOptions="FillAndExpand" Padding="5" Spacing="5"  >
+                                            <ListView x:Name="CombiList"   SeparatorVisibility="None"
+                    RowHeight="35">
+                                                <ListView.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <ViewCell>
+
+                                                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                                                                <Label Text="{Binding CombiCode}" HeightRequest="35"  TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"   FontSize="16" ></Label>
+                                                                <Label Text="{Binding CombiPrice}" HeightRequest="35"  TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="End"   FontSize="16" ></Label>
+
+                                                            </StackLayout>
+                                                        </ViewCell>
+                                                    </DataTemplate>
+                                                </ListView.ItemTemplate>
+                                            </ListView>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </ContentView>
+                            </ContentView>
+                        </ContentView>
+
+
+
+
+
+
+
+                        <Frame  HasShadow="True"  CornerRadius="5"     BackgroundColor="#FEF0E3" Padding="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+
+                            <StackLayout Orientation="Vertical">
+
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+
+                                    <Grid BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" >
+                                        <Grid.ColumnDefinitions >
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="50" />
+
+                                        </Grid.RowDefinitions>
+                                        <local:LabelRender Text="Combi Code"   Margin="0,0,-6,0"   Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="2"   TextColor="White"   FontSize="14"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center">
+                                            <local:LabelRender.BackgroundColor>
+                                                <OnPlatform x:TypeArguments="Color">
+                                                    <OnPlatform.WinPhone>#96001D</OnPlatform.WinPhone>
+                                                    <OnPlatform.iOS>#96001D</OnPlatform.iOS>
+                                                </OnPlatform>
+                                            </local:LabelRender.BackgroundColor>
+                                        </local:LabelRender>
+
+                                        <local:BoxBorderEntry  Placeholder="Enter Combi Code"      Grid.Row="0" Grid.Column="2"   Grid.ColumnSpan="4"  TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+                                        <Label  Text="Combi Name" Grid.Row="0" Grid.Column="6"   Grid.ColumnSpan="2" VerticalTextAlignment="Center"    HorizontalTextAlignment="Start"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+
+                                    </Grid>
+
+                                </StackLayout>
+
+
+                                <!-- 
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+              <Label  Text="ItemCode" WidthRequest="40" VerticalTextAlignment="Center"    HorizontalOptions="FillAndExpand"   HorizontalTextAlignment="Start"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+              <Label  Text="Item Name"  WidthRequest="80" VerticalTextAlignment="Center"    HorizontalOptions="FillAndExpand"   HorizontalTextAlignment="Start"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+              <Label  Text="Qty"  WidthRequest="40" VerticalTextAlignment="Center"    HorizontalOptions="Start"   HorizontalTextAlignment="Start"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+              <Label  Text="Item Price"  WidthRequest="35" VerticalTextAlignment="Center"     HorizontalOptions="FillAndExpand"   HorizontalTextAlignment="Start"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+              <Label  Text="Optional Combi"  WidthRequest="60" VerticalTextAlignment="Center"    HorizontalOptions="FillAndExpand"   HorizontalTextAlignment="Start"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+              
+            </StackLayout>
+                -->
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+
+                                    <Grid  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5" >
+                                        <Grid.ColumnDefinitions >
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="50" />
+                                            <RowDefinition Height="50" />
+                                        </Grid.RowDefinitions>
+
+                                        <local:BoxBorderEntry  Placeholder="Item Code"    Grid.Row="0" Grid.Column="0"   Grid.ColumnSpan="2"       TextColor="#787878" PlaceholderColor="#969696"/>
+                                        <local:BoxBorderEntry  Placeholder="Item Name"  Grid.Row="0" Grid.Column="2"  Grid.ColumnSpan="3"  TextColor="#787878" PlaceholderColor="#969696"/>
+                                        <Label  Text="20"  VerticalTextAlignment="Center"   Grid.Row="0" Grid.Column="5"  HorizontalTextAlignment="Start"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+                                        <local:BoxBorderEntry  Placeholder="Item Price"  Keyboard="Numeric"    Grid.Row="0" Grid.Column="6"  Grid.ColumnSpan="2" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                                        <Label   Text="Optional Combi" FontSize="16" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"   VerticalTextAlignment="Center"  FontFamily="Bold" TextColor="#000000"></Label>
+                                        <Switch  x:Name="popupToggle" Toggled="popup"  VerticalOptions="Center" Grid.ColumnSpan="2"  Grid.Row="1" Grid.Column="1"   />
+
+                                    </Grid>
+
+
+                                    <!-- 
+              <local:BoxBorderEntry  Placeholder="Item Code"  WidthRequest="40"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <local:BoxBorderEntry  Placeholder="Item Name"   WidthRequest="80" HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <Label  Text="20"  VerticalTextAlignment="Center" WidthRequest="40"   HorizontalOptions="Start"   HorizontalTextAlignment="Start"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+             <local:BoxBorderEntry  Placeholder="Item Price" WidthRequest="35"   Keyboard="Numeric"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+               -->
+
+                                </StackLayout>
+                                <!--
+         
+               <Switch x:Name="popupToggle"      HorizontalOptions="FillAndExpand" WidthRequest="30" Toggled="popup" VerticalOptions="Center" />  
+         -->
+                            </StackLayout>
+
+                        </Frame>
+                    </StackLayout>
+
+
+
+
+                    <ContentView  x:Name="CombiCV"   AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                 AbsoluteLayout.LayoutFlags="All"     HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"   BackgroundColor="#C0808080"   IsVisible="false">
+                        <Frame  HasShadow="True"  CornerRadius="5"     BackgroundColor="#FEF0E3" Padding="0" HorizontalOptions="FillAndExpand"  HeightRequest="200" VerticalOptions="Center"  Margin="5" >
+
+
+                            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" >
+
+
+                                <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand"  VerticalOptions="Center" Margin="5" Padding="5" Spacing="5">
+                                    <local:BoxBorderEntry   x:Name="entryCombiCode"  WidthRequest="60"  Placeholder="Item Code "    HorizontalOptions="FillAndExpand"   TextColor="#FF6B6868" PlaceholderColor="#FF6B6868"/>
+                                    <local:BoxBorderEntry   x:Name="entryCombiName"  WidthRequest="60" Placeholder="Item Name "    HorizontalOptions="FillAndExpand"  TextColor="#FF6B6868" PlaceholderColor="#FF6B6868"/>
+                                    <local:BoxBorderEntry   x:Name="entryCombiQty"  Keyboard="Numeric"   WidthRequest="25" Placeholder=" Qty "    HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"   TextColor="#FF6B6868" PlaceholderColor="#FF6B6868"/>
+
+                                    <Image x:Name="rateimg" Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer
+                Tapped="AddIconCombiItemclicked"/>
+                                        </Image.GestureRecognizers>
+                                    </Image>
+                                </StackLayout>
+
+                                <StackLayout  x:Name="CombiListSL"   Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5"  IsVisible="False" >
+
+
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                                        <ListView x:Name="CombList"
+                          SeparatorVisibility="None"
+                   RowHeight="35">
+                                            <ListView.ItemTemplate>
+                                                <DataTemplate>
+                                                    <ViewCell>
+
+                                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                                                            <Label Text="{Binding CombiCode}"   WidthRequest="60" HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+                                                            <Label Text="{Binding CombiName}"   WidthRequest="60" HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+                                                            <Label Text="{Binding CombiQty}"  WidthRequest="25"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+
+
+                                                        </StackLayout>
+                                                    </ViewCell>
+                                                </DataTemplate>
+                                            </ListView.ItemTemplate>
+                                        </ListView>
+                                    </StackLayout>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="End" VerticalOptions="End"  >
+                                    <Button  Text="Cancel"  WidthRequest="100" HeightRequest="40"  HorizontalOptions="End"    TextColor="White" BackgroundColor="#446a81" Clicked="CancelCombi"></Button>
+                                    <Button  Text="Save"   WidthRequest="100"  HeightRequest="40"  HorizontalOptions="End" TextColor="White" BackgroundColor="#41af4b" Clicked="SaveCombi"></Button>
+                                </StackLayout>
+
+                            </StackLayout>
+
+                        </Frame>
+                    </ContentView>
+
+                </AbsoluteLayout>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>

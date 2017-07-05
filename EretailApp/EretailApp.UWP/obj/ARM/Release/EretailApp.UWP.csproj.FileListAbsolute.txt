@@ -1,0 +1,12 @@
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\ilc\intermediate\MDIL\EretailApp.UWP.mdilexe
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\EretailApp.UWP.csprojResolveAssemblyReference.cache
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\App.g.i.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\App.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\MainPage.g.i.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\MainPage.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\XamlTypeInfo.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\App.xaml
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\MainPage.xaml
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\App.xbf
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\MainPage.xbf
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\ARM\Release\XamlSaveStateFile.xml

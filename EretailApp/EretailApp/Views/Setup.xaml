@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:local="clr-namespace:EretailApp"
+             x:Class="EretailApp.Views.Setup"
+              BackgroundColor="White"
+             Title="Setup">
+  <ContentPage.Resources>
+
+    <ResourceDictionary x:Name="AppDictionary">
+      <Color x:Key="BackgroundColor">#FFFFFF</Color>
+      <Color x:Key="BorderColor">#FF696565</Color>
+      <Style x:Key="InternalViewStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor"
+            Value="{StaticResource BackgroundColor}"/>
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+      <Style x:Key="BorderStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+      <Style x:Key="plainEntry" TargetType="Entry">
+        <Setter Property="BackgroundColor" Value="#eee"/>
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="FontSize" Value="16" />
+      </Style>
+
+      <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+        <Setter Property="BackgroundColor" Value="#41af4b"/>
+        <Setter Property="BorderColor" Value="Blue"/>
+        <Setter Property="HeightRequest" Value="42"/>
+        <Setter Property="BorderRadius" Value="5"/>
+        <Setter Property="BorderWidth" Value="0" />
+        <Setter Property="TextColor" Value="White"/>
+      </Style>
+
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+
+  <StackLayout Orientation="Vertical"  VerticalOptions="FillAndExpand"  BackgroundColor="#FFFFFF" HorizontalOptions="FillAndExpand" Padding="3"  Margin="3" >
+
+
+    <StackLayout   HorizontalOptions="FillAndExpand"  >
+      <Grid BackgroundColor="#FE7C08"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="5" >
+        <Grid.ColumnDefinitions >
+              <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="100" />
+          <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+           <Image
+                HeightRequest="30"
+                      Margin="20,0,20,0"
+                WidthRequest="30"
+                     Source="back.png"
+               VerticalOptions="Center"
+                 
+               HorizontalOptions="Start"   Grid.Row="0" Grid.Column="0">
+          <Image.GestureRecognizers>
+            <TapGestureRecognizer
+                        Tapped="back"
+                         />
+          </Image.GestureRecognizers>
+
+
+
+        </Image>
+
+        <Label      Text="Settings"  VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="White" ></Label>
+
+        <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" ></Button>
+        <Button  Text="Save"  Grid.Row="0" Grid.Column="3" TextColor="White" BackgroundColor="#41af4b" Clicked="btnSavesettings"></Button>
+      </Grid>
+    </StackLayout>
+    
+        <ScrollView>
+  
+    <StackLayout Orientation="Vertical"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+      
+         <!-- general  Settings -->
+      <StackLayout> 
+<ContentView  HorizontalOptions="FillAndExpand" >
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+
+          <StackLayout Orientation="Vertical" >
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+  <Label   Text="general Settings" FontSize="12"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#FE7C08"></Label>
+  </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+              
+            <local:BoxBorderEntry  Placeholder=" Shop Name"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                  <local:BoxBorderEntry  Placeholder="Address1"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                  <local:BoxBorderEntry  Placeholder="Address2"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+      
+          </StackLayout>
+          
+          <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+              
+            <local:BoxBorderEntry  Placeholder="Country"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                  <local:BoxBorderEntry  Placeholder="State"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                  <local:BoxBorderEntry  Placeholder="City"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+      
+          </StackLayout>
+          
+         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+              
+            <local:BoxBorderEntry  Placeholder="Zip"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                  <local:BoxBorderEntry  Placeholder="Contact Number"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                  <local:BoxBorderEntry  Placeholder="Email ID"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+      
+          </StackLayout>
+          
+       <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+              
+            <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="GST / CST" FontSize="16"  WidthRequest="200"   VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Start" Margin="20,0,0,0" IsToggled="True"  VerticalOptions="Center" />
+              </StackLayout>
+
+                  <local:BoxBorderEntry  Placeholder="Footer 1"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+          <local:BoxBorderEntry  Placeholder="Footer 2"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+      
+          </StackLayout>  
+      
+    </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>
+    </StackLayout>
+ 
+      
+      
+        
+          
+            
+              
+      
+        
+        <!-- language-->
+<StackLayout> 
+<ContentView  HorizontalOptions="FillAndExpand"  >
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+
+          <StackLayout Orientation="Vertical" >
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" Spacing="5" >
+  <Label   Text="Language" FontSize="12"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#FE7C08"></Label>
+  </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+              <StackLayout Orientation="Horizontal" WidthRequest="250">
+                <!--<Picker x:Name="picklng"  TextColor="#000000"   ItemsSource="{Binding Languages}"  BackgroundColor="White" Title="Choose Language" HorizontalOptions="FillAndExpand"  SelectedIndexChanged="onselecteditem" SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}" />--> 
+      <Picker x:Name="LangPicker"  TextColor="#000000"   BackgroundColor="White" Title="Choose Language" HorizontalOptions="FillAndExpand"  SelectedIndexChanged="ChooseLang"  />
+    </StackLayout>
+          </StackLayout>
+    </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>
+    </StackLayout>
+      
+      
+      
+    <!-- Payment Modes-->
+      
+<StackLayout > 
+ 
+
+   <ContentView  HorizontalOptions="FillAndExpand" >
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+     <StackLayout Orientation="Vertical" >
+       
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+  <Label   Text="Payment Modes" FontSize="12"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#FE7C08"></Label>
+  </StackLayout>
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                    <StackLayout Orientation="Horizontal" WidthRequest="250">
+              <Picker x:Name="PaymentModePicker"  TextColor="#000000"   BackgroundColor="White" Title="Choose Payment Mode" HorizontalOptions="FillAndExpand"  SelectedIndexChanged="ChoosePayment"  />
+               </StackLayout>
+                    </StackLayout>
+              
+           
+               <!--      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+  <Label   Text="Payment Modes" FontSize="12"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#FE7C08"></Label>
+  </StackLayout>
+              
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+
+      <Button  x:Name="paybtn"   Text="PayMent Modes " FontSize="16"      BackgroundColor="White"   HorizontalOptions="Start" FontFamily="Bold" TextColor="##969696" Clicked="btnpayment"></Button>
+
+     
+    </StackLayout>
+                
+               <StackLayout    x:Name="paymentlistsl"   Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="5" Spacing="5"  IsVisible="false">
+                 
+         <ListView x:Name="PaymentList" ItemSelected="OnPaymentModeSelected"
+            RowHeight="35">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+
+           <StackLayout  Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label  Text="{Binding PaymentMode}" FontSize="18" HeightRequest="35" WidthRequest="200"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" IsToggled="{Binding IsOwned, Mode=TwoWay} "  HeightRequest="35" Margin="20,0,0,0" VerticalOptions="Center" />
+              </StackLayout>  
+        
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+           <Button  Text="Cancel"   HorizontalOptions="FillAndExpand"  TextColor="White" BackgroundColor="#446a81" ></Button>
+        <Button  Text="Save"    HorizontalOptions="FillAndExpand" Style="{StaticResource ButtonStyle}"  Clicked="savepaylist"></Button>
+        </StackLayout>         
+     </StackLayout>
+              
+              
+              <StackLayout    x:Name="selectpaymentlistsl"   HorizontalOptions="FillAndExpand" Padding="5" Spacing="5"  IsVisible="false">
+         <ListView x:Name="selectPaymentList" 
+            RowHeight="35">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+
+           <StackLayout  Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label  Text="{Binding PaymentMode}" FontSize="18" HeightRequest="35" WidthRequest="200"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" IsToggled="{Binding IsOwned, Mode=TwoWay} "  HeightRequest="35" Margin="20,0,0,0" VerticalOptions="Center" />
+              </StackLayout>  
+        
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>  -->   
+                
+              
+              
+            <!--   <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Card" FontSize="18" WidthRequest="100"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch  HorizontalOptions="End" IsToggled="True"   Margin="40,0,0,0"  VerticalOptions="Center" />
+              
+               <Label   x:Name="swcard"   WidthRequest="20"  FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="FillAndExpand" FontFamily="Bold" TextColor="#000000"></Label>  
+              </StackLayout>
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Credit" FontSize="18" WidthRequest="100"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" IsToggled="{Binding IsOwned, Mode=TwoWay} "  Toggled="swcard"   Margin="40,0,0,0" VerticalOptions="Center" />
+              </StackLayout>
+
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Cheque" FontSize="18"  WidthRequest="100"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" Margin="40,0,0,0" VerticalOptions="Center" />
+              </StackLayout>  -->
+           
+     </StackLayout>
+    </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>
+ </StackLayout>
+   <!--Billing Mode-->
+<StackLayout> 
+
+   
+
+
+ <ContentView  HorizontalOptions="FillAndExpand" >
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+
+          <StackLayout >
+            <!-- Swich Buttons-->
+            <StackLayout Orientation="Vertical" >
+ <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" Spacing="5" >
+  <Label   Text="Billing Mode" FontSize="12"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#FE7C08"></Label>
+  </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" >
+
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Manual" FontSize="16"  WidthRequest="200"   VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Start" Margin="20,0,0,0" IsToggled="True"  VerticalOptions="Center" />
+              </StackLayout>
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Barcode Scan"  FontSize="16"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Start" Margin="20,0,0,0"   VerticalOptions="Center" />
+              </StackLayout>
+
+            </StackLayout>
+            </StackLayout>
+         </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>
+       </StackLayout>
+      
+       <!--Bill printing-->
+
+<StackLayout> 
+ 
+       <ContentView  HorizontalOptions="FillAndExpand"  >
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+
+          <StackLayout Orientation="Vertical" >
+            <!-- Swich Buttons-->
+   <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5">
+  <Label   Text="Bill printing" FontSize="12"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#FE7C08"></Label>
+  </StackLayout>
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="5" >
+
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Show On Screen "  FontSize="16" WidthRequest="200" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Start"  Margin="20,0,0,0"  IsToggled="True"  VerticalOptions="Center" />
+              </StackLayout>
+             <!-- <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Printer" FontSize="18" WidthRequest="100" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" Margin="40,0,0,0" VerticalOptions="Center" />
+              </StackLayout>
+              -->
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Send Email"  FontSize="16" WidthRequest="200" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" Margin="20,0,0,0"  VerticalOptions="Center" />
+              </StackLayout>
+
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Send SMS Notification" WidthRequest="200"  FontSize="16"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" Margin="20,0,0,0" VerticalOptions="Center" />
+              </StackLayout>
+          
+        
+    </StackLayout>
+          </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>
+        
+        </StackLayout>
+
+
+      <!--SMS/Notification-->
+      
+               <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="5" >
+
+      
+     
+      
+   <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+
+      <!--Business-->
+      
+      
+  <ContentView  HorizontalOptions="FillAndExpand" >
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+
+          <StackLayout Orientation="Vertical" >
+            <!-- Swich Buttons-->
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="5" >
+
+              <Label   Text="SMS Notification - Business" FontSize="12"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#FE7C08"></Label>
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                
+                <Label   Text="Hourly Sales" WidthRequest="200"   FontSize="16"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Start" IsToggled="True" Margin="20,0,0,0"   VerticalOptions="Center" />
+                <local:BoxBorderEntry   x:Name="entryHr"   Keyboard="Numeric" Placeholder="Enter Number "    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              
+                <StackLayout x:Name="HrAddiconsl"  VerticalOptions="Center" HorizontalOptions="End" IsVisible="true">
+
+               <Image  Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End" >
+                   <Image.GestureRecognizers>
+                     <TapGestureRecognizer
+                                 Tapped="HrItemClilcked"
+                         />
+                   </Image.GestureRecognizers>
+                 </Image>
+
+               </StackLayout>
+
+               
+                <StackLayout x:Name="HrMinusiconsl" VerticalOptions="Center" HorizontalOptions="End" IsVisible="false">
+                <Image Aspect="AspectFit"  Source="minusIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                                Tapped="HrItemClilckedMinus"
+                         />
+                  </Image.GestureRecognizers>
+                </Image>
+                </StackLayout>
+                
+              
+              
+              </StackLayout>
+               
+                <StackLayout  x:Name="HrlistSL"   Orientation="Horizontal" HorizontalOptions="FillAndExpand"    WidthRequest="150"     Padding="5"  IsVisible="False" >
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" > 
+                   <SearchBar x:Name="searchHr" Placeholder="Search here"    HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" SearchButtonPressed="btnclick" ></SearchBar>
+                    <ListView x:Name="HrList"
+                       RowHeight="35"
+                      ItemSelected="OnHrItemSelected">
+                   <ListView.ItemTemplate>
+                   <DataTemplate>
+                    <ViewCell>
+
+                      <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"   BackgroundColor="White">
+                     <Label Text="{Binding HourlySales}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+
+                    </StackLayout>
+                    </ViewCell>
+                  </DataTemplate>
+                </ListView.ItemTemplate>
+              </ListView>
+                  </StackLayout>
+             </StackLayout>
+             
+                
+                
+              
+              
+              
+              
+              
+            
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="DayEnd Sales"  WidthRequest="200"  FontSize="16" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" Margin="20,0,0,0" VerticalOptions="Center" />
+                <local:BoxBorderEntry   x:Name="entryDayEnd"   Keyboard="Numeric" Placeholder="Enter Number "    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              
+                <StackLayout x:Name="DayEndAddiconsl"  VerticalOptions="Center" HorizontalOptions="End" IsVisible="true">
+
+               <Image  Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End" >
+                   <Image.GestureRecognizers>
+                     <TapGestureRecognizer
+                                 Tapped="DayEndItemClilcked"
+                         />
+                   </Image.GestureRecognizers>
+                 </Image>
+
+               </StackLayout>
+
+               
+                <StackLayout x:Name="DayEndMinusiconsl" VerticalOptions="Center" HorizontalOptions="End" IsVisible="false">
+                <Image Aspect="AspectFit"  Source="minusIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                                Tapped="DayEndItemClilckedMinus"
+                         />
+                  </Image.GestureRecognizers>
+                </Image>
+                </StackLayout>
+              </StackLayout>
+              
+            
+              
+                 <StackLayout  x:Name="DayEndlistSL"   Orientation="Horizontal" HorizontalOptions="FillAndExpand"    WidthRequest="150"     Padding="5"  IsVisible="False" >
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" > 
+                   <SearchBar x:Name="searchDayEnd" Placeholder="Search here"    HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" SearchButtonPressed="btnDayEndclick" ></SearchBar>
+                    <ListView x:Name="DayEndList"
+                       RowHeight="35"
+                      ItemSelected="OnDayEndItemSelected">
+                   <ListView.ItemTemplate>
+                   <DataTemplate>
+                    <ViewCell>
+
+                      <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"   BackgroundColor="White">
+                     <Label Text="{Binding DayendSales}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+
+                    </StackLayout>
+                    </ViewCell>
+                  </DataTemplate>
+                </ListView.ItemTemplate>
+              </ListView>
+                  </StackLayout>
+             </StackLayout>
+              
+          
+            
+
+         
+           <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+             <Label   Text="Bill Cancellation"  WidthRequest="200"  FontSize="16"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+             <Switch  x:Name="swdept" HorizontalOptions="End"       Margin="20,0,0,0" VerticalOptions="Center" />
+           </StackLayout>
+
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Refund" FontSize="16" WidthRequest="200"   VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch  x:Name="swcatg" HorizontalOptions="Start" Margin="20,0,0,0"     VerticalOptions="Center" />
+              </StackLayout>
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Discount"  FontSize="16" WidthRequest="200"   VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch  x:Name="swbrand" HorizontalOptions="End"  Margin="20,0,0,0" VerticalOptions="Center" />
+              </StackLayout>
+          
+            
+            
+            <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+              <Label   Text="Stock Out" FontSize="16" WidthRequest="200"   VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+              <Switch  x:Name="swUom" HorizontalOptions="End"  Margin="20,0,0,0"  VerticalOptions="Center" />
+            </StackLayout>
+           
+           </StackLayout>
+          </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>
+      
+      
+
+      
+      
+          <!--Customer-->
+      
+  
+ <ContentView  HorizontalOptions="FillAndExpand" >
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+
+          <StackLayout Orientation="Vertical" >
+            <!-- Swich Buttons-->
+            
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="5" >
+              <Label   Text="SMS Notification - Customer" FontSize="12"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#FE7C08"></Label>
+           <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                
+                <Label   Text="On Every Transaction" WidthRequest="200"    FontSize="16"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Start"  x:Name="swTax" Margin="20,0,0,0"  IsToggled="True"  VerticalOptions="Center" />
+              </StackLayout>
+              
+             <!--  <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Promotions /Offers"  WidthRequest="150"   FontSize="18"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End"   Margin="40,0,0,0" VerticalOptions="Center" />
+              </StackLayout>
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Greetings"  WidthRequest="150"  FontSize="18"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End"   Margin="40,0,0,0" VerticalOptions="Center" />
+              </StackLayout>
+              -->
+            
+          
+            
+
+         
+           <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+             <Label   Text="Credit"  WidthRequest="200"   FontSize="16" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+             <Switch HorizontalOptions="End" Margin="20,0,0,0" VerticalOptions="Center" />
+           </StackLayout>
+          <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="PrePaid"  WidthRequest="200"   FontSize="16"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch  x:Name="swMarkup"  HorizontalOptions="End"   Margin="20,0,0,0" VerticalOptions="Center" />
+              </StackLayout>
+            
+           
+           </StackLayout>
+          </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>  
+      </StackLayout>
+      
+      
+       <!--Hardware Setting-->
+      
+  
+
+
+    <ContentView  HorizontalOptions="FillAndExpand"  >
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+
+          <StackLayout Orientation="Vertical" >
+            <!-- Swich Buttons-->
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="5" >
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" >
+  <Label   Text="Hardware Setting" FontSize="12"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#FE7C08"></Label>
+  </StackLayout>
+
+           
+             <StackLayout Orientation="Horizontal" >
+               
+               <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Receipt Printer " WidthRequest="200"   FontSize="16"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Start" Margin="20,0,0,0" IsToggled="True"  VerticalOptions="Center" />
+              </StackLayout>
+               
+                <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Blue Tooth Printer " WidthRequest="100"   FontSize="16" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Start" Margin="5,0,0,0"   VerticalOptions="Center" />
+              </StackLayout>
+               
+                     <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="NetWork  Printer " WidthRequest="100"   FontSize="16" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Start" Margin="5,0,0,0"   VerticalOptions="Center" />
+                    <local:BoxBorderEntry  Placeholder="Ip Address"    HorizontalOptions="FillAndExpand"   TextColor="#787878" PlaceholderColor="#969696"/>
+                     <local:BoxBorderEntry  WidthRequest="40" Placeholder="Port"   Margin="5,0,0,0"  HorizontalOptions="FillAndExpand"   TextColor="#787878" PlaceholderColor="#969696"/>
+              </StackLayout>
+             
+               </StackLayout>
+                
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Barcode  Printer" WidthRequest="200"  FontSize="16"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" Margin="20,0,0,0" VerticalOptions="Center" />
+              </StackLayout>
+              <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Receipt Format View"  WidthRequest="200"  FontSize="16"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" Margin="20,0,0,0"  VerticalOptions="Center" />
+              </StackLayout>
+
+            </StackLayout>
+
+
+          </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>
+
+
+
+               </StackLayout>
+ 
+     
+  </StackLayout>
+   </ScrollView>
+
+
+  </StackLayout>
+</ContentPage>

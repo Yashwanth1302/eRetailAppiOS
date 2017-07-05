@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:EretailApp"
+             BackgroundImage="splash_ta.jpg"
+             x:Class="EretailApp.ProductConfig">
+  
+  
+  <ContentPage.Resources>
+
+    <ResourceDictionary x:Name="AppDictionary">
+      <Color x:Key="BackgroundColor">#FFFFFF</Color>
+      <Color x:Key="BorderColor">#FF696565</Color>
+      <Style x:Key="InternalViewStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor"
+            Value="{StaticResource BackgroundColor}"/>
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="Padding" Value="3,3,3,3"></Setter>
+      </Style>
+      <Style x:Key="BorderStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+      <Style x:Key="plainEntry" TargetType="Entry">
+        <Setter Property="BackgroundColor" Value="#eee"/>
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="FontSize" Value="16" />
+      </Style>
+
+      <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+        <Setter Property="BackgroundColor" Value="#41af4b"/>
+        <Setter Property="BorderColor" Value="Blue"/>
+        <Setter Property="HeightRequest" Value="42"/>
+        <Setter Property="BorderRadius" Value="5"/>
+        <Setter Property="BorderWidth" Value="0" />
+        <Setter Property="TextColor" Value="White"/>
+      </Style>
+
+
+    </ResourceDictionary>
+  </ContentPage.Resources>
+ 
+    
+  <StackLayout Padding="0" Spacing="0" Orientation="Vertical"  Margin="10">
+<StackLayout Padding="10,0,10,10" Spacing="10,0,10,10">
+      <Grid BackgroundColor="#FE7C08" Padding="5">
+        <Grid.ColumnDefinitions >
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="100" />
+          <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Image
+                   Aspect="AspectFill"
+                    Margin="10"
+                     Source="back.png"
+               VerticalOptions="Center"
+                 
+               HorizontalOptions="Start"   Grid.Row="0" Grid.Column="0">
+          <Image.GestureRecognizers>
+            <TapGestureRecognizer
+                        Tapped="back"
+                         />
+          </Image.GestureRecognizers>
+
+
+        </Image>
+        <Label  Text="Product" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
+
+                <Button  Text="Cancel"        Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" Clicked="cancel_clicked"></Button>
+        <Button  Text="Save" TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3"   ></Button>
+      </Grid>
+    </StackLayout>
+
+
+
+
+    <ScrollView>
+      <StackLayout  Orientation="Vertical"  Padding="5" Spacing="5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <AbsoluteLayout>
+          <StackLayout AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                     AbsoluteLayout.LayoutFlags="All"> 
+
+
+        <!-- <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#FE7C08" >
+     <Image
+                 HeightRequest="30"
+                       Margin="20,0,20,0"
+                 WidthRequest="30"
+                      Source="backicon.png"
+                VerticalOptions="Center"
+                 
+                HorizontalOptions="Start">
+        
+      </Image>
+        <Label  x:Name="product" Text="Create Product" VerticalTextAlignment="Center"       HorizontalTextAlignment="Center"    FontSize="20"  HorizontalOptions="Center" FontFamily="Bold" TextColor="#000000"></Label>
+        <Button  x:Name="Cancel"   Text="Cancel"  HorizontalOptions="End"  TextColor="White" BackgroundColor="#446a81" ></Button>
+        <Button x:Name="Save" Text="Save" Style="{StaticResource ButtonStyle}"  HorizontalOptions="End"  ></Button>
+      </StackLayout>
+      -->
+            
+              <StackLayout Orientation="Vertical" Padding="5" >
+
+        <Frame HasShadow="True" BackgroundColor="#A2FFFFFF" HorizontalOptions="FillAndExpand">
+          <StackLayout Orientation="Horizontal">
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5">
+                <local:LabelRender Text="Product Description" HeightRequest="60"       Margin="0,0,-15,0"  WidthRequest="200"  TextColor="White"   FontSize="18"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start" />
+                <local:BoxBorderEntry  Placeholder="Enter Product Description" HeightRequest="60" WidthRequest="65" FontFamily="Italic" FontSize="20" HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+               </StackLayout>
+              
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5">
+                <local:LabelRender Text="SKU Code"   Margin="0,0,-15,0"  WidthRequest="200"  TextColor="White"   FontSize="18"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start" />
+                <local:BoxBorderEntry  Placeholder="Enter SKU Code"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:LabelRender Text="Bill Description"   Margin="0,0,-15,0"  WidthRequest="200"  TextColor="White"   FontSize="18"  HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start" />
+                <local:BoxBorderEntry  Placeholder="Enter Bill  Description"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              </StackLayout>
+<!-- 
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5">
+
+                <local:BoxBorderEntry  Placeholder="Enter Long Description"   HorizontalOptions="FillAndExpand" TextColor="White" PlaceholderColor="#969696"/>
+                <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+
+
+              </StackLayout>
+-->
+            </StackLayout>
+         
+          </StackLayout>
+          
+        </Frame>
+      </StackLayout>
+
+
+
+            <StackLayout Orientation="Horizontal" Padding="5" HorizontalOptions="FillAndExpand" >
+             
+              <Frame HasShadow="True"    BackgroundColor="#A2FFFFFF" HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5">
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"  WidthRequest="300">
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5">
+                   <local:BoxBorderEntry  Placeholder="Enter Product Code"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                    <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                    <local:BoxBorderEntry  Placeholder="Enter Short Description"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                    <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                  </StackLayout>
+
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5">
+                 <local:BoxBorderEntry  Placeholder="Enter Long Description"   HorizontalOptions="FillAndExpand" TextColor="White" PlaceholderColor="#969696"/>
+                    <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                    </StackLayout>
+                  
+                 
+                </StackLayout>
+                
+                </StackLayout>
+
+              </Frame>
+
+
+              <Frame HasShadow="True"    BackgroundColor="#A2FFFFFF" HorizontalOptions="End">
+                <StackLayout HorizontalOptions="End"  WidthRequest="100"  >
+                  <Image Source="CamaraIcon.png"  Aspect="AspectFit"  HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"   />
+                </StackLayout>
+              </Frame>
+            </StackLayout>
+       
+
+              
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            <!-- 
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand"  >
+          <ContentView Style="{StaticResource BorderStyle}" >
+            <ContentView Style="{StaticResource InternalViewStyle}">
+              <StackLayout Orientation="Horizontal">
+                
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5">
+
+                    <local:BoxBorderEntry  Placeholder="Enter Product Code"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                    <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                    <local:BoxBorderEntry  Placeholder="Enter Short Description"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                    <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                  </StackLayout>
+
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5">
+
+                    <local:BoxBorderEntry  Placeholder="Enter Long Description"   HorizontalOptions="FillAndExpand" TextColor="White" PlaceholderColor="#969696"/>
+                 <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                   
+                  
+                 </StackLayout>
+                   
+                </StackLayout>
+                  <StackLayout HorizontalOptions="End"  > 
+                  <Image Source="CamaraIcon.png"  Aspect="AspectFit"  HeightRequest="150" WidthRequest="150" HorizontalOptions="FillAndExpand"   />
+               </StackLayout>
+                </StackLayout>
+            </ContentView>
+          </ContentView>
+        </ContentView>
+          -->  
+            
+            
+            
+
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+          <ContentView Style="{StaticResource BorderStyle}" >
+            <ContentView Style="{StaticResource InternalViewStyle}">
+              <StackLayout Orientation="Vertical">
+                <Label   Text="Hierarchy group" FontSize="12"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#FFED9EA6"></Label>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" >
+                  <StackLayout  x:Name="entryhgSl"  Orientation="Horizontal" HorizontalOptions="FillAndExpand" >
+                  <local:BoxBorderEntry    Keyboard="Numeric" Placeholder="Hierarchy group"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End"   >
+                    <Image.GestureRecognizers>
+                      <TapGestureRecognizer
+                        Tapped="ImgAddHg" />
+                    </Image.GestureRecognizers>
+                  </Image>
+
+                  </StackLayout>
+                  
+                   <StackLayout  x:Name="brandsl"     Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                  <Picker x:Name="BrandPicker"  TextColor="#000000"  Title="Choose Brand"
+                       HorizontalOptions="FillAndExpand"   BackgroundColor="White"   >
+                    <Picker.Items>
+                      <x:String>Brand</x:String>
+                    </Picker.Items>
+                  </Picker>
+                   
+                  </StackLayout>
+                  
+                  </StackLayout>
+                  
+                 <!--  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                    <Picker x:Name="DepartmentPicker"  TextColor="#000000"
+                       HorizontalOptions="FillAndExpand"  Title="Choose Department"  BackgroundColor="White"   >
+                      <Picker.Items>
+                        <x:String>Department</x:String>
+                      </Picker.Items>
+                    </Picker>
+                    <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                  </StackLayout>
+                 
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                  <Picker x:Name="CategoryPicker"  TextColor="#000000"  
+                       HorizontalOptions="FillAndExpand"  Title="Choose Category"   BackgroundColor="White"   >
+                    <Picker.Items>
+                      <x:String>Category</x:String>
+                      </Picker.Items>
+                        </Picker>
+                    <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                  </StackLayout>
+                    -->
+                 
+                <StackLayout x:Name="Hgsl" Orientation="Vertical" HorizontalOptions="FillAndExpand"  IsVisible="false">
+                  <SearchBar x:Name="searchHg" Placeholder="Search HG"    HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray"  SearchButtonPressed="btnclick"></SearchBar>
+                  <ListView x:Name="HgList"
+                         HasUnevenRows="True" >
+                    <ListView.ItemTemplate>
+                      <DataTemplate>
+                        <ViewCell>
+                          <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                            <Label Text="{Binding HGroup}"  WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                          </StackLayout>
+                        </ViewCell>
+                      </DataTemplate>
+                    </ListView.ItemTemplate>
+                  </ListView>
+
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="End"  >
+                    <Button  Text="Cancel"  WidthRequest="200" HeightRequest="40"  HorizontalOptions="End"    TextColor="White" BackgroundColor="#446a81" ></Button>
+                    <Button  Text="Add NewCategory"   WidthRequest="200"  HeightRequest="40"  HorizontalOptions="End" TextColor="White" BackgroundColor="#41af4b" Clicked="HgPopup"></Button>
+                  </StackLayout>
+                </StackLayout>
+
+
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5">
+                  <local:LabelRender Text="UOM"   Margin="0,0,-15,0"  WidthRequest="65"  TextColor="Black"    HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Fill"  FontSize="16" />
+                  <local:BoxBorderEntry x:Name="entryUom"  Placeholder="Enter UOM"  WidthRequest="40"   HorizontalOptions="FillAndExpand" TextColor="White" PlaceholderColor="#969696"/>
+                  <Image Aspect="AspectFill" Source="Star.png"       VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                  <local:BoxBorderEntry x:Name="entryTax" Placeholder="Enter Tax"   Keyboard="Numeric"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                  <local:BoxBorderEntry  Placeholder="Enter Vendor"  WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#FFED9EA6"/>
+                  <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                </StackLayout>
+              </StackLayout>
+            </ContentView>
+          </ContentView>
+        </ContentView>
+
+
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+          <ContentView Style="{StaticResource BorderStyle}" >
+            <ContentView Style="{StaticResource InternalViewStyle}">
+
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" >
+
+                <local:BoxBorderEntry  Placeholder="Enter Cost price "  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                <local:BoxBorderEntry  x:Name="entryMark" Placeholder="Enter MarkUp"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+                <local:BoxBorderEntry  Placeholder="Enter Sales Price"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                <local:BoxBorderEntry  Placeholder="Enter MRP"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <Image Aspect="AspectFill" Source="Star.png" VerticalOptions="Start" HorizontalOptions="Start" ></Image>
+              </StackLayout>
+
+            </ContentView>
+          </ContentView>
+        </ContentView>
+
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+          <ContentView Style="{StaticResource BorderStyle}" >
+            <ContentView Style="{StaticResource InternalViewStyle}">
+
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" >
+
+                <local:BoxBorderEntry  Placeholder="Enter EAN / UPC"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                <local:BoxBorderEntry  Placeholder="Enter QOH"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                <local:BoxBorderEntry  Placeholder="Enter MBQ"    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+              </StackLayout>
+
+            </ContentView>
+          </ContentView>
+        </ContentView>
+
+
+        <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+          <ContentView Style="{StaticResource BorderStyle}" >
+            <ContentView Style="{StaticResource InternalViewStyle}">
+
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" >
+                <Label   Text="InActive" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Center" VerticalOptions="Center" />
+                <Label   Text="Allow Decimal" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Center" VerticalOptions="Center" />
+                <Label   Text="Maintain Inventory" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Center" VerticalOptions="Center" />
+                <Label   Text="Allow Only scan" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Center" VerticalOptions="Center" />
+
+                <Label   Text="OpenRate" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Center" VerticalOptions="Center" />
+              </StackLayout>
+            </ContentView>
+          </ContentView>
+        </ContentView>
+          </StackLayout>
+          
+          <!-- Heirachy Group  Popup Start-->
+
+          <ContentView  x:Name="HgCv" Padding="0" AbsoluteLayout.LayoutBounds="0, 0, 1, 1"  IsVisible="false"
+             AbsoluteLayout.LayoutFlags="All"    HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"   BackgroundColor="#C0808080"   >
+
+            <ContentView Padding="0" HorizontalOptions="FillAndExpand"  VerticalOptions="Center"  Margin="150"    WidthRequest="150"  HeightRequest="350"  >
+              <ContentView Style="{StaticResource BorderStyle}" >
+                <ContentView Style="{StaticResource InternalViewStyle}">
+                  <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  VerticalOptions="Center"   Padding="0" >
+
+                    <StackLayout x:Name="HgSlpop" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                      
+                      <StackLayout x:Name="DeptSl" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                      <StackLayout  Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+                        <Label   Text="Department" VerticalTextAlignment="Center"     HorizontalOptions="Fill"   HorizontalTextAlignment="Center"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+                        <local:BoxBorderEntry  Placeholder="Enter Department"   Margin="5,0,0,0"  WidthRequest="100" Keyboard="Numeric"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                        <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End"   ></Image>
+                      </StackLayout>
+                        
+                        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"  >
+                          <ListView x:Name="DeptList"
+                                 HasUnevenRows="True" >
+                            <ListView.ItemTemplate>
+                              <DataTemplate>
+                                <ViewCell>
+
+                                  <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                                    <Label Text="{Binding Dept}"  WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                                    </StackLayout>
+                                </ViewCell>
+                              </DataTemplate>
+                            </ListView.ItemTemplate>
+                          </ListView>
+                          <StackLayout Orientation="Horizontal" HorizontalOptions="End"  >
+                            <Button  Text="Cancel"  WidthRequest="200" HeightRequest="40"  HorizontalOptions="End"    TextColor="White" BackgroundColor="#446a81" ></Button>
+                            <Button  Text="Add NewCategory"   WidthRequest="200"  HeightRequest="40"  HorizontalOptions="End" TextColor="White" BackgroundColor="#41af4b"></Button>
+                          </StackLayout>
+                        </StackLayout>
+                        
+                      </StackLayout>
+                      
+                      
+                      
+                      <StackLayout  x:Name="CatgSl" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                      <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  >
+                        <Label  Text="Category" VerticalTextAlignment="Center"   HorizontalOptions="Fill"      HorizontalTextAlignment="Center"    FontSize="16"  FontFamily="Bold" TextColor="Black"></Label>
+                        <local:BoxBorderEntry  Placeholder="Enter Catgeory"  Margin="5,0,0,0"  WidthRequest="100"  Keyboard="Numeric"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                        <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End"></Image>
+                      </StackLayout>
+                        <StackLayout HorizontalOptions="FillAndExpand"  >
+                          <ListView x:Name="CatgList"
+                                 HasUnevenRows="True" >
+                            <ListView.ItemTemplate>
+                              <DataTemplate>
+                                <ViewCell>
+
+                                  <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                                    <Label Text="{Binding category}"  WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+                                  </StackLayout>
+                                </ViewCell>
+                              </DataTemplate>
+                            </ListView.ItemTemplate>
+                          </ListView>
+                          <StackLayout Orientation="Horizontal" HorizontalOptions="End"  >
+                            <Button  Text="Cancel"  WidthRequest="200" HeightRequest="40"  HorizontalOptions="End"    TextColor="White" BackgroundColor="#446a81" ></Button>
+                            <Button  Text="Add NewCategory"   WidthRequest="200"  HeightRequest="40"  HorizontalOptions="End" TextColor="White" BackgroundColor="#41af4b"></Button>
+                          </StackLayout>
+                        </StackLayout>
+                      </StackLayout>
+
+                     
+
+                      <StackLayout Orientation="Horizontal" HorizontalOptions="End"  >
+                        <Button  Text="Cancel"  WidthRequest="100" HeightRequest="40"  HorizontalOptions="End"    TextColor="White" BackgroundColor="#446a81" Clicked="btnCancelHgP"></Button>
+                        <Button  Text="Save"   WidthRequest="100"  HeightRequest="40"  HorizontalOptions="End" TextColor="White" BackgroundColor="#41af4b" Clicked="btnSaveHgP"></Button>
+                      </StackLayout>
+                    </StackLayout>
+                  </StackLayout>
+                </ContentView>
+              </ContentView>
+            </ContentView>
+          </ContentView>
+
+
+          <!-- Heirachy Group Popup End -->
+          
+          
+          
+          
+          
+          
+          
+
+
+
+        </AbsoluteLayout>
+      </StackLayout>
+
+    </ScrollView>
+  </StackLayout>
+
+</ContentPage>

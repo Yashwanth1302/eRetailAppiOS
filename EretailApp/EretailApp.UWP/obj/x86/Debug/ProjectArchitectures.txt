@@ -1,0 +1,2 @@
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\EretailApp.UWP.csproj;x86
+E:\Medium\Github\EretailApp\EretailApp\EretailApp\EretailApp.csproj;neutral

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EretailApp.Views.Products"
+             Title="Products">
+    <ListView x:Name="productlist"
+              HasUnevenRows="true">
+        <!--ItemSelected="OnItemSelected"
+              IsPullToRefreshEnabled="True"-->  
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+
+                    <!--<Grid Padding="5">-->
+                        <!--<Grid.RowDefinitions>
+                            <RowDefinition Height="20"></RowDefinition>
+                            <RowDefinition Height="20"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        -->
+                        <!--<Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Source="{Binding Image}" Aspect="AspectFill"/>-->
+                        <!--
+                        <Label Grid.Row="1" Grid.Column="" Text="{Binding ProductName}" x:Name="jsuttile" LineBreakMode="TailTruncation"></Label>
+                        -->
+                        <!--<Label Grid.Row="1" Grid.Column="1" Text="{Binding Smalltitle}" Font="Small"  TextColor="Gray" LineBreakMode="TailTruncation"></Label>-->
+                        <!--
+                        <Image Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" Source="{Binding Image}" Aspect="AspectFill" HorizontalOptions="End" VerticalOptions="End"/>
+                        -->
+                        <!--   <Button Text="Customer1" Grid.Row="0" Grid.Column="0" Clicked="customer1"/>
+              <Button Text="Customer2" Grid.Row="0" Grid.Column="1" />-->
+                        <!--
+                    </Grid>-->
+                    <Grid Padding="3">
+
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Center" HeightRequest="50">
+                            <Label Text="{Binding ProductName}" TextColor="#35A08E" FontSize="19" HorizontalOptions="FillAndExpand" VerticalOptions="Center"></Label>
+                            <Image Source="{Binding Image}" HorizontalOptions="End" Aspect="AspectFill"></Image>
+
+                        </StackLayout>
+                    </Grid>
+                    <!--</Grid>-->
+
+                    <!-- <Image Source="{Binding Icon}"
+               WidthRequest="40"
+               HeightRequest="40"
+               VerticalOptions="Center"/>
+              
+              <Label Text="{Binding Title}"
+                          FontSize="Medium"
+                          VerticalOptions="Center"
+                          TextColor="Black"
+                     LineBreakMode="TailTruncation"/>
+              <Label Text="{Binding Smalltitle}"
+                         FontSize="Small"
+                         VerticalOptions="Center"
+                         TextColor="Black"
+                     LineBreakMode="TailTruncation"/>
+                     
+            </StackLayout>-->
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+    </ListView>
+
+</ContentPage>

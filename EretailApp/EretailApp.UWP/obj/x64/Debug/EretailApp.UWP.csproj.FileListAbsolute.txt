@@ -1,0 +1,1685 @@
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\App.xbf
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\MainPage.xbf
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.xr.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.exe
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\resources.pri
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\AppxManifest.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\AppxManifest.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\EretailApp.UWP.exe
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.build.appxrecipe
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.CSharp.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Core.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Web.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Windows.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Linq.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Serialization.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.VisualBasic.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.DataContractSerialization.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.AppContext.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Concurrent.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Immutable.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.NonGeneric.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Specialized.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.Annotations.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Data.Common.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Contracts.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Debug.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tools.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tracing.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Dynamic.Runtime.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Calendars.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Extensions.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\ClrCompression.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.IsolatedStorage.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Expressions.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Parallel.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Queryable.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Rtc.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.NetworkInformation.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Primitives.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Requests.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Sockets.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ObjectModel.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Networking.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.ServiceModel.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Uri.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Context.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.DispatchProxy.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.ILGeneration.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.Lightweight.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Extensions.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Metadata.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Primitives.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.TypeExtensions.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Resources.ResourceManager.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Extensions.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Handles.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Numerics.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Claims.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Principal.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Duplex.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Http.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.NetTcp.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Primitives.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Security.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.CodePages.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.RegularExpressions.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Overlapped.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Dataflow.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Timer.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.ReaderWriter.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XDocument.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlDocument.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlSerializer.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Core.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.UAP.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Xaml.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.dll
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csprojResolveAssemblyReference.cache
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.i.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.i.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlTypeInfo.g.cs
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xaml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xaml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xbf
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xbf
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlSaveStateFile.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.exe
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.pdb
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\ResourceHandlingTask.state
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.CSharp.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.AppContext.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Concurrent.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Specialized.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Data.Common.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Globalization.Extensions.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.FileSystem.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Expressions.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Parallel.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Queryable.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Http.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Requests.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Metadata.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Extensions.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Numerics.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Security.Claims.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Overlapped.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csproj.GenerateResource.Cache
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml.intermediate
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles.intermediate
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles.intermediate
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles.intermediate
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt.intermediate
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\Xamarin.Forms.Platform.UAP.pri.xml
+D:\Medium\TestXamarin\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\ProjectArchitectures.txt
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\App.xbf
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\MainPage.xbf
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.xr.xml
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.exe
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.pdb
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\resources.pri
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\AppxManifest.xml
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\AppxManifest.xml
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\EretailApp.UWP.exe
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.build.appxrecipe
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.CSharp.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Core.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Web.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Windows.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Linq.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Serialization.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.VisualBasic.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.DataContractSerialization.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.AppContext.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Concurrent.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Immutable.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.NonGeneric.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Specialized.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.Annotations.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Data.Common.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Contracts.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Debug.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tools.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tracing.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Dynamic.Runtime.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Calendars.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Extensions.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\ClrCompression.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.IsolatedStorage.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Expressions.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Parallel.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Queryable.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Rtc.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.NetworkInformation.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Primitives.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Requests.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Sockets.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ObjectModel.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Networking.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.ServiceModel.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Uri.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Context.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.DispatchProxy.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.ILGeneration.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.Lightweight.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Extensions.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Metadata.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Primitives.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.TypeExtensions.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Resources.ResourceManager.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Extensions.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Handles.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Numerics.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Claims.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Principal.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Duplex.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Http.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.NetTcp.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Primitives.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Security.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.CodePages.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.RegularExpressions.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Overlapped.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Dataflow.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Timer.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.ReaderWriter.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XDocument.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlDocument.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlSerializer.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Core.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.UAP.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Xaml.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.dll
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.pdb
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csprojResolveAssemblyReference.cache
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.i.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.i.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlTypeInfo.g.cs
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xaml
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xaml
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xbf
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xbf
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlSaveStateFile.xml
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.exe
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.pdb
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\ResourceHandlingTask.state
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.CSharp.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.AppContext.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Concurrent.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Specialized.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Data.Common.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Globalization.Extensions.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.FileSystem.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Expressions.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Parallel.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Queryable.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Http.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Requests.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Metadata.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Extensions.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Numerics.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Security.Claims.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Overlapped.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csproj.GenerateResource.Cache
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml.intermediate
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles.intermediate
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles.intermediate
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles.intermediate
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt.intermediate
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\Xamarin.Forms.Platform.UAP.pri.xml
+D:\Medium\TestXamarin\EretailApp - Copy\EretailApp\EretailApp.UWP\obj\x64\Debug\ProjectArchitectures.txt
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\App.xbf
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\MainPage.xbf
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.xr.xml
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.exe
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.pdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\resources.pri
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\AppxManifest.xml
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\AppxManifest.xml
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\EretailApp.UWP.exe
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.build.appxrecipe
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.CSharp.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Core.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Web.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Windows.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Linq.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Serialization.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.VisualBasic.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.DataContractSerialization.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.AppContext.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Concurrent.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Immutable.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.NonGeneric.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Specialized.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.Annotations.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Data.Common.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Contracts.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Debug.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tools.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tracing.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Dynamic.Runtime.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Calendars.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Extensions.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\ClrCompression.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.IsolatedStorage.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Expressions.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Parallel.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Queryable.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Rtc.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.NetworkInformation.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Primitives.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Requests.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Sockets.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ObjectModel.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Networking.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.ServiceModel.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Uri.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Context.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.DispatchProxy.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.ILGeneration.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.Lightweight.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Extensions.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Metadata.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Primitives.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.TypeExtensions.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Resources.ResourceManager.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Extensions.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Handles.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Numerics.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Claims.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Principal.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Duplex.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Http.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.NetTcp.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Primitives.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Security.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.CodePages.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.RegularExpressions.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Overlapped.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Dataflow.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Timer.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.ReaderWriter.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XDocument.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlDocument.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlSerializer.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Core.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.UAP.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Xaml.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.dll
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.pdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csprojResolveAssemblyReference.cache
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.i.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.i.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlTypeInfo.g.cs
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xaml
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xaml
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xbf
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xbf
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlSaveStateFile.xml
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.exe
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.pdb
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\ResourceHandlingTask.state
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.CSharp.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.AppContext.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Concurrent.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Specialized.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Data.Common.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Globalization.Extensions.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.FileSystem.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Expressions.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Parallel.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Queryable.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Http.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Requests.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Metadata.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Extensions.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Numerics.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Security.Claims.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Overlapped.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csproj.GenerateResource.Cache
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml.intermediate
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles.intermediate
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles.intermediate
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles.intermediate
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt.intermediate
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\Xamarin.Forms.Platform.UAP.pri.xml
+E:\Medium\Github\EretailApp\EretailApp\EretailApp.UWP\obj\x64\Debug\ProjectArchitectures.txt
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\App.xbf
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\MainPage.xbf
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.xr.xml
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.exe
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.pdb
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\resources.pri
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\AppxManifest.xml
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\AppxManifest.xml
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\EretailApp.UWP.exe
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.build.appxrecipe
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.CSharp.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Extensions.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Primitives.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Core.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Web.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Windows.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Linq.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Serialization.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.VisualBasic.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Newtonsoft.Json.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PCLCrypto.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.BCrypt.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.Kernel32.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.NCrypt.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.Windows.Core.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\MvvmHelpers.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\MvvmHelpers.pdb
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Rg.Plugins.Popup.Platform.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Rg.Plugins.Popup.UWP.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Rg.Plugins.Popup.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.DataContractSerialization.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.Platform.WinRT.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.Async.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.Cipher.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.AppContext.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Concurrent.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Immutable.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.NonGeneric.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Specialized.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.Annotations.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Data.Common.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Contracts.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Debug.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tools.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tracing.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Dynamic.Runtime.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Calendars.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Extensions.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ClrCompression.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.IsolatedStorage.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Expressions.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Parallel.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Queryable.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Rtc.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.NetworkInformation.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Primitives.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Requests.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Sockets.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ObjectModel.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Networking.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.ServiceModel.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Uri.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Context.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.DispatchProxy.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.ILGeneration.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.Lightweight.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Extensions.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Metadata.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Primitives.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.TypeExtensions.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Resources.ResourceManager.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Extensions.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Handles.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Numerics.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Claims.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Principal.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Duplex.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Http.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.NetTcp.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Primitives.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Security.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.CodePages.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.RegularExpressions.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Overlapped.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Dataflow.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Timer.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.ReaderWriter.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XDocument.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlDocument.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlSerializer.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Validation.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.Abstractions.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.Abstractions.pdb
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.pdb
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Core.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.UAP.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Xaml.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLitePCLRaw.core.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLitePCLRaw.batteries_green.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.pdb
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.dll.config
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore.xml
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\hi\EretailApp.resources.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ta\EretailApp.resources.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\te\EretailApp.resources.dll
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csprojResolveAssemblyReference.cache
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.i.cs
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.cs
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.i.cs
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.cs
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlTypeInfo.g.cs
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xaml
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xaml
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xbf
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xbf
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlSaveStateFile.xml
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.exe
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.pdb
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\ResourceHandlingTask.state
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.CSharp.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.AppContext.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Concurrent.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Specialized.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Data.Common.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Globalization.Extensions.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.FileSystem.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Expressions.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Parallel.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Queryable.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Http.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Requests.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Metadata.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Extensions.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Numerics.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Security.Claims.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Overlapped.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile\en-US\Microsoft.WindowsAzure.MobileServices.Resources.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Validation\en\Validation.Strings.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\en\EretailApp.Resources.LocalizationDemoResources.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\hi\EretailApp.Resources.LocalizationDemoResources.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\ta\EretailApp.Resources.LocalizationDemoResources.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\te\EretailApp.Resources.LocalizationDemoResources.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore\en-US\Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.resw
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csproj.GenerateResource.Cache
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml.intermediate
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles.intermediate
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles.intermediate
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles.intermediate
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt.intermediate
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.en.resfiles
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.en.resfiles.intermediate
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile.Ext.pri.xml
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Xamarin.Forms.Platform.UAP.pri.xml
+F:\Medium\Xamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\ProjectArchitectures.txt
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\App.xbf
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\MainPage.xbf
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.xr.xml
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.exe
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.pdb
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\resources.pri
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\AppxManifest.xml
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\AppxManifest.xml
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\EretailApp.UWP.exe
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.build.appxrecipe
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.CSharp.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Data.Edm.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Data.OData.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\de\Microsoft.Data.OData.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\es\Microsoft.Data.OData.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\it\Microsoft.Data.OData.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Extensions.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Primitives.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Core.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Web.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Windows.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Linq.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Serialization.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.VisualBasic.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Newtonsoft.Json.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PCLCrypto.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.BCrypt.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.Kernel32.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.NCrypt.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.Windows.Core.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\MvvmHelpers.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\MvvmHelpers.pdb
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Rg.Plugins.Popup.Platform.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Rg.Plugins.Popup.UWP.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Rg.Plugins.Popup.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.DataContractSerialization.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.Platform.WinRT.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.Async.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.Cipher.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.AppContext.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Concurrent.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Immutable.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.NonGeneric.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Specialized.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.Annotations.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Data.Common.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Contracts.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Debug.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tools.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tracing.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Dynamic.Runtime.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Calendars.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Extensions.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ClrCompression.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.IsolatedStorage.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Expressions.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Parallel.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Queryable.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Rtc.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.NetworkInformation.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Primitives.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Requests.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Sockets.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ObjectModel.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Networking.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.ServiceModel.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Uri.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Context.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.DispatchProxy.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.ILGeneration.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.Lightweight.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Extensions.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Metadata.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Primitives.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.TypeExtensions.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Resources.ResourceManager.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Extensions.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Handles.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Numerics.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Claims.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Principal.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Duplex.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Http.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.NetTcp.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Primitives.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Security.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Spatial.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\de\System.Spatial.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\es\System.Spatial.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\fr\System.Spatial.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\it\System.Spatial.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ja\System.Spatial.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ko\System.Spatial.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ru\System.Spatial.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hans\System.Spatial.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hant\System.Spatial.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.CodePages.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.RegularExpressions.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Overlapped.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Dataflow.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Timer.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.ReaderWriter.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XDocument.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlDocument.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlSerializer.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Validation.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Storage.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Storage.pdb
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.Abstractions.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.Abstractions.pdb
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.pdb
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Media.Abstractions.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Media.Abstractions.pdb
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Media.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Media.pdb
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Core.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.UAP.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Xaml.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLitePCLRaw.core.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLitePCLRaw.batteries_green.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.pdb
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.dll.config
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore.xml
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\hi\EretailApp.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ta\EretailApp.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\te\EretailApp.resources.dll
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csprojResolveAssemblyReference.cache
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.i.cs
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.cs
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.i.cs
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.cs
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlTypeInfo.g.cs
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xaml
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xaml
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xbf
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xbf
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlSaveStateFile.xml
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.exe
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.pdb
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\ResourceHandlingTask.state
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.CSharp.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.AppContext.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Concurrent.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Specialized.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Data.Common.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Globalization.Extensions.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.FileSystem.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Expressions.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Parallel.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Queryable.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Http.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Requests.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Metadata.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Extensions.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Numerics.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Security.Claims.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Overlapped.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile\en-US\Microsoft.WindowsAzure.MobileServices.Resources.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.Data.Edm\en-US\Microsoft.Data.Edm.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.Data.OData\en-US\Microsoft.Data.OData.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\System.Spatial\en-US\System.Spatial.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Validation\en\Validation.Strings.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\en\EretailApp.Resources.LocalizationDemoResources.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\hi\EretailApp.Resources.LocalizationDemoResources.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\ta\EretailApp.Resources.LocalizationDemoResources.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\te\EretailApp.Resources.LocalizationDemoResources.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore\en-US\Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.resw
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csproj.GenerateResource.Cache
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml.intermediate
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles.intermediate
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles.intermediate
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles.intermediate
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt.intermediate
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.en.resfiles
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.en.resfiles.intermediate
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile.Ext.pri.xml
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Xamarin.Forms.Platform.UAP.pri.xml
+D:\TestXamarin\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\ProjectArchitectures.txt
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\App.xbf
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\MainPage.xbf
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.xr.xml
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.exe
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.pdb
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\resources.pri
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\AppxManifest.xml
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\AppxManifest.xml
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\EretailApp.UWP.exe
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.build.appxrecipe
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.CSharp.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Data.Edm.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\de\Microsoft.Data.Edm.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\es\Microsoft.Data.Edm.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\fr\Microsoft.Data.Edm.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\it\Microsoft.Data.Edm.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ja\Microsoft.Data.Edm.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ko\Microsoft.Data.Edm.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ru\Microsoft.Data.Edm.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Data.OData.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\de\Microsoft.Data.OData.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\es\Microsoft.Data.OData.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\fr\Microsoft.Data.OData.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\it\Microsoft.Data.OData.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ja\Microsoft.Data.OData.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ko\Microsoft.Data.OData.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ru\Microsoft.Data.OData.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Extensions.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Primitives.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Core.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Web.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Windows.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Linq.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Serialization.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.VisualBasic.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Newtonsoft.Json.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PCLCrypto.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.BCrypt.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.Kernel32.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.NCrypt.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.Windows.Core.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\MvvmHelpers.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\MvvmHelpers.pdb
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Rg.Plugins.Popup.Platform.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Rg.Plugins.Popup.UWP.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Rg.Plugins.Popup.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.DataContractSerialization.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.Platform.WinRT.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.Async.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.Cipher.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.AppContext.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Concurrent.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Immutable.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.NonGeneric.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Specialized.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.Annotations.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Data.Common.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Contracts.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Debug.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tools.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tracing.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Dynamic.Runtime.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Calendars.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Extensions.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ClrCompression.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.IsolatedStorage.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Expressions.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Parallel.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Queryable.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Rtc.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.NetworkInformation.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Primitives.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Requests.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Sockets.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ObjectModel.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Networking.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.ServiceModel.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Uri.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Context.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.DispatchProxy.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.ILGeneration.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.Lightweight.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Extensions.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Metadata.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Primitives.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.TypeExtensions.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Resources.ResourceManager.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Extensions.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Handles.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Numerics.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Claims.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Principal.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Duplex.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Http.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.NetTcp.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Primitives.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Security.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Spatial.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\de\System.Spatial.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\es\System.Spatial.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\fr\System.Spatial.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\it\System.Spatial.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ja\System.Spatial.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ko\System.Spatial.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ru\System.Spatial.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hans\System.Spatial.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hant\System.Spatial.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.CodePages.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.RegularExpressions.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Overlapped.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Dataflow.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Timer.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.ReaderWriter.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XDocument.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlDocument.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlSerializer.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Validation.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Storage.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Storage.pdb
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.Abstractions.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.Abstractions.pdb
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.pdb
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Media.Abstractions.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Media.Abstractions.pdb
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Media.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Media.pdb
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Core.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.UAP.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Xaml.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLitePCLRaw.core.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLitePCLRaw.batteries_green.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.pdb
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore.xml
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\hi\EretailApp.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ta\EretailApp.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\te\EretailApp.resources.dll
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csprojResolveAssemblyReference.cache
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.i.cs
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.cs
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.i.cs
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.cs
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlTypeInfo.g.cs
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xaml
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xaml
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xbf
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xbf
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlSaveStateFile.xml
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.exe
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.pdb
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\ResourceHandlingTask.state
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.CSharp.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.AppContext.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Concurrent.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Specialized.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Data.Common.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Globalization.Extensions.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.FileSystem.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Expressions.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Parallel.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Queryable.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Http.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Requests.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Metadata.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Extensions.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Numerics.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Security.Claims.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Overlapped.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile\en-US\Microsoft.WindowsAzure.MobileServices.Resources.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.Data.Edm\en-US\Microsoft.Data.Edm.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.Data.OData\en-US\Microsoft.Data.OData.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\System.Spatial\en-US\System.Spatial.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Validation\en\Validation.Strings.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\en\EretailApp.Resources.LocalizationDemoResources.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\hi\EretailApp.Resources.LocalizationDemoResources.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\ta\EretailApp.Resources.LocalizationDemoResources.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\te\EretailApp.Resources.LocalizationDemoResources.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore\en-US\Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.resw
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csproj.GenerateResource.Cache
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml.intermediate
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles.intermediate
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles.intermediate
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles.intermediate
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt.intermediate
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.en.resfiles
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.en.resfiles.intermediate
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile.Ext.pri.xml
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Xamarin.Forms.Platform.UAP.pri.xml
+E:\Medium\sudhaVS\3july2017EretailApp\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\ProjectArchitectures.txt
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\App.xbf
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\MainPage.xbf
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.xr.xml
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.exe
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.pdb
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\resources.pri
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\AppxManifest.xml
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\AppxManifest.xml
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\EretailApp.UWP.exe
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.build.appxrecipe
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.CSharp.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Data.Edm.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\de\Microsoft.Data.Edm.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\es\Microsoft.Data.Edm.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\fr\Microsoft.Data.Edm.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\it\Microsoft.Data.Edm.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ja\Microsoft.Data.Edm.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ko\Microsoft.Data.Edm.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ru\Microsoft.Data.Edm.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Data.OData.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\de\Microsoft.Data.OData.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\es\Microsoft.Data.OData.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\fr\Microsoft.Data.OData.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\it\Microsoft.Data.OData.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ja\Microsoft.Data.OData.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ko\Microsoft.Data.OData.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ru\Microsoft.Data.OData.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Extensions.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Primitives.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.DataAnnotations.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Core.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Web.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Windows.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Linq.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.Serialization.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.VisualBasic.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.Win32.Primitives.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Newtonsoft.Json.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PCLCrypto.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.BCrypt.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.Kernel32.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.NCrypt.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\PInvoke.Windows.Core.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\MvvmHelpers.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\MvvmHelpers.pdb
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Rg.Plugins.Popup.Platform.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Rg.Plugins.Popup.UWP.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Rg.Plugins.Popup.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.DataContractSerialization.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.Platform.WinRT.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.Async.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.Cipher.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLite.Net.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.AppContext.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Concurrent.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Immutable.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.NonGeneric.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Collections.Specialized.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.Annotations.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ComponentModel.EventBasedAsync.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Data.Common.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Contracts.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Debug.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.StackTrace.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tools.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Diagnostics.Tracing.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Dynamic.Runtime.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Calendars.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Globalization.Extensions.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ClrCompression.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.Compression.ZipFile.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.FileSystem.Primitives.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.IsolatedStorage.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.IO.UnmanagedMemoryStream.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Expressions.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Parallel.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Linq.Queryable.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Http.Rtc.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.NetworkInformation.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Primitives.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Requests.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.Sockets.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Net.WebHeaderCollection.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ObjectModel.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Networking.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.ServiceModel.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Private.Uri.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Context.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.DispatchProxy.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.ILGeneration.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Emit.Lightweight.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Extensions.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Metadata.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.Primitives.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Reflection.TypeExtensions.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Resources.ResourceManager.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Extensions.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Handles.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Numerics.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Json.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Primitives.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.Serialization.Xml.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Claims.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Security.Principal.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Duplex.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Http.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.NetTcp.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Primitives.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.ServiceModel.Security.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Spatial.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\de\System.Spatial.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\es\System.Spatial.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\fr\System.Spatial.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\it\System.Spatial.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ja\System.Spatial.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ko\System.Spatial.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ru\System.Spatial.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hans\System.Spatial.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\zh-Hant\System.Spatial.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.CodePages.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.Encoding.Extensions.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Text.RegularExpressions.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Overlapped.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Dataflow.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Tasks.Parallel.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Threading.Timer.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.ReaderWriter.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XDocument.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlDocument.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\System.Xml.XmlSerializer.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Validation.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Storage.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Storage.pdb
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.Abstractions.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.Abstractions.pdb
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Connectivity.pdb
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Media.Abstractions.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Media.Abstractions.pdb
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Media.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Plugin.Media.pdb
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Core.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.UAP.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Platform.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Xamarin.Forms.Xaml.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLitePCLRaw.core.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\SQLitePCLRaw.batteries_green.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.pdb
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.dll.config
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore.xml
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\hi\EretailApp.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\ta\EretailApp.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\te\EretailApp.resources.dll
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csprojResolveAssemblyReference.cache
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.i.cs
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.g.cs
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.i.cs
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.g.cs
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlTypeInfo.g.cs
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xaml
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xaml
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\App.xbf
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MainPage.xbf
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\XamlSaveStateFile.xml
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.exe
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.pdb
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\ResourceHandlingTask.state
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.CSharp.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.AppContext.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Concurrent.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Immutable.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Collections.Specialized.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Data.Common.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Globalization.Extensions.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.FileSystem.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Expressions.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Parallel.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Linq.Queryable.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Http.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.Requests.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Numerics.Vectors.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.ObjectModel.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Networking.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.ServiceModel.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Private.Uri.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Context.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Reflection.Metadata.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Extensions.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Numerics.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Security.Claims.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Overlapped.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XDocument.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile\en-US\Microsoft.WindowsAzure.MobileServices.Resources.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.Data.Edm\en-US\Microsoft.Data.Edm.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.Data.OData\en-US\Microsoft.Data.OData.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\System.Spatial\en-US\System.Spatial.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Validation\en\Validation.Strings.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\en\EretailApp.Resources.LocalizationDemoResources.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\hi\EretailApp.Resources.LocalizationDemoResources.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\ta\EretailApp.Resources.LocalizationDemoResources.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp\te\EretailApp.Resources.LocalizationDemoResources.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore\en-US\Microsoft.WindowsAzure.MobileServices.SQLiteStore.Properties.Resources.resw
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\EretailApp.UWP.csproj.GenerateResource.Cache
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\priconfig.xml.intermediate
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\layout.resfiles.intermediate
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.resfiles.intermediate
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\pri.resfiles.intermediate
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\qualifiers.txt.intermediate
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.en.resfiles
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\resources.en.resfiles.intermediate
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile.Ext.pri.xml
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\Xamarin.Forms.Platform.UAP.pri.xml
+F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\ProjectArchitectures.txt

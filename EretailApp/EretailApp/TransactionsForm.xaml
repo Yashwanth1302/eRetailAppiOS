@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:EretailApp"
+             x:Class="EretailApp.TransactionsForm">
+
+  <ContentPage.Resources>
+
+    <ResourceDictionary x:Name="AppDictionary">
+      <Color x:Key="BackgroundColor">#FFFFFF</Color>
+      <Color x:Key="BorderColor">#FF696565</Color>
+      <Style x:Key="InternalViewStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor"
+            Value="{StaticResource BackgroundColor}"/>
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+      <Style x:Key="BorderStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+      <Style x:Key="plainEntry" TargetType="Entry">
+        <Setter Property="BackgroundColor" Value="#eee"/>
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="FontSize" Value="16" />
+      </Style>
+
+      <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+        <Setter Property="BackgroundColor" Value="#41af4b"/>
+        <Setter Property="BorderColor" Value="Blue"/>
+        <Setter Property="HeightRequest" Value="42"/>
+        <Setter Property="BorderRadius" Value="5"/>
+        <Setter Property="BorderWidth" Value="0" />
+        <Setter Property="TextColor" Value="White"/>
+      </Style>
+
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+
+  <StackLayout Padding="0" Spacing="0" Orientation="Vertical"  Margin="10">
+    <StackLayout Padding="5" Spacing="5">
+      <Grid BackgroundColor="#FE7C08" Padding="5">
+        <Grid.ColumnDefinitions >
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="100" />
+          <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <Image
+               Aspect="AspectFill"
+               
+              Margin="10"
+                     Source="back.png"
+               VerticalOptions="Center"
+                 
+               HorizontalOptions="Start"   Grid.Row="0" Grid.Column="0">
+          <Image.GestureRecognizers>
+            <TapGestureRecognizer
+                        Tapped="back"
+                         />
+          </Image.GestureRecognizers>
+
+
+        </Image>
+        <Label  Text="Transactions" VerticalTextAlignment="Center"    Grid.Row="0" Grid.Column="1" HorizontalOptions="Start"   HorizontalTextAlignment="Center"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
+
+                <Button  Text="Cancel"    Grid.Row="0" Grid.Column="2" TextColor="White" BackgroundColor="#446a81" Clicked="cancel_clicked"></Button>
+        <Button  Text="Save" TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3"   ></Button>
+      </Grid>
+    </StackLayout>
+
+
+    <StackLayout Orientation="Vertical" Padding="5" Spacing="5">
+   <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+        <ContentView Style="{StaticResource BorderStyle}" >
+          <ContentView Style="{StaticResource InternalViewStyle}">
+               <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                 
+                 
+                   <!-- Swich Buttons
+              <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="5" >
+                
+               <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                 <Label   Text="Receive" FontSize="18"  VerticalTextAlignment="Center" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="Start" VerticalOptions="Center" />
+              </StackLayout>
+                  <StackLayout Orientation="Horizontal"     Padding="0" Spacing="0"  HorizontalOptions="FillAndExpand">
+                <Label   Text="Returns" FontSize="18"  VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HorizontalOptions="End" FontFamily="Bold" TextColor="#000000"></Label>
+                <Switch HorizontalOptions="End" VerticalOptions="Center" />
+              </StackLayout>
+             </StackLayout>
+
+                 -->
+
+
+                 <!-- Entry  Details -->
+               <StackLayout Orientation="Horizontal" Padding="5">
+                 
+                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" WidthRequest="50">
+                   <Picker x:Name="ReturnPicker"  TextColor="#000000"   BackgroundColor="White" Title="Choose Any One" HorizontalOptions="FillAndExpand"  SelectedIndexChanged="ChooseReturnPicker"  />
+                 </StackLayout>
+                 
+                 
+                 
+                <local:BoxBorderEntry  Placeholder="Doc No"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              <local:BoxBorderEntry  Placeholder="Doc Date"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              </StackLayout>      
+             <StackLayout Orientation="Horizontal" Padding="5" >
+                <local:BoxBorderEntry  Placeholder="Vendor"  WidthRequest="60"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  Placeholder="Invoice No"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                <local:BoxBorderEntry  Placeholder="Invoice Date"   WidthRequest="60"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              </StackLayout>
+                 
+                  <!--  transaction  Add Details-->
+                 
+              <StackLayout   x:Name="SkuListAdd"        Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" >
+              <Image Aspect="AspectFit"  Source="DeleteIcon.png"   VerticalOptions="Center" HorizontalOptions="Start" >
+                     <Image.GestureRecognizers> 
+                    <TapGestureRecognizer Tapped="AddDeleteIcon" />
+                  </Image.GestureRecognizers>
+                   
+              </Image>
+                      <local:BoxBorderEntry  Placeholder="SKU"  x:Name="entrysku"  WidthRequest="80" HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696" />
+              <local:BoxBorderEntry   x:Name="entryEAN"   Keyboard="Numeric" Placeholder="EAN "    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+              
+                <StackLayout x:Name="Addiconsl"  VerticalOptions="Center" HorizontalOptions="End" IsVisible="true">
+
+               <Image  Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End" >
+                   <Image.GestureRecognizers>
+                     <TapGestureRecognizer
+                                 Tapped="SkuItemClilcked"
+                         />
+                   </Image.GestureRecognizers>
+                 </Image>
+
+               </StackLayout>
+
+               
+                <StackLayout x:Name="Minusiconsl" VerticalOptions="Center" HorizontalOptions="End" IsVisible="false">
+                <Image Aspect="AspectFit"  Source="minusIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                                Tapped="SkuItemClilckedMinus"
+                         />
+                  </Image.GestureRecognizers>
+                </Image>
+                </StackLayout>
+                
+                
+                
+                   <local:BoxBorderEntry  x:Name="entryQty"   Keyboard="Numeric" Placeholder="Qty "   WidthRequest="20"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <local:BoxBorderEntry  x:Name="entryFreeQty"  Keyboard="Numeric"  Placeholder="Free Qty "  WidthRequest="20"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <local:BoxBorderEntry  x:Name="entryRate"    Keyboard="Numeric" Placeholder="Rate "   WidthRequest="20" HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                <StackLayout x:Name="RateAddiconsl"  VerticalOptions="Center" HorizontalOptions="End" IsVisible="true">
+                <Image x:Name="rateimg" Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                  Tapped="RateItemClilcked"/>
+                  </Image.GestureRecognizers>
+                   </Image>
+
+                </StackLayout>
+                
+               <!-- -<Button x:Name="rateimage"   WidthRequest="20"    Image="AdditionIcon.png" VerticalOptions="Center" HorizontalOptions="End"  BackgroundColor="White"   Clicked="rateimageclicked"></Button>
+
+                        -->
+
+<StackLayout x:Name="RateMinusiconsl"  VerticalOptions="Center" HorizontalOptions="End" IsVisible="false">
+  <Image Aspect="AspectFit"  Source="minusIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+    <Image.GestureRecognizers>
+      <TapGestureRecognizer
+    Tapped="MinusIconrateItemClilcked"/>
+    </Image.GestureRecognizers>
+  </Image>
+
+</StackLayout>
+
+
+
+
+<local:BoxBorderEntry   x:Name="entryTax"   Keyboard="Numeric" Placeholder="Tax "    WidthRequest="20" HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <local:BoxBorderEntry   x:Name="entryAmount"   Keyboard="Numeric" Placeholder="Amount "    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End"   > <Image.GestureRecognizers>  <TapGestureRecognizer
+                        Tapped="AddIcon" />
+                  </Image.GestureRecognizers></Image>
+               
+                </StackLayout>
+                 
+                 
+                
+                   <!--  Addition   Sku Desc      Onsku ==EAN -->
+                   
+             <StackLayout  x:Name="SkuSL"   Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5"  IsVisible="False" >
+                      
+                  
+               <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" > 
+                   <SearchBar x:Name="searchsku" Placeholder="Search here"    HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" SearchButtonPressed="btnclick" ></SearchBar>
+                    <ListView x:Name="SkuList"
+                       RowHeight="35"
+                      ItemSelected="OnSkuItemSelected">
+                   <ListView.ItemTemplate>
+                   <DataTemplate>
+                    <ViewCell>
+
+                      <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"   BackgroundColor="White">
+                     <Label Text="{Binding name}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+
+                    </StackLayout>
+                    </ViewCell>
+                  </DataTemplate>
+                </ListView.ItemTemplate>
+              </ListView>
+                  </StackLayout>
+             </StackLayout>
+
+        <!--  Addition  Rate -->
+
+                 <StackLayout  x:Name="RateSL"   Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5"  IsVisible="False" >
+
+
+                   <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" >
+                     <SearchBar x:Name="searchratesku" Placeholder="Search here"    HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray"  ></SearchBar>
+                     <ListView x:Name="RateList"
+                        RowHeight="35"
+                       ItemSelected="OnRateItemSelected">
+                       <ListView.ItemTemplate>
+                         <DataTemplate>
+                           <ViewCell>
+
+                             <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"   BackgroundColor="White">
+                               <Label Text="{Binding Dept}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+
+                             </StackLayout>
+                           </ViewCell>
+                         </DataTemplate>
+                       </ListView.ItemTemplate>
+                     </ListView>
+                   </StackLayout>
+                 </StackLayout>
+
+  <!--  Main List-->
+            
+                <StackLayout   x:Name="MainlistSl"  Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5"  IsVisible="False" >
+                      
+                   <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" > 
+
+                    <ListView x:Name="Mainlist"
+                       RowHeight="35">
+                   <ListView.ItemTemplate>
+                   <DataTemplate>
+                    <ViewCell>
+    
+                      
+
+                             <StackLayout  x:Name="mainListSl"      Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" >
+                  <Image Aspect="AspectFit"  Source="DeleteIcon.png"   VerticalOptions="Center" HorizontalOptions="Start" >
+                        <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="MainlistDeleteRow"/>
+              </Image.GestureRecognizers>
+                               
+                               
+                  </Image>
+                       <Label Text="{Binding Sku}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+             <Label Text="{Binding EANCode}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+                               
+               <Label Text="{Binding Qty}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+                  <Label Text="{Binding FreeQty}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+                  <Label Text="{Binding Rate}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+                  <Label Text="{Binding Tax}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+                 <Label Text="{Binding Amount}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+                <Image Aspect="AspectFit"  Source="EditIcon.png"   VerticalOptions="Center" HorizontalOptions="End">                     
+                  <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="MainlistAddIcon"/>
+              </Image.GestureRecognizers>
+                             </Image>
+                  </StackLayout>
+                    
+                   
+                   
+                    
+                     
+                    </ViewCell>
+                  </DataTemplate>
+                </ListView.ItemTemplate>
+              </ListView>
+                  </StackLayout>
+             </StackLayout>
+                 
+                 
+                 <!-- transaction  Edit  Details-->
+            
+               <StackLayout   x:Name="SkuListEdit"        Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5" IsVisible="False" >
+                    <Image Aspect="AspectFit"  Source="DeleteIcon.png"   VerticalOptions="Center" HorizontalOptions="Start" >
+                       <Image.GestureRecognizers> 
+                    <TapGestureRecognizer Tapped="EditDeleteIcon" />
+                  </Image.GestureRecognizers>
+                    </Image>
+                      <local:BoxBorderEntry  Placeholder="SKU "  x:Name="Editentrysku"   WidthRequest="80" HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696" />
+                 <local:BoxBorderEntry   x:Name="EditentryEAN"   Keyboard="Numeric"  Placeholder="EAN "    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                 <StackLayout x:Name="EditEanAddIconsl"  VerticalOptions="Center" HorizontalOptions="End" IsVisible="true">
+                   <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+                     <Image.GestureRecognizers>
+                       <TapGestureRecognizer
+                                   Tapped="EditSkuItemClilcked"
+                         />
+                     </Image.GestureRecognizers>
+                   </Image>
+                 </StackLayout>
+
+
+
+                 <StackLayout x:Name="EditEanMinusIconsl"  VerticalOptions="Center" HorizontalOptions="End" IsVisible="false">
+                   <Image Aspect="AspectFit"  Source="minusIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+                     <Image.GestureRecognizers>
+                       <TapGestureRecognizer
+                                   Tapped="EditMinusSkuItemClilcked"
+                         />
+                     </Image.GestureRecognizers>
+                   </Image>
+                 </StackLayout>
+                 
+                 
+                 
+                 
+                 <local:BoxBorderEntry  x:Name="EditentryQty"  Keyboard="Numeric"  Placeholder="Qty "   WidthRequest="20"   HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <local:BoxBorderEntry  x:Name="EditentryFreeQty"   Keyboard="Numeric"  Placeholder="Free Qty "  WidthRequest="20"  HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <local:BoxBorderEntry  x:Name="EditentryRate"   Keyboard="Numeric"  Placeholder="Rate "   WidthRequest="20" HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+
+                 <StackLayout x:Name="EditrateAddIconsl"  VerticalOptions="Center" HorizontalOptions="End" IsVisible="true">
+                 <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+                   <Image.GestureRecognizers>
+                     <TapGestureRecognizer
+                                 Tapped="EditRateItemClilcked"
+                         />
+                   </Image.GestureRecognizers>
+                 </Image>
+
+                 </StackLayout>
+
+
+
+                 <StackLayout x:Name="EditrateMinusIconsl"  VerticalOptions="Center" HorizontalOptions="End" IsVisible="false">
+                   <Image Aspect="AspectFit"  Source="minusIcon.png"   VerticalOptions="Center" HorizontalOptions="End">
+                     <Image.GestureRecognizers>
+                       <TapGestureRecognizer
+                                   Tapped="EditminusRateItemClilcked"
+                         />
+                     </Image.GestureRecognizers>
+                   </Image>
+
+                 </StackLayout>
+                 
+                 
+                
+                  <local:BoxBorderEntry   x:Name="EditentryTax" Keyboard="Numeric"  Placeholder="Tax "    WidthRequest="20" HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <local:BoxBorderEntry   x:Name="EditentryAmount"  Keyboard="Numeric" Placeholder="Amount "    HorizontalOptions="FillAndExpand" TextColor="#787878" PlaceholderColor="#969696"/>
+                  <Image Aspect="AspectFit"  Source="AdditionIcon.png"   VerticalOptions="Center" HorizontalOptions="End"   > 
+                    <Image.GestureRecognizers> 
+                    <TapGestureRecognizer Tapped="EditIcon" />
+                  </Image.GestureRecognizers>
+               </Image>
+               
+                </StackLayout>
+
+
+
+                 <!--  Edit Row   Sku Desc-->
+
+                 <StackLayout  x:Name="EditSkuSL"   Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5"  IsVisible="False" >
+
+
+                   <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" >
+                     <SearchBar x:Name="searchEditsku" Placeholder="Search here"    HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray"  ></SearchBar>
+                     <ListView x:Name="EditSkuList"
+                        RowHeight="35"
+                       ItemSelected="OnEditSkuItemSelected">
+                       <ListView.ItemTemplate>
+                         <DataTemplate>
+                           <ViewCell>
+
+                             <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"   BackgroundColor="White">
+                               <Label Text="{Binding name}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+
+                             </StackLayout>
+                           </ViewCell>
+                         </DataTemplate>
+                       </ListView.ItemTemplate>
+                     </ListView>
+                   </StackLayout>
+                 </StackLayout>
+
+
+
+
+
+                 <!--  Edit Row  Rate -->
+
+                 <StackLayout  x:Name="EditRateSL"   Orientation="Horizontal" HorizontalOptions="FillAndExpand"  Padding="5"  IsVisible="False" >
+
+
+                   <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" >
+                     <SearchBar x:Name="searchEditRate" Placeholder="Search here"    HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" ></SearchBar>
+                     <ListView x:Name="EditRateList"
+                        RowHeight="35"
+                       ItemSelected="OnEditRateItemSelected">
+                       <ListView.ItemTemplate>
+                         <DataTemplate>
+                           <ViewCell>
+
+                             <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand"   BackgroundColor="White">
+                               <Label Text="{Binding Dept}"  HeightRequest="35" TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="Start"  FontSize="16" ></Label>
+
+                             </StackLayout>
+                           </ViewCell>
+                         </DataTemplate>
+                       </ListView.ItemTemplate>
+                     </ListView>
+                   </StackLayout>
+                 </StackLayout>
+            
+            
+            
+              </StackLayout>
+            
+          
+        
+   
+    
+    
+    
+          
+          </ContentView>
+        </ContentView>
+      </ContentView>
+     </StackLayout>
+  
+
+
+  </StackLayout>
+</ContentPage>

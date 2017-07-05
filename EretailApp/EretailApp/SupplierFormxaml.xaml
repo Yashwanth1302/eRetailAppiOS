@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              BackgroundColor="White"
+             x:Class="EretailApp.SupplierFormxaml">
+  <ContentPage.Resources>
+
+    <ResourceDictionary x:Name="AppDictionary">
+      <Color x:Key="BackgroundColor">#FFFFFF</Color>
+      <Color x:Key="BorderColor">#FF696565</Color>
+      <Style x:Key="InternalViewStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor"
+            Value="{StaticResource BackgroundColor}"/>
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+      <Style x:Key="BorderStyle" TargetType="ContentView">
+        <Setter Property="BackgroundColor" Value="{StaticResource BorderColor}"/>
+        <Setter Property="Padding" Value="1,1,1,1"></Setter>
+      </Style>
+      <Style x:Key="plainEntry" TargetType="Entry">
+        <Setter Property="BackgroundColor" Value="#eee"/>
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="FontSize" Value="16" />
+      </Style>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+
+ <StackLayout  Orientation="Vertical"  VerticalOptions="FillAndExpand"  BackgroundColor="#FFFFFF" HorizontalOptions="FillAndExpand"   Padding="3"  Margin="3"  >
+
+   <StackLayout >
+      <Grid  BackgroundColor="#FE7C08" Padding="5">
+        <Grid.ColumnDefinitions >
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="100" />
+          <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+       <!--  <Image
+               HeightRequest="30"
+                     Margin="20,0,20,0"
+               WidthRequest="30"
+                    Source="leftcir.png"
+              VerticalOptions="Center"
+                 
+              HorizontalOptions="Start"   Grid.Row="0" Grid.Column="0">
+          <Image.GestureRecognizers>
+            <TapGestureRecognizer
+                        Tapped="back"
+                         />
+          </Image.GestureRecognizers>
+
+
+        </Image>
+        -->
+        <Label   VerticalTextAlignment="Center"   Text="Vendor"  Grid.Row="0" Grid.Column="1"   HorizontalOptions="Start"    FontSize="20"  FontFamily="Bold" TextColor="White"></Label>
+        <Button  x:Name="btnImport"   Text="Import"   TextColor="White" BackgroundColor="#446a81" Grid.Row="0" Grid.Column="2" ></Button>
+        <Button x:Name="btnAddProduct" Text="Create"   TextColor="White" BackgroundColor="#41af4b" Grid.Row="0" Grid.Column="3"  Clicked="AddSupplier"></Button>
+      </Grid>
+    </StackLayout>
+
+
+
+
+
+
+    <!-- 
+<StackLayout   Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="#EBEBEB">
+
+  <Label x:Name="EditableProduct" Text="Add,View and Edit your  Product all in one place.Need Help?" VerticalTextAlignment="Center"
+         FontFamily="Bold" TextColor="#000000" HorizontalOptions="Center" ></Label>
+  <Button  x:Name="btnImport"   Text="Import"  HorizontalOptions="End"  TextColor="White" BackgroundColor="#446a81" ></Button>
+ <Button x:Name="btnAddProduct" Text="ADDProduct"   HorizontalOptions="End"  TextColor="White" BackgroundColor="#41af4b"  Clicked="AddProduct"></Button>
+</StackLayout>
+-->
+    
+    <ContentView Padding="0" HorizontalOptions="FillAndExpand" Margin="0,0,0,10" >
+      <ContentView Style="{StaticResource BorderStyle}" >
+        <ContentView Style="{StaticResource InternalViewStyle}">
+          <StackLayout Orientation="Vertical" >
+            
+        <StackLayout Orientation="Horizontal"  Padding="5" Spacing="5">
+
+      <StackLayout HorizontalOptions="FillAndExpand" >
+
+        <SearchBar x:Name="searchvalue" Placeholder="Search here"   WidthRequest="150" HorizontalOptions="FillAndExpand" PlaceholderColor="#C8C8C8"  TextColor="Gray"   CancelButtonColor="Gray" SearchButtonPressed="btnclick"></SearchBar>
+
+      </StackLayout>
+   </StackLayout>
+    
+    <StackLayout HorizontalOptions="FillAndExpand"  Padding="5" Spacing="5" >
+      <ListView x:Name="SuplierList"
+             HasUnevenRows="True" >
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+
+              <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                <Label Text="{Binding Contact}"    HeightRequest="35"   TextColor="Black" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center"  HorizontalOptions="FillAndExpand"  FontSize="16" ></Label>
+
+       <Label Text="{Binding State}" HeightRequest="35"  TextColor="Black" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"  HorizontalOptions="End" FontSize="16" ></Label>
+              </StackLayout>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
+          </StackLayout>
+        </ContentView>
+      </ContentView>
+    </ContentView>
+    
+  </StackLayout>
+  
+</ContentPage>
