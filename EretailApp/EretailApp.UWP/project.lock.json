@@ -19200,16 +19200,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "F:\\Medium\\Xamarin\\MobileCenterPublish\\RunningProject\\Eretailtest\\EretailApp\\EretailApp.UWP\\EretailApp.UWP.csproj",
+      "projectUniqueName": "F:\\Medium\\Xamarin\\MobileCenterPublish\\eRetailAppiOS\\EretailApp\\EretailApp.UWP\\EretailApp.UWP.csproj",
       "projectName": "EretailApp.UWP",
-      "projectPath": "F:\\Medium\\Xamarin\\MobileCenterPublish\\RunningProject\\Eretailtest\\EretailApp\\EretailApp.UWP\\EretailApp.UWP.csproj",
-      "projectJsonPath": "F:\\Medium\\Xamarin\\MobileCenterPublish\\RunningProject\\Eretailtest\\EretailApp\\EretailApp.UWP\\project.json",
+      "projectPath": "F:\\Medium\\Xamarin\\MobileCenterPublish\\eRetailAppiOS\\EretailApp\\EretailApp.UWP\\EretailApp.UWP.csproj",
+      "projectJsonPath": "F:\\Medium\\Xamarin\\MobileCenterPublish\\eRetailAppiOS\\EretailApp\\EretailApp.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "F:\\Medium\\Xamarin\\MobileCenterPublish\\RunningProject\\Eretailtest\\EretailApp\\EretailApp\\EretailApp.csproj": {
-              "projectPath": "F:\\Medium\\Xamarin\\MobileCenterPublish\\RunningProject\\Eretailtest\\EretailApp\\EretailApp\\EretailApp.csproj"
+            "F:\\Medium\\Xamarin\\MobileCenterPublish\\eRetailAppiOS\\EretailApp\\EretailApp\\EretailApp.csproj": {
+              "projectPath": "F:\\Medium\\Xamarin\\MobileCenterPublish\\eRetailAppiOS\\EretailApp\\EretailApp\\EretailApp.csproj"
             }
           }
         }
