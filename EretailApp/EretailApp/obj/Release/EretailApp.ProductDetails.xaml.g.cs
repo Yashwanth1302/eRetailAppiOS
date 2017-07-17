@@ -11,7 +11,8 @@
 namespace EretailApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\TestXamarin\\Eretailtest\\EretailApp\\EretailApp\\ProductDetails.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("F:\\Medium\\Xamarin\\MobileCenterPublish\\eRetailAppiOS\\EretailApp\\EretailApp\\Product" +
+        "Details.xaml")]
     public partial class ProductDetails : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -33,7 +34,13 @@ namespace EretailApp {
         private global::Xamarin.Forms.Picker Catgpicker;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView mylistvi;
+        private global::Xamarin.Forms.Picker SelectionPicker;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.SearchBar searchpickItem;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView Productlistt;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
@@ -44,7 +51,9 @@ namespace EretailApp {
             searchvalue = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.SearchBar>(this, "searchvalue");
             Deptpicker = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "Deptpicker");
             Catgpicker = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "Catgpicker");
-            mylistvi = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "mylistvi");
+            SelectionPicker = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "SelectionPicker");
+            searchpickItem = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.SearchBar>(this, "searchpickItem");
+            Productlistt = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "Productlistt");
         }
     }
 }

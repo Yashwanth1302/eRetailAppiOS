@@ -11,8 +11,12 @@
 namespace EretailApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\TestXamarin\\Eretailtest\\EretailApp\\EretailApp\\productMasterConfig.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("F:\\Medium\\Xamarin\\MobileCenterPublish\\eRetailAppiOS\\EretailApp\\EretailApp\\product" +
+        "MasterConfig.xaml")]
     public partial class productMasterConfig : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button btnmain;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::EretailApp.BoxBorderEntry txtProductDescription;
@@ -72,6 +76,12 @@ namespace EretailApp {
         private global::Xamarin.Forms.Switch swInActive;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Image camicon;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Image cam;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::EretailApp.BoxBorderEntry txtCostPrice;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -91,6 +101,9 @@ namespace EretailApp {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::EretailApp.BoxBorderEntry txtMBQ;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry entryQoh;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::EretailApp.BoxBorderEntry txtEan;
@@ -171,6 +184,18 @@ namespace EretailApp {
         private global::Xamarin.Forms.Button btnSaveProduct;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Frame H1Addpop;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry AddnewtxtH1popup;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Frame H2Addpop;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry AddnewtxtH2popup;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Frame Brandpop;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -198,8 +223,15 @@ namespace EretailApp {
         private global::EretailApp.BoxBorderEntry entry_Tax_entry;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Frame DMRPCv;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView DMRPList;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(productMasterConfig));
+            btnmain = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnmain");
             txtProductDescription = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "txtProductDescription");
             txtSkuCode = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "txtSkuCode");
             txtBillDescription = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "txtBillDescription");
@@ -219,6 +251,8 @@ namespace EretailApp {
             swAllowOnlyDecimal = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Switch>(this, "swAllowOnlyDecimal");
             swMaintainInventory = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Switch>(this, "swMaintainInventory");
             swInActive = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Switch>(this, "swInActive");
+            camicon = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "camicon");
+            cam = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "cam");
             txtCostPrice = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "txtCostPrice");
             labelMark = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.LabelRender>(this, "labelMark");
             txtMarkUpDown = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "txtMarkUpDown");
@@ -226,6 +260,7 @@ namespace EretailApp {
             txtsales = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "txtsales");
             txtQOH = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "txtQOH");
             txtMBQ = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "txtMBQ");
+            entryQoh = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "entryQoh");
             txtEan = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "txtEan");
             txtHSNCode = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "txtHSNCode");
             HgCv = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Frame>(this, "HgCv");
@@ -252,6 +287,10 @@ namespace EretailApp {
             txtH2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.SearchBar>(this, "txtH2");
             H2List = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "H2List");
             btnSaveProduct = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnSaveProduct");
+            H1Addpop = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Frame>(this, "H1Addpop");
+            AddnewtxtH1popup = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "AddnewtxtH1popup");
+            H2Addpop = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Frame>(this, "H2Addpop");
+            AddnewtxtH2popup = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "AddnewtxtH2popup");
             Brandpop = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Frame>(this, "Brandpop");
             AddnewtxtBrand = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "AddnewtxtBrand");
             Vendorpop = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Frame>(this, "Vendorpop");
@@ -261,6 +300,8 @@ namespace EretailApp {
             Taxpop = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Frame>(this, "Taxpop");
             AddnewtxtTax = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "AddnewtxtTax");
             entry_Tax_entry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "entry_Tax_entry");
+            DMRPCv = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Frame>(this, "DMRPCv");
+            DMRPList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "DMRPList");
         }
     }
 }

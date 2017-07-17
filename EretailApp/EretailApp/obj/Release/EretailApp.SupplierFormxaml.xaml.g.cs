@@ -11,7 +11,8 @@
 namespace EretailApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Medium\\Github\\Eretailtest\\EretailApp\\EretailApp\\SupplierFormxaml.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("F:\\Medium\\Xamarin\\MobileCenterPublish\\eRetailAppiOS\\EretailApp\\EretailApp\\Supplie" +
+        "rFormxaml.xaml")]
     public partial class SupplierFormxaml : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

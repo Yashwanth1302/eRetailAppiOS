@@ -13,12 +13,12 @@ namespace UITest1
             if (platform == Platform.Android)
             {
                 return ConfigureApp
-                    .Android
+                     .Android.ApkFile("EretailApp.Android.apk")
                     .StartApp();
             }
 
             return ConfigureApp
-                .iOS
+                 .Android.ApkFile("EretailApp.Android.apk")
                 .StartApp();
         }
     }

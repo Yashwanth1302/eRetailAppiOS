@@ -11,16 +11,69 @@
 namespace EretailApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Medium\\Github\\Eretailtest\\EretailApp\\EretailApp\\AddEmpForm.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("F:\\Medium\\Xamarin\\MobileCenterPublish\\eRetailAppiOS\\EretailApp\\EretailApp\\AddEmpF" +
+        "orm.xaml")]
     public partial class AddEmpForm : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ResourceDictionary AppDictionary;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_emp_code;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_emp_name;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_contact_person;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_contactnum;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_address1;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_address2;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_country;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_state;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_city;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_zip;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_empcatgeory;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_empcomission;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::EretailApp.BoxBorderEntry et_emailid;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AddEmpForm));
             AppDictionary = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ResourceDictionary>(this, "AppDictionary");
+            et_emp_code = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_emp_code");
+            et_emp_name = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_emp_name");
+            et_contact_person = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_contact_person");
+            et_contactnum = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_contactnum");
+            et_address1 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_address1");
+            et_address2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_address2");
+            et_country = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_country");
+            et_state = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_state");
+            et_city = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_city");
+            et_zip = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_zip");
+            et_empcatgeory = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_empcatgeory");
+            et_empcomission = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_empcomission");
+            et_emailid = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::EretailApp.BoxBorderEntry>(this, "et_emailid");
         }
     }
 }

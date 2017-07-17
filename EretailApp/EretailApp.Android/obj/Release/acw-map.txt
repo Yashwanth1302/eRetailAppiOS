@@ -18,6 +18,10 @@ EretailApp.Droid.MainActivity, EretailApp.Android;md5a28196cf0d48de60c9285ca2209
 EretailApp.Droid.MainActivity, EretailApp.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a28196cf0d48de60c9285ca2209cd7a5.MainActivity
 EretailApp.Droid.MainActivity;md5a28196cf0d48de60c9285ca2209cd7a5.MainActivity
 eretailapp.droid.MainActivity;md5a28196cf0d48de60c9285ca2209cd7a5.MainActivity
+EretailApp.Droid.MainApplication, EretailApp.Android;md5a28196cf0d48de60c9285ca2209cd7a5.MainApplication
+EretailApp.Droid.MainApplication, EretailApp.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a28196cf0d48de60c9285ca2209cd7a5.MainApplication
+EretailApp.Droid.MainApplication;md5a28196cf0d48de60c9285ca2209cd7a5.MainApplication
+eretailapp.droid.MainApplication;md5a28196cf0d48de60c9285ca2209cd7a5.MainApplication
 EretailApp.Droid.mandatoryEntryRender, EretailApp.Android;md5a28196cf0d48de60c9285ca2209cd7a5.mandatoryEntryRender
 EretailApp.Droid.mandatoryEntryRender, EretailApp.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5a28196cf0d48de60c9285ca2209cd7a5.mandatoryEntryRender
 EretailApp.Droid.mandatoryEntryRender;md5a28196cf0d48de60c9285ca2209cd7a5.mandatoryEntryRender
@@ -54,6 +58,10 @@ Plugin.Connectivity.ConnectivityChangeBroadcastReceiver, Plugin.Connectivity;md5
 Plugin.Connectivity.ConnectivityChangeBroadcastReceiver, Plugin.Connectivity, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null;md531e46b185997765898cde66852db2a40.ConnectivityChangeBroadcastReceiver
 Plugin.Connectivity.ConnectivityChangeBroadcastReceiver;md531e46b185997765898cde66852db2a40.ConnectivityChangeBroadcastReceiver
 plugin.connectivity.ConnectivityChangeBroadcastReceiver;md531e46b185997765898cde66852db2a40.ConnectivityChangeBroadcastReceiver
+Plugin.Media.MediaPickerActivity, Plugin.Media;md5a3e164e78ade0c22cefea770ddd0bc49.MediaPickerActivity
+Plugin.Media.MediaPickerActivity, Plugin.Media, Version=2.6.2.0, Culture=neutral, PublicKeyToken=null;md5a3e164e78ade0c22cefea770ddd0bc49.MediaPickerActivity
+Plugin.Media.MediaPickerActivity;md5a3e164e78ade0c22cefea770ddd0bc49.MediaPickerActivity
+plugin.media.MediaPickerActivity;md5a3e164e78ade0c22cefea770ddd0bc49.MediaPickerActivity
 Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer, Rg.Plugins.Popup.Droid;md5d3faaefeebcb93e0145f431f44dc199e.PopupPageRenderer
 Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer, Rg.Plugins.Popup.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3faaefeebcb93e0145f431f44dc199e.PopupPageRenderer
 Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer;md5d3faaefeebcb93e0145f431f44dc199e.PopupPageRenderer

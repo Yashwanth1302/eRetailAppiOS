@@ -1,2 +1,2 @@
-F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\EretailApp.UWP.csproj;x64
-F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\EretailApp.csproj;neutral
+F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\EretailApp.UWP.csproj;x64
+F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\EretailApp.csproj;neutral

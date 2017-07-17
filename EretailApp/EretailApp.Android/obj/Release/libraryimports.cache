@@ -4,5 +4,6 @@
   <NativeLibraries />
   <Jars>
     <Jar>obj\Release\__library_projects__\FormsViewGroup\library_project_imports\formsviewgroup.jar</Jar>
+    <Jar>obj\Release\__library_projects__\Xamarin.UITest\library_project_imports\Xamarin.UITest.Android.Files.screenshotTaker.jar</Jar>
   </Jars>
 </Paths>

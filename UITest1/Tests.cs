@@ -28,7 +28,17 @@ namespace UITest1
         [Test]
         public void AppLaunches()
         {
-            app.Screenshot("First screen.");
+            app.Screenshot("LoginForm");
+            //app.Screenshot("MainPage");
+        }
+        [Test]
+        public void TestScreen()
+        {
+
+            //app.Repl();
+            app.Screenshot("MainPage");
+            //app.EnterText("TestData", "Hi Yashwanth");
+
         }
     }
 }

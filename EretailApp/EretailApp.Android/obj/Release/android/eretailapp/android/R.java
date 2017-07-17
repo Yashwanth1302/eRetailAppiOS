@@ -2561,8 +2561,8 @@ containing a value of this type.
         public static final int ic_speaker_light=0x7f0200a0;
         public static final int ic_tv_dark=0x7f0200a1;
         public static final int ic_tv_light=0x7f0200a2;
-        public static final int ic_user=0x7f0200a3;
-        public static final int icon=0x7f0200a4;
+        public static final int icon=0x7f0200a3;
+        public static final int icuser=0x7f0200a4;
         public static final int leftarr=0x7f0200a5;
         public static final int leftcir=0x7f0200a6;
         public static final int logo=0x7f0200a7;

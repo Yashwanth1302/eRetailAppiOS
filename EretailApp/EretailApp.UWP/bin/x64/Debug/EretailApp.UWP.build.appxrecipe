@@ -10,19 +10,19 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>c5d78338-c4d9-4d5f-80e9-cc60827cf183</PackageIdentityName>
     <PackageIdentityPublisher>CN=ecpl</PackageIdentityPublisher>
-    <IntermediateOutputPath>F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.exe">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.exe">
       <PackagePath>entrypoint\EretailApp.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yashwanth\.nuget\packages\Microsoft.Azure.Mobile.Client\3.0.2\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
@@ -508,426 +508,426 @@
     <AppxPackagedFile Include="C:\Users\yashwanth\.nuget\packages\Xamarin.Forms\2.3.4.231\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\bin\Debug\EretailApp.dll">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Debug\EretailApp.dll">
       <PackagePath>EretailApp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\bin\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore.dll">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Debug\Microsoft.WindowsAzure.Mobile.SQLiteStore.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.SQLiteStore.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\bin\Debug\SQLitePCLRaw.core.dll">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Debug\SQLitePCLRaw.core.dll">
       <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\bin\Debug\SQLitePCLRaw.batteries_green.dll">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Debug\SQLitePCLRaw.batteries_green.dll">
       <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\bin\Debug\hi\EretailApp.resources.dll">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Debug\hi\EretailApp.resources.dll">
       <PackagePath>hi\EretailApp.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\bin\Debug\ta\EretailApp.resources.dll">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Debug\ta\EretailApp.resources.dll">
       <PackagePath>ta\EretailApp.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\bin\Debug\te\EretailApp.resources.dll">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Debug\te\EretailApp.resources.dll">
       <PackagePath>te\EretailApp.resources.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\bin\Debug\EretailApp.dll.config">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Debug\EretailApp.dll.config">
       <PackagePath>EretailApp.dll.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\AdditionIcon.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\AdditionIcon.png">
       <PackagePath>AdditionIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\arrow.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\arrow.png">
       <PackagePath>arrow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\arrow.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\arrow.png">
       <PackagePath>Assets\arrow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\brand.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\brand.png">
       <PackagePath>Assets\brand.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\categeory.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\categeory.png">
       <PackagePath>Assets\categeory.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\customer.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\customer.png">
       <PackagePath>Assets\customer.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\departmnt.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\departmnt.png">
       <PackagePath>Assets\departmnt.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\home.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\home.png">
       <PackagePath>Assets\home.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\leftarr.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\leftarr.png">
       <PackagePath>Assets\leftarr.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\logout.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\logout.png">
       <PackagePath>Assets\logout.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\prod.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\prod.png">
       <PackagePath>Assets\prod.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\recive.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\recive.png">
       <PackagePath>Assets\recive.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\sal.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\sal.png">
       <PackagePath>Assets\sal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\saleee.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\saleee.png">
       <PackagePath>Assets\saleee.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\sales.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\sales.png">
       <PackagePath>Assets\sales.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\setting.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\setting.png">
       <PackagePath>Assets\setting.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\sss.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\sss.png">
       <PackagePath>Assets\sss.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\supply.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\supply.png">
       <PackagePath>Assets\supply.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\swamy.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\swamy.png">
       <PackagePath>Assets\swamy.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\tax.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\tax.png">
       <PackagePath>Assets\tax.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\vivekanada.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\vivekanada.png">
       <PackagePath>Assets\vivekanada.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\back.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\back.png">
       <PackagePath>back.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\brand.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\brand.png">
       <PackagePath>brand.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\CamaraIcon.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\CamaraIcon.png">
       <PackagePath>CamaraIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\categeory.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\categeory.png">
       <PackagePath>categeory.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\customer.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\customer.png">
       <PackagePath>customer.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\DeleteIcon.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\DeleteIcon.png">
       <PackagePath>DeleteIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\departmnt.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\departmnt.png">
       <PackagePath>departmnt.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\EditIcon.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\EditIcon.png">
       <PackagePath>EditIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\home.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\home.png">
       <PackagePath>home.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\ic_user.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\ic_user.png">
       <PackagePath>ic_user.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\leftarr.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\leftarr.png">
       <PackagePath>leftarr.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\leftcir.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\leftcir.png">
       <PackagePath>leftcir.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\logo.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\logo.png">
       <PackagePath>logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\logout.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\logout.png">
       <PackagePath>logout.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\minus.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\minus.png">
       <PackagePath>minus.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\minusIcon.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\minusIcon.png">
       <PackagePath>minusIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\plusminussixten.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\plusminussixten.png">
       <PackagePath>plusminussixten.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\plusminustf.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\plusminustf.png">
       <PackagePath>plusminustf.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\plusminustw.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\plusminustw.png">
       <PackagePath>plusminustw.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\plussixten.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\plussixten.png">
       <PackagePath>plussixten.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\plustf.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\plustf.png">
       <PackagePath>plustf.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\plustw.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\plustw.png">
       <PackagePath>plustw.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\prod.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\prod.png">
       <PackagePath>prod.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-100.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-125.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-125.png">
       <PackagePath>Assets\LockScreenLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-150.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-150.png">
       <PackagePath>Assets\LockScreenLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-400.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\LockScreenLogo.scale-400.png">
       <PackagePath>Assets\LockScreenLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\recive.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\recive.png">
       <PackagePath>recive.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\sal.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\sal.png">
       <PackagePath>sal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\saleee.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\saleee.png">
       <PackagePath>saleee.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\sales.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\sales.png">
       <PackagePath>sales.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\setting.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\setting.png">
       <PackagePath>setting.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\sharukh.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\sharukh.png">
       <PackagePath>sharukh.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\sss.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\sss.png">
       <PackagePath>sss.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Star.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Star.png">
       <PackagePath>Star.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\supply.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\supply.png">
       <PackagePath>supply.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\swamy.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\swamy.png">
       <PackagePath>swamy.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\tax.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\tax.png">
       <PackagePath>tax.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Uploadimg.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Uploadimg.png">
       <PackagePath>Uploadimg.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\vivekanada.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\vivekanada.png">
       <PackagePath>vivekanada.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\arrow.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\arrow.png">
       <PackagePath>EretailApp\arrow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\customer.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\customer.png">
       <PackagePath>EretailApp\customer.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\home.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\home.png">
       <PackagePath>EretailApp\home.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\arrow.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\arrow.png">
       <PackagePath>EretailApp\Images\arrow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\back.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\back.png">
       <PackagePath>EretailApp\Images\back.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\brand.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\brand.png">
       <PackagePath>EretailApp\Images\brand.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\categeory.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\categeory.png">
       <PackagePath>EretailApp\Images\categeory.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\customer.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\customer.png">
       <PackagePath>EretailApp\Images\customer.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\departmnt.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\departmnt.png">
       <PackagePath>EretailApp\Images\departmnt.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\home.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\home.png">
       <PackagePath>EretailApp\Images\home.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\leftarr.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\leftarr.png">
       <PackagePath>EretailApp\Images\leftarr.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\logo.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\logo.png">
       <PackagePath>EretailApp\Images\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\logout.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\logout.png">
       <PackagePath>EretailApp\Images\logout.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\prod.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\prod.png">
       <PackagePath>EretailApp\Images\prod.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\recive.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\recive.png">
       <PackagePath>EretailApp\Images\recive.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\sal.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\sal.png">
       <PackagePath>EretailApp\Images\sal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\saleee.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\saleee.png">
       <PackagePath>EretailApp\Images\saleee.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\setting.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\setting.png">
       <PackagePath>EretailApp\Images\setting.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\sss.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\sss.png">
       <PackagePath>EretailApp\Images\sss.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\supply.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\supply.png">
       <PackagePath>EretailApp\Images\supply.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\tax.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\tax.png">
       <PackagePath>EretailApp\Images\tax.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\leftarr.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\leftarr.png">
       <PackagePath>EretailApp\leftarr.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\logo.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\logo.png">
       <PackagePath>EretailApp\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\logout.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\logout.png">
       <PackagePath>EretailApp\logout.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\prod.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\prod.png">
       <PackagePath>EretailApp\prod.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\sal.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\sal.png">
       <PackagePath>EretailApp\sal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\saleee.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\saleee.png">
       <PackagePath>EretailApp\saleee.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\sales.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\sales.png">
       <PackagePath>EretailApp\sales.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\setting.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\setting.png">
       <PackagePath>EretailApp\setting.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\sss.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\sss.png">
       <PackagePath>EretailApp\sss.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\swamy.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\swamy.png">
       <PackagePath>EretailApp\swamy.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\vivekanada.png">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\vivekanada.png">
       <PackagePath>EretailApp\vivekanada.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Assets\sa.jpg">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Assets\sa.jpg">
       <PackagePath>Assets\sa.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp\Images\sa.jpg">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\Images\sa.jpg">
       <PackagePath>EretailApp\Images\sa.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.xr.xml">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\bin\x64\Debug\EretailApp.UWP.xr.xml">
       <PackagePath>EretailApp.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
@@ -939,11 +939,11 @@
     <AppxPackagedFile Include="C:\Users\yashwanth\.nuget\packages\Xamarin.Forms\2.3.4.231\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\RunningProject\Eretailtest\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\EretailApp.UWP.exe">
+    <AppxPackagedFile Include="F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.UWP\bin\x64\Debug\Core\EretailApp.UWP.exe">
       <PackagePath>EretailApp.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

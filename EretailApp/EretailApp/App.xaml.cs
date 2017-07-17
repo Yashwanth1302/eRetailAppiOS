@@ -15,8 +15,6 @@ namespace EretailApp
         {
             InitializeComponent();
             MainPage = new NavigationPage(new LoginForm());
-
-           
         }
 
         protected override void OnStart()
