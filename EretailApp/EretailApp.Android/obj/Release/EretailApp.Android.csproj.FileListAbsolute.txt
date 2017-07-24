@@ -632,3 +632,10 @@ F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Androi
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\obj\Release\res\drawable\minus.png
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\obj\Release\R.cs.flag
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\obj\Release\uploadflags.txt
+F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\System.Drawing.dll
+F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\System.Configuration.dll
+F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\System.Numerics.dll
+F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\System.Security.dll
+F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\System.Data.SqlXml.dll
+F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\obj\Release\EretailApp.Android.dll.mdb
+F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\EretailApp.Android.dll.mdb

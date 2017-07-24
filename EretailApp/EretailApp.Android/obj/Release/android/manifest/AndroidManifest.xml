@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="1" android:versionName="1.0" package="EretailApp.Android">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+  <application android:label="EretailApp.Android" android:icon="@drawable/logo" android:name="md5a28196cf0d48de60c9285ca2209cd7a5.MainApplication" android:allowBackup="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/logo" android:label="EretailApp" android:screenOrientation="landscape" android:theme="@style/MainTheme" android:name="md5a28196cf0d48de60c9285ca2209cd7a5.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Web Authenticator" android:name="md5901e742fdf284ed0df9a9602f1963168.FormAuthenticatorActivity" />
+    <activity android:label="Web Authenticator" android:name="md5901e742fdf284ed0df9a9602f1963168.WebAuthenticatorActivity" />
+    <receiver android:enabled="true" android:label="Connectivity Plugin Broadcast Receiver" android:name="md531e46b185997765898cde66852db2a40.ConnectivityChangeBroadcastReceiver" />
+    <activity android:configChanges="orientation|screenSize" android:name="md5a3e164e78ade0c22cefea770ddd0bc49.MediaPickerActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="EretailApp.Android.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>
