@@ -362,5 +362,3 @@ F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\obj\Re
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\obj\Release\EretailApp.pdb
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\obj\Release\EretailApp.dll.mdb
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\EretailApp.dll.mdb
-F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\obj\Release\EretailApp.dll.mdb
-F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\EretailApp.dll.mdb
