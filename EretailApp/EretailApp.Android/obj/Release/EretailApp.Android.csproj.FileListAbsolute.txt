@@ -485,7 +485,6 @@ F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Androi
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\Xamarin.Forms.Platform.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\Xamarin.Forms.Xaml.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\Xamarin.iOS.dll
-F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\Xamarin.UITest.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\EretailApp.pdb
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\EretailApp.dll.config
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\FormsViewGroup.pdb
@@ -538,7 +537,6 @@ F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Androi
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\Xamarin.Forms.Xaml.dll.mdb
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\Xamarin.iOS.xml
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\Xamarin.iOS.dll.mdb
-F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\Xamarin.UITest.xml
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\hi\EretailApp.resources.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\ta\EretailApp.resources.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp.Android\bin\Release\te\EretailApp.resources.dll

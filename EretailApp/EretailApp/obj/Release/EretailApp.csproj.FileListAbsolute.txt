@@ -251,7 +251,6 @@ F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Re
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\Xamarin.Forms.Core.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\Xamarin.Forms.Platform.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\Xamarin.Forms.Xaml.dll
-F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\Xamarin.UITest.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\Microsoft.Data.Edm.xml
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\Microsoft.Data.OData.xml
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\Microsoft.WindowsAzure.Mobile.xml
@@ -279,7 +278,6 @@ F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Re
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\Xamarin.Forms.Platform.pdb
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\Xamarin.Forms.Xaml.pdb
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\Xamarin.Forms.Xaml.xml
-F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\Xamarin.UITest.xml
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\de\Microsoft.Data.Edm.resources.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\es\Microsoft.Data.Edm.resources.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\fr\Microsoft.Data.Edm.resources.dll
@@ -360,5 +358,3 @@ F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\obj\Re
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\obj\Release\te\EretailApp.resources.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\obj\Release\EretailApp.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\obj\Release\EretailApp.pdb
-F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\obj\Release\EretailApp.dll.mdb
-F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\EretailApp\EretailApp\bin\Release\EretailApp.dll.mdb

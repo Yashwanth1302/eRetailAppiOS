@@ -152,7 +152,6 @@ F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Validati
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Xamarin.Forms.Core.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Xamarin.Forms.Platform.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Xamarin.Forms.Xaml.dll
-F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Xamarin.UITest.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Rg.Plugins.Popup.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Microsoft.WindowsAzure.Mobile.dll
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Rg.Plugins.Popup.Platform.dll
@@ -199,7 +198,6 @@ F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Xamarin.
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Xamarin.Forms.Platform.pdb
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Xamarin.Forms.Xaml.pdb
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Xamarin.Forms.Xaml.xml
-F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Xamarin.UITest.xml
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Microsoft.WindowsAzure.Mobile.xml
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\Xamarin.Forms.Platform.Android.pdb
 F:\Medium\Xamarin\MobileCenterPublish\eRetailAppiOS\UITest1\bin\Release\FormsViewGroup.pdb
